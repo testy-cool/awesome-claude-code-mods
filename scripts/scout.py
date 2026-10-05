@@ -83,6 +83,7 @@ def main():
     out += ["Reach is the most a mod can do: reads, writes or runs, or sends over the network."]
     print("\n".join(out))
 
+    os.makedirs(os.path.dirname(STATE), exist_ok=True)
     json.dump(stars, open(STATE, "w"), indent=0, sort_keys=True)
 
 
