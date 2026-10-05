@@ -1,0 +1,27 @@
+name: Update stars and dates
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    paths: [".claude-plugin/marketplace.json", "scripts/update-table.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/update-table.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if anything changed
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Refresh stars and last update dates"
+          git push
