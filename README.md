@@ -14,6 +14,7 @@ Each entry points at the author's own repository, so you always get their latest
 ## Contents
 
 - [Mods](#mods)
+- [Finding new mods](#finding-new-mods)
 - [Add one](#add-one)
 
 ## Mods
@@ -29,6 +30,10 @@ Each entry points at the author's own repository, so you always get their latest
 <!-- mods:end -->
 
 Install any of them with `claude plugin install <mod>@awesome-claude-code-mods`.
+
+## Finding new mods
+
+Every Monday a GitHub Action opens an issue listing new mods and the ones gaining the most stars. It reads the catalogue that [karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) builds by scanning GitHub every few hours, and skips mods that fail validation or are already listed here. The good ones get added.
 
 ## Add one
 
