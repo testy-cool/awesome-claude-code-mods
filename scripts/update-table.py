@@ -5,6 +5,7 @@ Each mod's row gets its star count and the date of its last push, read from
 the GitHub API. Set GITHUB_TOKEN to avoid the low anonymous rate limit.
 """
 import json, os, re, urllib.request
+from urllib.parse import urlparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 START, END = "<!-- mods:start -->", "<!-- mods:end -->"
@@ -19,6 +20,18 @@ def repo_info(repo):
         return json.load(r)
 
 
+def repo_from_source(source):
+    if source.get("repo"):
+        return source["repo"]
+    url = urlparse(source["url"])
+    if url.scheme != "https" or url.hostname != "github.com" or url.username or url.password:
+        raise ValueError("Repository statistics require a public GitHub HTTPS URL")
+    repo = url.path.strip("/").removesuffix(".git")
+    if len(repo.split("/")) != 2 or not all(repo.split("/")):
+        raise ValueError("Repository statistics require an owner/repository source")
+    return repo
+
+
 def main():
     market = json.load(open(os.path.join(ROOT, ".claude-plugin/marketplace.json")))
     by_category = {}
@@ -31,7 +44,7 @@ def main():
         rows = []
         for mod in by_category[category]:
             source = mod["source"]
-            repo = source.get("repo") or source["url"]
+            repo = repo_from_source(source)
             link = mod.get("homepage") or f"https://github.com/{repo}"
             info = repo_info(repo)
             author = mod.get("author", {}).get("name", info["owner"]["login"])
@@ -45,4 +58,5 @@ def main():
     open(path, "w").write(readme)
 
 
-main()
+if __name__ == "__main__":
+    main()
