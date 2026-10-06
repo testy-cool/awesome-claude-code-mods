@@ -71,25 +71,6 @@
         "source": "github",
         "repo": "testy-cool/claude-agent-portraits"
       }
-    },
-    {
-      "name": "github-issues",
-      "description": "A side pane listing the repository's GitHub issues, with one click to have Claude work on one",
-      "author": {
-        "name": "MarcoCarnevali",
-        "url": "https://github.com/MarcoCarnevali"
-      },
-      "homepage": "https://github.com/MarcoCarnevali/claude-code-mods/tree/main/github-issues",
-      "category": "other",
-      "tags": [
-        "mod"
-      ],
-      "source": {
-        "source": "git-subdir",
-        "url": "MarcoCarnevali/claude-code-mods",
-        "path": "github-issues"
-      },
-      "license": "MIT"
     }
   ]
 }
