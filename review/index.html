@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mod Inbox</title>
+<style>
+  :root {
+    --bg: #141414; --fg: #E8E3DA; --card: #1C1C1C; --card-hover: #222; --card-active: #272725;
+    --panel: #101010; --border: #2C2C2C; --border-focus: #444440; --primary: #D1CFC0;
+    --muted: #242424; --muted-fg: #949088;
+    --green: #96C59E; --green-dim: rgba(150,197,158,.14);
+    --blue: #A3BFD9; --blue-dim: rgba(163,191,217,.14);
+    --amber: #E2B771; --amber-dim: rgba(226,183,113,.14);
+    --coral: #F26A4B; --coral-dim: rgba(242,106,75,.14);
+    --left: clamp(300px, 24vw, 420px); --right: clamp(300px, 24vw, 420px);
+  }
+  :root[data-theme="light"] {
+    --bg: #F6F4EF; --fg: #23211D; --card: #FFFFFF; --card-hover: #FAF8F3; --card-active: #F0EDE5;
+    --panel: #FBFAF6; --border: #E2DED4; --border-focus: #C9C3B5; --primary: #3B382F;
+    --muted: #EEEBE3; --muted-fg: #6F6A60;
+    --green: #3F7D4C; --green-dim: rgba(63,125,76,.12); --blue: #3C6A92; --blue-dim: rgba(60,106,146,.12);
+    --amber: #95661A; --amber-dim: rgba(149,102,26,.12); --coral: #B9452A; --coral-dim: rgba(185,69,42,.12);
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { font: 15px/1.6 Inter, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); overflow: hidden; }
+  button { font: inherit; }
+  .app { height: 100vh; display: flex; flex-direction: column; }
+  .top { height: 56px; border-bottom: 1px solid var(--border); background: var(--panel); display: grid;
+         grid-template-columns: var(--left) 1fr var(--right); align-items: center; padding: 0 20px; gap: 16px; }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .logo { width: 32px; height: 32px; border-radius: 6px; background: var(--muted); border: 1px solid var(--border);
+          display: grid; place-items: center; font-weight: 700; font-size: 14px; color: var(--primary); }
+  .brand b { font-size: 16px; font-weight: 600; }
+  .brand span { color: var(--muted-fg); font-size: 13px; }
+  .fresh { justify-self: center; color: var(--muted-fg); font-size: 13px; }
+  .stats { display: flex; justify-content: flex-end; }
+  .stat { min-width: 76px; text-align: center; border-left: 1px solid var(--border); padding: 0 12px; }
+  .stat:first-child { border-left: 0; }
+  .stat b { display: block; font-size: 16px; font-weight: 600; }
+  .stat small { color: var(--muted-fg); font-size: 12px; text-transform: uppercase; letter-spacing: .5px; }
+  .stat.hot b { color: var(--amber); }
+  .grid { flex: 1; min-height: 0; display: grid; grid-template-columns: var(--left) 1fr var(--right); }
+  .left, .center, .right { display: flex; flex-direction: column; min-height: 0; background: var(--panel); }
+  .left { border-right: 1px solid var(--border); }
+  .center { background: var(--bg); min-width: 0; }
+  .right { border-left: 1px solid var(--border); }
+  .filters { padding: 14px 16px; border-bottom: 1px solid var(--border); }
+  .tabs { display: flex; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 3px; gap: 3px; }
+  .tab { flex: 1; border: 0; background: transparent; color: var(--muted-fg); border-radius: 5px; padding: 7px 0;
+         font-size: 13.5px; cursor: pointer; font-weight: 500; }
+  .tab.active { background: var(--card); color: var(--fg); font-weight: 600; }
+  .meta { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted-fg); margin-top: 12px; }
+  .list { overflow-y: auto; flex: 1; padding: 8px; }
+  .day { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted-fg); padding: 10px 8px 6px; font-weight: 600; }
+  .item { padding: 10px 12px; border-radius: 6px; cursor: pointer; border: 1px solid transparent; margin-bottom: 2px; }
+  .item:hover { background: var(--card-hover); }
+  .item.active { background: var(--card-active); border-color: var(--border-focus); }
+  .item .row1 { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .item .name { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .item .stars { font-size: 13px; color: var(--muted-fg); white-space: nowrap; }
+  .item .repo { font-size: 13px; color: var(--muted-fg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .item.unseen .name::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+         background: var(--blue); margin-right: 7px; vertical-align: middle; }
+  .item.kept .name { color: var(--green); }
+  .item.skipped { opacity: .5; }
+  .cnav { height: 52px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px;
+          border-bottom: 1px solid var(--border); }
+  .nav-btn, .btn { border: 1px solid var(--border); background: var(--card); color: var(--fg); border-radius: 6px;
+          padding: 6px 12px; font-size: 13px; cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+  .nav-btn:hover, .btn:hover { border-color: var(--border-focus); }
+  kbd { font: 12px ui-monospace, monospace; border: 1px solid var(--border); border-bottom-width: 2px; border-radius: 4px;
+        padding: 0 5px; color: var(--muted-fg); background: var(--bg); }
+  .pos { font-size: 13px; color: var(--muted-fg); }
+  .docwrap { overflow-y: auto; flex: 1; }
+  .doc { max-width: 760px; margin: 0 auto; padding: 32px 32px 64px; }
+  .dhead { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
+  h1 { font-size: 26px; line-height: 1.25; margin: 0 0 4px; }
+  .sub { color: var(--muted-fg); font-size: 14px; }
+  .facts { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 18px 0 22px; font-size: 14px; }
+  .facts span { color: var(--muted-fg); }
+  .desc { font-size: 17px; line-height: 1.6; margin: 0 0 24px; }
+  .readme { border: 1px solid var(--border); border-radius: 8px; background: var(--card); padding: 20px 22px; }
+  .readme h2 { font-size: 15px; margin: 0 0 10px; color: var(--muted-fg); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+  .readme .ph { height: 160px; border-radius: 6px; background: var(--muted); display: grid; place-items: center;
+         color: var(--muted-fg); font-size: 13px; margin: 14px 0; }
+  .readme p { margin: 0 0 10px; color: var(--fg); }
+  .md { overflow-wrap: anywhere; }
+  .md h1, .md h2, .md h3 { font-size: 18px; margin: 18px 0 8px; color: var(--fg); text-transform: none; letter-spacing: 0; }
+  .md img { max-width: 100%; height: auto; }
+  .md a { color: var(--blue); }
+  .md pre { overflow-x: auto; background: var(--muted); border-radius: 6px; padding: 10px 12px; font-size: 13px; }
+  .md code { font: 13px ui-monospace, monospace; }
+  .md table { border-collapse: collapse; font-size: 14px; display: block; overflow-x: auto; }
+  .md td, .md th { border: 1px solid var(--border); padding: 4px 8px; }
+  .rscroll { overflow-y: auto; flex: 1; padding: 18px; }
+  .sec { margin-bottom: 20px; }
+  .sec h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted-fg); margin: 0 0 8px; font-weight: 600; }
+  .reach { border-radius: 8px; padding: 12px 14px; font-weight: 600; }
+  .reach small { display: block; font-weight: 400; font-size: 13px; color: var(--muted-fg); margin-top: 2px; }
+  .r1 { background: var(--green-dim); color: var(--green); }
+  .r2 { background: var(--amber-dim); color: var(--amber); }
+  .r3 { background: var(--coral-dim); color: var(--coral); }
+  .r0 { background: var(--blue-dim); color: var(--blue); }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { font-size: 13px; padding: 3px 9px; border-radius: 5px; background: var(--muted); }
+  .none { font-size: 13px; color: var(--muted-fg); }
+  .actions { border-top: 1px solid var(--border); padding: 14px 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .act { border-radius: 6px; padding: 11px; font-weight: 600; cursor: pointer; border: 1px solid var(--border);
+         display: flex; justify-content: center; gap: 10px; align-items: center; background: var(--card); color: var(--fg); }
+  .act.keep { background: var(--green-dim); color: var(--green); border-color: transparent; }
+  .act.skip:hover, .act.keep:hover { border-color: var(--border-focus); }
+  .keys { padding: 0 18px 14px; font-size: 13px; color: var(--muted-fg); display: flex; flex-wrap: wrap; gap: 6px 14px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand"><div class="logo">M</div><b>Mod Inbox</b><span id="total"></span></div>
+    <div class="fresh" id="fresh"></div>
+    <div class="stats">
+      <div class="stat hot"><b id="s-unseen">0</b><small>Unseen</small></div>
+      <div class="stat"><b id="s-kept">0</b><small>Kept</small></div>
+      <div class="stat"><b id="s-skipped">0</b><small>Skipped</small></div>
+    </div>
+  </header>
+  <div class="grid">
+    <aside class="left">
+      <div class="filters">
+        <div class="tabs">
+          <button class="tab active" data-f="unseen">Unseen</button>
+          <button class="tab" data-f="kept">Kept</button>
+          <button class="tab" data-f="skipped">Skipped</button>
+          <button class="tab" data-f="all">All</button>
+        </div>
+        <div class="meta"><span id="count"></span><span>Newest first</span></div>
+      </div>
+      <div class="list" id="list"></div>
+    </aside>
+    <main class="center">
+      <div class="cnav">
+        <button class="nav-btn" id="prev">← Prev <kbd>K</kbd></button>
+        <span class="pos" id="pos"></span>
+        <div style="display:flex;gap:6px">
+          <button class="nav-btn" id="nextu">Next unseen <kbd>U</kbd></button>
+          <button class="nav-btn" id="next">Next → <kbd>J</kbd></button>
+        </div>
+      </div>
+      <div class="docwrap"><article class="doc" id="doc"></article></div>
+    </main>
+    <aside class="right">
+      <div class="rscroll" id="side"></div>
+      <div class="actions">
+        <button class="act skip" id="skip">Skip <kbd>D</kbd></button>
+        <button class="act keep" id="keep">Keep <kbd>S</kbd></button>
+      </div>
+      <div class="keys"><span><kbd>O</kbd> open repo</span><span><kbd>Z</kbd> undo</span><span><kbd>T</kbd> theme</span></div>
+    </aside>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+<script>
+let mods = [], repos = 0;
+const verdict = {};
+const TO_SERVER = { kept: "keep", skipped: "skip" }, FROM_SERVER = { keep: "kept", skip: "skipped" };
+const readmes = {};
+let filter = "unseen", cur = 0, last = [];
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const day = (iso) => (iso || "").slice(0, 10);
+const REACH = { 0: ["r0", "Only draws"], 1: ["r1", "Reads"], 2: ["r2", "Writes or runs"], 3: ["r3", "Sends over the network"] };
+
+function shown() {
+  return mods.map((m, i) => i).filter((i) => {
+    const v = verdict[mods[i].id];
+    return filter === "all" || (filter === "unseen" ? !v : v === filter);
+  });
+}
+function render() {
+  const ids = shown();
+  if (!ids.includes(cur) && ids.length) cur = ids[0];
+  const n = (v) => mods.filter((m) => verdict[m.id] === v).length;
+  $("s-unseen").textContent = (mods.length - n("kept") - n("skipped")).toLocaleString();
+  $("s-kept").textContent = n("kept");
+  $("s-skipped").textContent = n("skipped");
+  $("total").textContent = `${mods.length.toLocaleString()} mods · ${repos.toLocaleString()} repos`;
+  $("count").textContent = `Showing ${ids.length.toLocaleString()}`;
+  let html = "", lastDay = "";
+  for (const i of ids) {
+    const m = mods[i], v = verdict[m.id];
+    if (m.firstSeen !== lastDay) { lastDay = m.firstSeen; html += `<div class="day">First seen ${lastDay}</div>`; }
+    html += `<div class="item ${v || "unseen"} ${i === cur ? "active" : ""}" data-i="${i}">
+      <div class="row1"><span class="name">${esc(m.name)}</span><span class="stars">★ ${m.stars}</span></div>
+      <div class="repo">${esc(m.repo)}</div></div>`;
+  }
+  $("list").innerHTML = html || `<div class="none" style="padding:16px">Nothing here.</div>`;
+  $("list").querySelector(".item.active")?.scrollIntoView({ block: "nearest" });
+  const m = mods[cur];
+  if (!m) { $("doc").innerHTML = ""; $("side").innerHTML = ""; return; }
+  $("pos").textContent = `Mod ${ids.indexOf(cur) + 1} of ${ids.length}`;
+  $("doc").innerHTML = `
+    <div class="dhead"><div><h1>${esc(m.name)}</h1><div class="sub">${esc(m.repo)}</div></div>
+      <a class="btn" href="${esc(m.url)}" target="_blank">Open repo ↗</a></div>
+    <div class="facts"><div><span>Stars</span> ★ ${m.stars}</div><div><span>Last push</span> ${day(m.pushedAt)}</div>
+      <div><span>Created</span> ${day(m.createdAt)}</div><div><span>License</span> ${esc(m.license || "none")}</div></div>
+    <p class="desc">${esc(m.description)}</p>
+    <div class="readme"><h2>README</h2><div class="md" id="md"><p class="none">Loading the README from GitHub…</p></div></div>`;
+  showReadme(m.id);
+  const [cls, label] = REACH[m.reach?.level ?? 0] || REACH[0];
+  const tags = (xs) => xs && xs.length ? `<div class="tags">${xs.map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</div>` : `<div class="none">Nothing</div>`;
+  $("side").innerHTML = `
+    <div class="sec"><h3>The most it can do</h3><div class="reach ${cls}">${label}<small>${esc((m.reach?.labels || []).join(", ") || "No file, command or network access")}</small></div></div>
+    <div class="sec"><h3>What it watches</h3>${tags(m.sees)}</div>
+    <div class="sec"><h3>Where it draws</h3>${tags(m.draws)}</div>
+    <div class="sec"><h3>Hooks</h3>${tags((m.hooks || []).map((h) => h.event))}</div>
+    <div class="sec"><h3>Calls</h3>${tags(m.calls)}</div>`;
+}
+async function showReadme(id) {
+  if (!readmes[id]) readmes[id] = fetch(`/api/readme?id=${encodeURIComponent(id)}`).then((r) => r.json());
+  const r = await readmes[id];
+  if (mods[cur]?.id !== id) return;
+  if (!r.markdown) { $("md").innerHTML = `<p class="none">This mod has no README.</p>`; return; }
+  const box = $("md");
+  box.innerHTML = DOMPurify.sanitize(marked.parse(r.markdown));
+  const abs = (u, base) => { try { return new URL(u, base).href; } catch { return u; } };
+  box.querySelectorAll("img[src]").forEach((img) => img.src = abs(img.getAttribute("src"), r.base));
+  box.querySelectorAll("a[href]").forEach((a) => {
+    const h = a.getAttribute("href");
+    if (!h.startsWith("#")) { a.href = abs(h, r.blob); a.target = "_blank"; }
+  });
+}
+function post(path, body) {
+  return fetch(path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}) });
+}
+function move(d) { const ids = shown(); const k = ids.indexOf(cur); if (ids[k + d] !== undefined) cur = ids[k + d]; render(); }
+function nextUnseen() { const i = mods.findIndex((m, j) => j > cur && !verdict[m.id]); if (i >= 0) { cur = i; render(); } }
+function decide(v) {
+  const m = mods[cur]; if (!m) return;
+  last.push(m.id); verdict[m.id] = v; post("/api/decide", { id: m.id, verdict: TO_SERVER[v] });
+  const ids = shown(); const after = ids.find((i) => i > cur); if (after !== undefined) cur = after; render();
+}
+function undo() {
+  const id = last.pop(); if (!id) return;
+  delete verdict[id]; post("/api/decide", { id, verdict: null });
+  cur = mods.findIndex((m) => m.id === id); render();
+}
+document.addEventListener("keydown", (e) => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const k = e.key.toLowerCase();
+  if (k === "j") move(1); else if (k === "k") move(-1); else if (k === "u") nextUnseen();
+  else if (k === "s") decide("kept"); else if (k === "d") decide("skipped"); else if (k === "z") undo();
+  else if (k === "o" && mods[cur]) window.open(mods[cur].url, "_blank");
+  else if (k === "t") document.documentElement.dataset.theme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+});
+$("list").addEventListener("click", (e) => { const it = e.target.closest(".item"); if (it) { cur = +it.dataset.i; render(); } });
+document.querySelectorAll(".tab").forEach((b) => b.onclick = () => {
+  document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("active", x === b)); filter = b.dataset.f; render();
+});
+$("prev").onclick = () => move(-1); $("next").onclick = () => move(1); $("nextu").onclick = nextUnseen;
+$("keep").onclick = () => decide("kept"); $("skip").onclick = () => decide("skipped");
+window.addEventListener("pagehide", () => navigator.sendBeacon("/api/flush", "{}"));
+
+(async () => {
+  await post("/api/refresh").catch(() => {});
+  const data = await (await fetch("/api/inbox")).json();
+  mods = data.mods;
+  repos = new Set(mods.map((m) => m.repo)).size;
+  for (const m of mods) if (m.verdict) verdict[m.id] = FROM_SERVER[m.verdict];
+  $("fresh").textContent = data.checked ? `Catalogue checked ${data.checked.slice(0, 16).replace("T", " at ")}` : "";
+  render();
+})();
+</script>
+</body>
+</html>
