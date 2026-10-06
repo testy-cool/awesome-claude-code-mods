@@ -656,38 +656,6 @@
   "license": "MIT",
   "firstSeen": "2026-10-06"
  },
- "pradyb/claude-mods:secret-scrub": {
-  "name": "secret-scrub",
-  "repo": "pradyb/claude-mods",
-  "path": "secret-scrub",
-  "description": "Catches API keys, tokens and private keys in the prompt you are about to send, and masks or blocks them before they reach the model.",
-  "url": "https://github.com/pradyb/claude-mods/tree/main/secret-scrub",
-  "stars": 0,
-  "pushedAt": "2026-10-05T16:43:33Z",
-  "createdAt": "2026-10-05T14:14:51Z",
-  "reach": {
-   "level": 0,
-   "name": "draws and remembers",
-   "labels": [
-    "draws"
-   ]
-  },
-  "sees": [
-   "every prompt"
-  ],
-  "draws": [],
-  "hooks": [
-   {
-    "event": "prompt.submit",
-    "matcher": {}
-   }
-  ],
-  "calls": [
-   "$.ui.toast"
-  ],
-  "license": "MIT",
-  "firstSeen": "2026-10-06"
- },
  "DenisGuiraudet/claude-mods:bunny-spinner": {
   "name": "bunny-spinner",
   "repo": "DenisGuiraudet/claude-mods",
