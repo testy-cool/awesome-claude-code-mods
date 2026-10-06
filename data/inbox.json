@@ -1,4 +1,18 @@
 {
+ "williamchong/cc-mod-caffeinate": {
+  "repo": "williamchong/cc-mod-caffeinate",
+  "name": "cc-mod-caffeinate",
+  "description": "A Claude Code mod that keeps your Mac's screen awake only while Claude is actively working. The screen can sleep again as soon as Claude finishes, or while it is waiting on you.",
+  "url": "https://github.com/williamchong/cc-mod-caffeinate",
+  "stars": 0,
+  "pushedAt": "2026-10-06T11:26:50Z",
+  "createdAt": "2026-10-06T11:25:27Z",
+  "license": "MIT",
+  "commits": 1,
+  "firstSeen": "2026-10-06",
+  "inCatalogue": false,
+  "mods": []
+ },
  "markneonin/paneline": {
   "repo": "markneonin/paneline",
   "name": "paneline",
@@ -398,10 +412,10 @@
   "description": "A curated list of Claude Code mods, installable as a plugin marketplace: themes, panes, status lines, portraits.",
   "url": "https://github.com/testy-cool/awesome-claude-code-mods",
   "stars": 0,
-  "pushedAt": "2026-10-06T11:26:00Z",
+  "pushedAt": "2026-10-06T11:30:21Z",
   "createdAt": "2026-10-05T21:05:19Z",
   "license": null,
-  "commits": 21,
+  "commits": 22,
   "firstSeen": "2026-10-06",
   "inCatalogue": false,
   "mods": []
@@ -9060,10 +9074,10 @@
   "description": "Claude Code plugins (mods): switch between several Claude accounts, watch usage limits in a status band, and manage agents, worktrees, checkpoints and diffs in a terminal pane",
   "url": "https://github.com/simplecore-inc/claude-mods",
   "stars": 0,
-  "pushedAt": "2026-10-06T10:01:01Z",
+  "pushedAt": "2026-10-06T11:29:40Z",
   "createdAt": "2026-10-04T06:37:07Z",
   "license": "MIT",
-  "commits": 21,
+  "commits": 22,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
