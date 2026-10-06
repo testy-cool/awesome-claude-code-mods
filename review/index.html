@@ -138,7 +138,7 @@
           <button class="tab" data-f="all">All</button>
         </div>
         <div class="meta"><span id="count"></span><select class="sort" id="sort" aria-label="Sort">
-          <option value="newest">Newest</option><option value="stars">Most stars</option><option value="pushed">Recently updated</option>
+          <option value="newest">Newest</option><option value="stars">Most stars</option><option value="pushed">Recently updated</option><option value="commits">Most commits</option>
         </select></div>
       </div>
       <div class="list" id="list"></div>
@@ -174,9 +174,11 @@ const readmes = {};
 let filter = "unseen", cur = 0, last = [];
 let sort = "newest";
 try { sort = localStorage.getItem("mods-sort") || "newest"; } catch {}
-const SORTS = { stars: (a, b) => b.stars - a.stars, pushed: (a, b) => (b.pushedAt || "").localeCompare(a.pushedAt || "") };
+const SORTS = { stars: (a, b) => b.stars - a.stars, pushed: (a, b) => (b.pushedAt || "").localeCompare(a.pushedAt || ""),
+  commits: (a, b) => (b.commits ?? -1) - (a.commits ?? -1) };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const commits = (m) => m.commits == null ? "" : `${m.commits.toLocaleString()} commit${m.commits === 1 ? "" : "s"}`;
 const day = (iso) => (iso || "").slice(0, 10);
 const REACH = { 0: ["r0", "Only draws"], 1: ["r1", "Reads"], 2: ["r2", "Writes or runs"], 3: ["r3", "Sends over the network"] };
 
@@ -202,7 +204,7 @@ function render() {
     if (sort === "newest" && m.firstSeen !== lastDay) { lastDay = m.firstSeen; html += `<div class="day">First seen ${lastDay}</div>`; }
     html += `<div class="item ${v || "unseen"} ${i === cur ? "active" : ""}" data-i="${i}">
       <div class="row1"><span class="name">${esc(m.name)}</span><span class="stars">★ ${m.stars}</span></div>
-      <div class="repo">${esc(m.repo)}</div></div>`;
+      <div class="row1"><span class="repo">${esc(m.repo)}</span><span class="stars">${commits(m)}</span></div></div>`;
   }
   $("list").innerHTML = html || `<div class="none" style="padding:16px">Nothing here.</div>`;
   $("list").querySelector(".item.active")?.scrollIntoView({ block: "nearest" });
@@ -212,7 +214,7 @@ function render() {
   $("doc").innerHTML = `
     <div class="dhead"><div><h1>${esc(m.name)}</h1><div class="sub">${esc(m.repo)}</div></div>
       <a class="btn" href="${esc(m.url)}" target="_blank">Open repo ↗</a></div>
-    <div class="facts"><div><span>Stars</span> ★ ${m.stars}</div><div><span>Last push</span> ${day(m.pushedAt)}</div>
+    <div class="facts"><div><span>Stars</span> ★ ${m.stars}</div><div><span>Commits</span> ${m.commits?.toLocaleString() ?? "unknown"}</div><div><span>Last push</span> ${day(m.pushedAt)}</div>
       <div><span>Created</span> ${day(m.createdAt)}</div><div><span>License</span> ${esc(m.license || "none")}</div></div>
     <p class="desc">${esc(m.description)}</p>
     <div class="readme"><h2>README</h2><div class="md" id="md"><p class="none">Loading the README from GitHub…</p></div></div>`;
