@@ -27,12 +27,6 @@ Each entry points at the author's own repository, so you always get their latest
 | [prismantis](https://github.com/NahumLitvin/prismantis)<br>by Nahum Litvin | Colorful, themeable replies: tables, code, diagrams, charts and tool rows in 15 themes. | ★ 37 | 2026-10-06 |
 | [glowup](https://github.com/NovusEdge/glowup)<br>by Aliasgar Khimani | A live cockpit pane for changes, subagents and context, an activity band, shareable themes and a pixel pet. | ★ 3 | 2026-10-05 |
 | [agent-portrait](https://github.com/testy-cool/claude-agent-portraits)<br>by testy-cool | Animated pixel-art portrait above the prompt that reacts to thinking, talking, tools, failures and idle time. | ★ 0 | 2026-10-05 |
-
-### Other
-
-| Mod | What it does | Stars | Last update |
-|-----|--------------|------:|-------------|
-| [github-issues](https://github.com/MarcoCarnevali/claude-code-mods/tree/main/github-issues)<br>by MarcoCarnevali | A side pane listing the repository's GitHub issues, with one click to have Claude work on one | ★ 0 | 2026-10-06 |
 <!-- mods:end -->
 
 Install any of them with `claude plugin install <mod>@awesome-claude-code-mods`.
