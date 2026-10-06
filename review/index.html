@@ -51,7 +51,10 @@
   .tab { flex: 1; border: 0; background: transparent; color: var(--muted-fg); border-radius: 5px; padding: 7px 0;
          font-size: 13.5px; cursor: pointer; font-weight: 500; }
   .tab.active { background: var(--card); color: var(--fg); font-weight: 600; }
-  .meta { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted-fg); margin-top: 12px; }
+  .meta { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted-fg); margin-top: 12px; }
+  .sort { font: inherit; font-size: 13px; color: var(--fg); background: var(--card); border: 1px solid var(--border);
+          border-radius: 5px; padding: 3px 6px; cursor: pointer; }
+  .sort:hover, .sort:focus { border-color: var(--border-focus); outline: none; }
   .list { overflow-y: auto; flex: 1; padding: 8px; }
   .day { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted-fg); padding: 10px 8px 6px; font-weight: 600; }
   .item { padding: 10px 12px; border-radius: 6px; cursor: pointer; border: 1px solid transparent; margin-bottom: 2px; }
@@ -134,7 +137,9 @@
           <button class="tab" data-f="skipped">Skipped</button>
           <button class="tab" data-f="all">All</button>
         </div>
-        <div class="meta"><span id="count"></span><span>Newest first</span></div>
+        <div class="meta"><span id="count"></span><select class="sort" id="sort" aria-label="Sort">
+          <option value="newest">Newest</option><option value="stars">Most stars</option><option value="pushed">Recently updated</option>
+        </select></div>
       </div>
       <div class="list" id="list"></div>
     </aside>
@@ -167,16 +172,20 @@ const verdict = {};
 const TO_SERVER = { kept: "keep", skipped: "skip" }, FROM_SERVER = { keep: "kept", skip: "skipped" };
 const readmes = {};
 let filter = "unseen", cur = 0, last = [];
+let sort = "newest";
+try { sort = localStorage.getItem("mods-sort") || "newest"; } catch {}
+const SORTS = { stars: (a, b) => b.stars - a.stars, pushed: (a, b) => (b.pushedAt || "").localeCompare(a.pushedAt || "") };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const day = (iso) => (iso || "").slice(0, 10);
 const REACH = { 0: ["r0", "Only draws"], 1: ["r1", "Reads"], 2: ["r2", "Writes or runs"], 3: ["r3", "Sends over the network"] };
 
+function sorted(ids) { return SORTS[sort] ? ids.sort((a, b) => SORTS[sort](mods[a], mods[b]) || a - b) : ids; }
 function shown() {
-  return mods.map((m, i) => i).filter((i) => {
+  return sorted(mods.map((m, i) => i).filter((i) => {
     const v = verdict[mods[i].id];
     return filter === "all" || (filter === "unseen" ? !v : v === filter);
-  });
+  }));
 }
 function render() {
   const ids = shown();
@@ -190,7 +199,7 @@ function render() {
   let html = "", lastDay = "";
   for (const i of ids) {
     const m = mods[i], v = verdict[m.id];
-    if (m.firstSeen !== lastDay) { lastDay = m.firstSeen; html += `<div class="day">First seen ${lastDay}</div>`; }
+    if (sort === "newest" && m.firstSeen !== lastDay) { lastDay = m.firstSeen; html += `<div class="day">First seen ${lastDay}</div>`; }
     html += `<div class="item ${v || "unseen"} ${i === cur ? "active" : ""}" data-i="${i}">
       <div class="row1"><span class="name">${esc(m.name)}</span><span class="stars">★ ${m.stars}</span></div>
       <div class="repo">${esc(m.repo)}</div></div>`;
@@ -237,11 +246,15 @@ function post(path, body) {
   return fetch(path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}) });
 }
 function move(d) { const ids = shown(); const k = ids.indexOf(cur); if (ids[k + d] !== undefined) cur = ids[k + d]; render(); }
-function nextUnseen() { const i = mods.findIndex((m, j) => j > cur && !verdict[m.id]); if (i >= 0) { cur = i; render(); } }
+function nextUnseen() {
+  const ids = sorted(mods.map((m, i) => i));
+  const i = ids.slice(ids.indexOf(cur) + 1).find((j) => !verdict[mods[j].id]); if (i !== undefined) { cur = i; render(); }
+}
 function decide(v) {
   const m = mods[cur]; if (!m) return;
+  const before = shown();
   last.push(m.id); verdict[m.id] = v; post("/api/decide", { id: m.id, verdict: TO_SERVER[v] });
-  const ids = shown(); const after = ids.find((i) => i > cur); if (after !== undefined) cur = after; render();
+  const ids = shown(); const after = before.slice(before.indexOf(cur) + 1).find((i) => ids.includes(i)); if (after !== undefined) cur = after; render();
 }
 function undo() {
   const id = last.pop(); if (!id) return;
@@ -260,6 +273,8 @@ $("list").addEventListener("click", (e) => { const it = e.target.closest(".item"
 document.querySelectorAll(".tab").forEach((b) => b.onclick = () => {
   document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("active", x === b)); filter = b.dataset.f; render();
 });
+$("sort").value = sort;
+$("sort").onchange = (e) => { sort = e.target.value; try { localStorage.setItem("mods-sort", sort); } catch {} e.target.blur(); cur = shown()[0] ?? 0; render(); };
 $("prev").onclick = () => move(-1); $("next").onclick = () => move(1); $("nextu").onclick = nextUnseen;
 $("keep").onclick = () => decide("kept"); $("skip").onclick = () => decide("skipped");
 window.addEventListener("pagehide", () => navigator.sendBeacon("/api/flush", "{}"));
@@ -270,6 +285,7 @@ window.addEventListener("pagehide", () => navigator.sendBeacon("/api/flush", "{}
   mods = data.mods;
   repos = new Set(mods.map((m) => m.repo)).size;
   for (const m of mods) if (m.verdict) verdict[m.id] = FROM_SERVER[m.verdict];
+  cur = shown()[0] ?? 0;
   $("fresh").textContent = data.checked ? `Catalogue checked ${data.checked.slice(0, 16).replace("T", " at ")}` : "";
   render();
 })();
