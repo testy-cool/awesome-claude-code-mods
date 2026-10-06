@@ -71,6 +71,29 @@
         "source": "github",
         "repo": "testy-cool/claude-agent-portraits"
       }
+    },
+    {
+      "name": "spinlings",
+      "description": "Creature collection, trading and saved-team player duels inside Claude Code 2.1.287+, with online and offline worlds.",
+      "author": {
+        "name": "416rehman",
+        "url": "https://github.com/416rehman"
+      },
+      "homepage": "https://github.com/416rehman/spinlings",
+      "license": "MIT",
+      "category": "games",
+      "tags": [
+        "mod",
+        "game",
+        "collection",
+        "trading",
+        "duels"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/416rehman/spinlings.git",
+        "path": "plugin"
+      }
     }
   ]
 }
