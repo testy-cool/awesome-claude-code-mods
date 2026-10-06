@@ -1,31 +1,26 @@
-name: Mod scout
+name: Mod inbox
 
-# Every Monday, open an issue listing new and rising mods from the
-# community catalogue, so the good ones can be added here.
+# Every day, add new mods from the community catalogue to data/inbox.json
+# and refresh the stars and dates of the ones already there.
 on:
   schedule:
-    - cron: "0 7 * * 1"
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  issues: write
 
 jobs:
-  scout:
+  inbox:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/scout.py > digest.md
-      - name: Open the digest as an issue
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh issue create --title "Mod scout, $(date -u +%Y-%m-%d)" --body-file digest.md
-      - name: Save what was seen
+      - run: python3 scripts/inbox.py
+      - name: Commit the inbox
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/scout-state.json
+          git add data/inbox.json
           git diff --cached --quiet && exit 0
-          git commit -m "Remember the mods the scout has seen"
+          git commit -m "Refresh the mod inbox"
           git push
