@@ -109,6 +109,12 @@
   .tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag { font-size: 13px; padding: 3px 9px; border-radius: 5px; background: var(--muted); }
   .none { font-size: 13px; color: var(--muted-fg); }
+  .note { font-size: 13px; font-weight: 400; color: var(--muted-fg); margin-left: 6px; }
+  .modlist { margin: 0 0 24px; }
+  .modlist h2 { font-size: 15px; margin: 0 0 10px; color: var(--muted-fg); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+  .mod { padding: 10px 0; border-top: 1px solid var(--border); }
+  .mod a { color: var(--fg); font-weight: 600; }
+  .mod p { margin: 2px 0 0; font-size: 14px; color: var(--muted-fg); }
   .actions { border-top: 1px solid var(--border); padding: 14px 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   .act { border-radius: 6px; padding: 11px; font-weight: 600; cursor: pointer; border: 1px solid var(--border);
          display: flex; justify-content: center; gap: 10px; align-items: center; background: var(--card); color: var(--fg); }
@@ -179,6 +185,8 @@ const SORTS = { stars: (a, b) => b.stars - a.stars, pushed: (a, b) => (b.pushedA
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const commits = (m) => m.commits == null ? "" : `${m.commits.toLocaleString()} commit${m.commits === 1 ? "" : "s"}`;
+const note = (m) => !m.inCatalogue ? `<span class="note">not in catalogue</span>` : m.mods.length > 1 ? `<span class="note">${m.mods.length} mods</span>` : "";
+const uniq = (xs) => [...new Set(xs)];
 const day = (iso) => (iso || "").slice(0, 10);
 const REACH = { 0: ["r0", "Only draws"], 1: ["r1", "Reads"], 2: ["r2", "Writes or runs"], 3: ["r3", "Sends over the network"] };
 
@@ -196,37 +204,45 @@ function render() {
   $("s-unseen").textContent = (mods.length - n("kept") - n("skipped")).toLocaleString();
   $("s-kept").textContent = n("kept");
   $("s-skipped").textContent = n("skipped");
-  $("total").textContent = `${mods.length.toLocaleString()} mods · ${repos.toLocaleString()} repos`;
+  $("total").textContent = `${repos.toLocaleString()} repos · ${mods.reduce((n, m) => n + m.mods.length, 0).toLocaleString()} mods`;
   $("count").textContent = `Showing ${ids.length.toLocaleString()}`;
   let html = "", lastDay = "";
   for (const i of ids) {
     const m = mods[i], v = verdict[m.id];
     if (sort === "newest" && m.firstSeen !== lastDay) { lastDay = m.firstSeen; html += `<div class="day">First seen ${lastDay}</div>`; }
     html += `<div class="item ${v || "unseen"} ${i === cur ? "active" : ""}" data-i="${i}">
-      <div class="row1"><span class="name">${esc(m.name)}</span><span class="stars">★ ${m.stars}</span></div>
+      <div class="row1"><span class="name">${esc(m.name)}${note(m)}</span><span class="stars">★ ${m.stars}</span></div>
       <div class="row1"><span class="repo">${esc(m.repo)}</span><span class="stars">${commits(m)}</span></div></div>`;
   }
   $("list").innerHTML = html || `<div class="none" style="padding:16px">Nothing here.</div>`;
   $("list").querySelector(".item.active")?.scrollIntoView({ block: "nearest" });
   const m = mods[cur];
   if (!m) { $("doc").innerHTML = ""; $("side").innerHTML = ""; return; }
-  $("pos").textContent = `Mod ${ids.indexOf(cur) + 1} of ${ids.length}`;
+  $("pos").textContent = `Repo ${ids.indexOf(cur) + 1} of ${ids.length}`;
   $("doc").innerHTML = `
     <div class="dhead"><div><h1>${esc(m.name)}</h1><div class="sub">${esc(m.repo)}</div></div>
       <a class="btn" href="${esc(m.url)}" target="_blank">Open repo ↗</a></div>
-    <div class="facts"><div><span>Stars</span> ★ ${m.stars}</div><div><span>Commits</span> ${m.commits?.toLocaleString() ?? "unknown"}</div><div><span>Last push</span> ${day(m.pushedAt)}</div>
+    <div class="facts"><div><span>Stars</span> ★ ${m.stars}</div>${m.inCatalogue ? "" : `<div>Not in catalogue</div>`}<div><span>Commits</span> ${m.commits?.toLocaleString() ?? "unknown"}</div><div><span>Last push</span> ${day(m.pushedAt)}</div>
       <div><span>Created</span> ${day(m.createdAt)}</div><div><span>License</span> ${esc(m.license || "none")}</div></div>
     <p class="desc">${esc(m.description)}</p>
+    ${m.mods.length > 1 ? `<div class="modlist"><h2>${m.mods.length} mods in this repo</h2>${m.mods.map((x) =>
+      `<div class="mod"><a href="${esc(x.url)}" target="_blank">${esc(x.name)}</a> <span class="note">${esc(REACH[x.reach?.level ?? 0][1])}</span><p>${esc(x.description)}</p></div>`).join("")}</div>` : ""}
     <div class="readme"><h2>README</h2><div class="md" id="md"><p class="none">Loading the README from GitHub…</p></div></div>`;
   showReadme(m.id);
-  const [cls, label] = REACH[m.reach?.level ?? 0] || REACH[0];
   const tags = (xs) => xs && xs.length ? `<div class="tags">${xs.map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</div>` : `<div class="none">Nothing</div>`;
+  if (!m.mods.length) {
+    $("side").innerHTML = `<div class="sec"><h3>The most it can do</h3><div class="none">Not in the catalogue, so nothing is known about what it can do. Read the repo before keeping it.</div></div>`;
+    return;
+  }
+  const level = Math.max(...m.mods.map((x) => x.reach?.level ?? 0));
+  const [cls, label] = REACH[level] || REACH[0];
+  const all = (f) => uniq(m.mods.flatMap(f));
   $("side").innerHTML = `
-    <div class="sec"><h3>The most it can do</h3><div class="reach ${cls}">${label}<small>${esc((m.reach?.labels || []).join(", ") || "No file, command or network access")}</small></div></div>
-    <div class="sec"><h3>What it watches</h3>${tags(m.sees)}</div>
-    <div class="sec"><h3>Where it draws</h3>${tags(m.draws)}</div>
-    <div class="sec"><h3>Hooks</h3>${tags((m.hooks || []).map((h) => h.event))}</div>
-    <div class="sec"><h3>Calls</h3>${tags(m.calls)}</div>`;
+    <div class="sec"><h3>The most it can do</h3><div class="reach ${cls}">${label}<small>${esc(all((x) => x.reach?.labels || []).join(", ") || "No file, command or network access")}</small></div></div>
+    <div class="sec"><h3>What it watches</h3>${tags(all((x) => x.sees || []))}</div>
+    <div class="sec"><h3>Where it draws</h3>${tags(all((x) => x.draws || []))}</div>
+    <div class="sec"><h3>Hooks</h3>${tags(all((x) => (x.hooks || []).map((h) => h.event)))}</div>
+    <div class="sec"><h3>Calls</h3>${tags(all((x) => x.calls || []))}</div>`;
 }
 async function showReadme(id) {
   if (!readmes[id]) readmes[id] = fetch(`/api/readme?id=${encodeURIComponent(id)}`).then((r) => r.json());

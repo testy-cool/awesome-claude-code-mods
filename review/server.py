@@ -2,10 +2,10 @@
 """Serve the mod inbox review page on 127.0.0.1:8130.
 
 GET  /              the page
-GET  /api/inbox     inbox entries with their verdicts
+GET  /api/inbox     inbox entries, one per repo, with their verdicts
 GET  /api/readme    a mod's README from GitHub, cached in memory
-POST /api/decide    {id, verdict: "keep" | "skip" | null} writes data/decisions.json,
-                    and on keep adds the mod to .claude-plugin/marketplace.json
+POST /api/decide    {id: repo, verdict: "keep" | "skip" | null} writes data/decisions.json,
+                    and on keep adds the repo's mods to .claude-plugin/marketplace.json
 POST /api/flush     commit and push the pending decisions now (sent when the page closes)
 POST /api/refresh   flush, then git pull
 
@@ -44,33 +44,36 @@ def save(path, data):
         f.write("\n")
 
 
-def source_of(mod):
+def source_of(repo, mod):
     if (mod.get("path") or ".") == ".":
-        return {"source": "github", "repo": mod["repo"]}
-    return {"source": "git-subdir", "url": mod["repo"], "path": mod["path"]}
+        return {"source": "github", "repo": repo}
+    return {"source": "git-subdir", "url": repo, "path": mod["path"]}
 
 
-def set_listed(mod, keep):
-    """Add the mod to the marketplace, or take it out again on undo."""
+def set_listed(entry, keep):
+    """Add every mod of the repo to the marketplace, or take them out again on undo.
+
+    A repo the catalogue does not know has no mods, so the repo itself is added."""
     market = load(MARKET, {"plugins": []})
-    src = source_of(mod)
-    market["plugins"] = [p for p in market["plugins"] if p["source"] != src]
+    repo = entry["repo"]
+    market["plugins"] = [p for p in market["plugins"] if (p["source"].get("repo") or p["source"].get("url")) != repo]
     if keep:
-        owner = mod["repo"].split("/")[0]
-        names = {p["name"] for p in market["plugins"]}
-        name = mod["name"] if mod["name"] not in names else f"{mod['name']}-{owner.lower()}"
-        entry = {
-            "name": name,
-            "description": mod.get("description") or "",
-            "author": {"name": owner, "url": f"https://github.com/{owner}"},
-            "homepage": mod["url"],
-            "category": "other",
-            "tags": ["mod"],
-            "source": src,
-        }
-        if mod.get("license"):
-            entry["license"] = mod["license"]
-        market["plugins"].append(entry)
+        owner = repo.split("/")[0]
+        for mod in entry["mods"] or [{"name": entry["name"], "description": entry["description"], "url": entry["url"], "path": "."}]:
+            names = {p["name"] for p in market["plugins"]}
+            name = mod["name"] if mod["name"] not in names else f"{mod['name']}-{owner.lower()}"
+            plugin = {
+                "name": name,
+                "description": mod.get("description") or "",
+                "author": {"name": owner, "url": f"https://github.com/{owner}"},
+                "homepage": mod["url"],
+                "category": "other",
+                "tags": ["mod"],
+                "source": source_of(repo, mod),
+            }
+            if entry.get("license") and entry["license"] != "NOASSERTION":
+                plugin["license"] = entry["license"]
+            market["plugins"].append(plugin)
     save(MARKET, market)
 
 
@@ -87,7 +90,7 @@ def commit():
         git("add", "data/decisions.json", ".claude-plugin/marketplace.json")
         if git("diff", "--cached", "--quiet").returncode == 0:
             return
-        parts = [f"keep {kept} mod{'s' * (kept != 1)}" if kept else "",
+        parts = [f"keep {kept} repo{'s' * (kept != 1)}" if kept else "",
                  f"skip {skipped}" if skipped else "",
                  f"take back {undone}" if undone else ""]
         subject = ", ".join(p for p in parts if p).capitalize() + " from the inbox"
@@ -96,20 +99,20 @@ def commit():
         git("push")
 
 
-def decide(mod_id, verdict):
+def decide(key, verdict):
     global timer
     inbox = load(INBOX, {})
-    if mod_id not in inbox or verdict not in ("keep", "skip", None):
+    if key not in inbox or verdict not in ("keep", "skip", None):
         return False
     with lock:
         decisions = load(DECISIONS, {})
         if verdict:
-            decisions[mod_id] = {"verdict": verdict, "at": datetime.date.today().isoformat()}
+            decisions[key] = {"verdict": verdict, "at": datetime.date.today().isoformat()}
         else:
-            decisions.pop(mod_id, None)
+            decisions.pop(key, None)
         save(DECISIONS, decisions)
-        set_listed(inbox[mod_id], verdict == "keep")
-        pending[mod_id] = verdict
+        set_listed(inbox[key], verdict == "keep")
+        pending[key] = verdict
         if timer:
             timer.cancel()
         timer = threading.Timer(IDLE, commit)
@@ -117,13 +120,14 @@ def decide(mod_id, verdict):
     return True
 
 
-def readme(mod_id):
-    if mod_id in readmes:
-        return readmes[mod_id]
-    mod = load(INBOX, {}).get(mod_id)
+def readme(key):
+    if key in readmes:
+        return readmes[key]
+    mod = load(INBOX, {}).get(key)
     if not mod:
         return None
-    folder = "" if (mod.get("path") or ".") == "." else mod["path"] + "/"
+    only = mod["mods"][0] if len(mod["mods"]) == 1 else {}
+    folder = "" if (only.get("path") or ".") == "." else only["path"] + "/"
     tries = [folder + n for n in ("README.md", "readme.md", "Readme.md")]
     if folder:
         tries += ["README.md", "readme.md"]
@@ -137,7 +141,7 @@ def readme(mod_id):
             break
         except urllib.error.URLError:
             continue
-    readmes[mod_id] = out
+    readmes[key] = out
     return out
 
 
