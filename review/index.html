@@ -15,7 +15,9 @@
     --coral: #F26A4B; --coral-dim: rgba(242,106,75,.14);
     --left: clamp(300px, 24vw, 420px); --right: clamp(300px, 24vw, 420px);
   }
+  :root { --orange: #F0954A; }
   :root[data-theme="light"] {
+    --orange: #B5590F;
     --bg: #F6F4EF; --fg: #23211D; --card: #FFFFFF; --card-hover: #FAF8F3; --card-active: #F0EDE5;
     --panel: #FBFAF6; --border: #E2DED4; --border-focus: #C9C3B5; --primary: #3B382F;
     --muted: #EEEBE3; --muted-fg: #6F6A60;
@@ -193,6 +195,12 @@ const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<
 const commits = (m) => m.commits == null ? "" : `${m.commits.toLocaleString()} commit${m.commits === 1 ? "" : "s"}`;
 const note = (m) => !m.inCatalogue ? `<span class="note">not in catalogue</span>` : m.mods.length > 1 ? `<span class="note">${m.mods.length} mods</span>` : "";
 const uniq = (xs) => [...new Set(xs)];
+// Orange on the day of the push, fading to the normal text color over 30 days.
+const ageColor = (iso) => {
+  const days = Math.floor((Date.now() - new Date(day(iso) + "T00:00:00").getTime()) / 864e5);
+  const p = Math.round(Math.max(0, Math.min(1, 1 - days / 30)) * 100);
+  return `color-mix(in srgb, var(--orange) ${p}%, var(--fg))`;
+};
 const day = (iso) => (iso || "").slice(0, 10);
 const REACH = { 0: ["r0", "Only draws"], 1: ["r1", "Reads"], 2: ["r2", "Writes or runs"], 3: ["r3", "Sends over the network"] };
 
@@ -229,7 +237,7 @@ function render() {
   $("doc").innerHTML = `
     <div class="dhead"><div><h1>${esc(m.name)}</h1><div class="sub">${esc(m.repo)}</div></div>
       <a class="btn" href="${esc(m.url)}" target="_blank">Open repo ↗</a></div>
-    <div class="facts"><div><span>Stars</span> ★ ${m.stars}</div>${m.inCatalogue ? "" : `<div>Not in catalogue</div>`}<div><span>Commits</span> ${m.commits?.toLocaleString() ?? "unknown"}</div><div><span>Last push</span> ${day(m.pushedAt)}</div>
+    <div class="facts"><div><span>Stars</span> ★ ${m.stars}</div>${m.inCatalogue ? "" : `<div>Not in catalogue</div>`}<div><span>Commits</span> ${m.commits?.toLocaleString() ?? "unknown"}</div><div><span>Last push</span> <span style="color: ${ageColor(m.pushedAt)}">${day(m.pushedAt)}</span></div>
       <div><span>Created</span> ${day(m.createdAt)}</div><div><span>License</span> ${esc(m.license || "none")}</div></div>
     <p class="desc">${esc(m.description)}</p>
     ${m.mods.length > 1 ? `<div class="modlist"><h2>${m.mods.length} mods in this repo</h2>${m.mods.map((x) =>
