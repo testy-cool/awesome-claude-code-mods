@@ -6,6 +6,7 @@ GET  /api/inbox     inbox entries, one per repo, with their verdicts
 GET  /api/readme    a mod's README from GitHub, cached in memory
 POST /api/decide    {id: repo, verdict: "keep" | "skip" | null} writes data/decisions.json,
                     and on keep adds the repo's mods to .claude-plugin/marketplace.json
+POST /api/note      {id: repo, note} saves a freeform note beside the verdict in data/decisions.json
 POST /api/flush     commit and push the pending decisions now (sent when the page closes)
 POST /api/refresh   flush, then git pull
 
@@ -24,6 +25,7 @@ PORT, IDLE = 8130, 60
 
 lock = threading.Lock()
 pending = {}  # id -> verdict, since the last commit
+noted = set()  # ids whose note changed since the last commit
 timer = None
 readmes = {}
 
@@ -81,43 +83,75 @@ def commit():
     global timer
     with lock:
         timer = None
-        if not pending:
+        if not pending and not noted:
             return
         kept = sum(v == "keep" for v in pending.values())
         skipped = sum(v == "skip" for v in pending.values())
         undone = len(pending) - kept - skipped
+        notes = len(noted)
         pending.clear()
+        noted.clear()
         git("add", "data/decisions.json", ".claude-plugin/marketplace.json")
         if git("diff", "--cached", "--quiet").returncode == 0:
             return
         parts = [f"keep {kept} repo{'s' * (kept != 1)}" if kept else "",
                  f"skip {skipped}" if skipped else "",
                  f"take back {undone}" if undone else ""]
-        subject = ", ".join(p for p in parts if p).capitalize() + " from the inbox"
+        subject = ", ".join(p for p in parts if p).capitalize() + " from the inbox" if kept or skipped or undone else ""
+        if notes:
+            subject = (subject + ", and " if subject else "") + f"note {notes} repo{'s' * (notes != 1)}"
+            subject = subject[0].upper() + subject[1:]
         git("commit", "-m", subject)
         git("pull", "--rebase", "--autostash")
         git("push")
 
 
 def decide(key, verdict):
-    global timer
     inbox = load(INBOX, {})
     if key not in inbox or verdict not in ("keep", "skip", None):
         return False
     with lock:
         decisions = load(DECISIONS, {})
+        entry = decisions.setdefault(key, {})
         if verdict:
-            decisions[key] = {"verdict": verdict, "at": datetime.date.today().isoformat()}
+            entry.update(verdict=verdict, at=datetime.date.today().isoformat())
         else:
-            decisions.pop(key, None)
+            entry.pop("verdict", None)
+            entry.pop("at", None)
+        if not entry:
+            del decisions[key]
         save(DECISIONS, decisions)
         set_listed(inbox[key], verdict == "keep")
         pending[key] = verdict
-        if timer:
-            timer.cancel()
-        timer = threading.Timer(IDLE, commit)
-        timer.start()
+        commit_later()
     return True
+
+
+def note(key, text):
+    if key not in load(INBOX, {}) or not isinstance(text, str):
+        return False
+    with lock:
+        decisions = load(DECISIONS, {})
+        entry = decisions.setdefault(key, {})
+        if text.strip():
+            entry["note"] = text
+        else:
+            entry.pop("note", None)
+        if not entry:
+            del decisions[key]
+        save(DECISIONS, decisions)
+        noted.add(key)
+        commit_later()
+    return True
+
+
+def commit_later():
+    """Commit once the page has been quiet for IDLE seconds. Call with the lock held."""
+    global timer
+    if timer:
+        timer.cancel()
+    timer = threading.Timer(IDLE, commit)
+    timer.start()
 
 
 def readme(key):
@@ -162,7 +196,8 @@ class Handler(BaseHTTPRequestHandler):
         elif url.path == "/api/inbox":
             inbox, decisions = load(INBOX, {}), load(DECISIONS, {})
             checked = git("log", "-1", "--format=%cI", "--", "data/inbox.json").stdout.strip()
-            mods = [{"id": i, **m, "verdict": decisions.get(i, {}).get("verdict")} for i, m in inbox.items()]
+            mods = [{"id": i, **m, "verdict": decisions.get(i, {}).get("verdict"),
+                     "note": decisions.get(i, {}).get("note", "")} for i, m in inbox.items()]
             self.send(200, {"checked": checked, "mods": mods})
         elif url.path == "/api/readme":
             out = readme(urllib.parse.parse_qs(url.query).get("id", [""])[0])
@@ -175,6 +210,9 @@ class Handler(BaseHTTPRequestHandler):
         body = json.loads(self.rfile.read(length) or b"{}")
         if self.path == "/api/decide":
             ok = decide(body.get("id"), body.get("verdict"))
+            self.send(200 if ok else 400, {"ok": ok})
+        elif self.path == "/api/note":
+            ok = note(body.get("id"), body.get("note"))
             self.send(200 if ok else 400, {"ok": ok})
         elif self.path == "/api/flush":
             commit()
