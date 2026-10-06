@@ -1,6 +1,9 @@
 {
   "name": "awesome-claude-code-mods",
-  "owner": { "name": "testy-cool", "url": "https://github.com/testy-cool" },
+  "owner": {
+    "name": "testy-cool",
+    "url": "https://github.com/testy-cool"
+  },
   "metadata": {
     "description": "Claude Code mods worth keeping, collected in one marketplace."
   },
@@ -8,32 +11,85 @@
     {
       "name": "prismantis",
       "description": "Colorful, themeable replies: tables, code, diagrams, charts and tool rows in 15 themes.",
-      "author": { "name": "Nahum Litvin", "url": "https://github.com/NahumLitvin" },
+      "author": {
+        "name": "Nahum Litvin",
+        "url": "https://github.com/NahumLitvin"
+      },
       "homepage": "https://github.com/NahumLitvin/prismantis",
       "license": "MIT",
       "category": "appearance",
-      "tags": ["mod", "theme", "markdown", "diagrams"],
-      "source": { "source": "github", "repo": "NahumLitvin/prismantis" }
+      "tags": [
+        "mod",
+        "theme",
+        "markdown",
+        "diagrams"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "NahumLitvin/prismantis"
+      }
     },
     {
       "name": "glowup",
       "description": "A live cockpit pane for changes, subagents and context, an activity band, shareable themes and a pixel pet.",
-      "author": { "name": "Aliasgar Khimani", "url": "https://github.com/NovusEdge" },
+      "author": {
+        "name": "Aliasgar Khimani",
+        "url": "https://github.com/NovusEdge"
+      },
       "homepage": "https://github.com/NovusEdge/glowup",
       "license": "MIT",
       "category": "appearance",
-      "tags": ["mod", "theme", "pane", "statusline", "pet"],
-      "source": { "source": "github", "repo": "NovusEdge/glowup" }
+      "tags": [
+        "mod",
+        "theme",
+        "pane",
+        "statusline",
+        "pet"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "NovusEdge/glowup"
+      }
     },
     {
       "name": "agent-portrait",
       "description": "Animated pixel-art portrait above the prompt that reacts to thinking, talking, tools, failures and idle time.",
-      "author": { "name": "testy-cool", "url": "https://github.com/testy-cool" },
+      "author": {
+        "name": "testy-cool",
+        "url": "https://github.com/testy-cool"
+      },
       "homepage": "https://github.com/testy-cool/claude-agent-portraits",
       "license": "MIT",
       "category": "appearance",
-      "tags": ["mod", "avatar", "pixel-art", "kitty-graphics"],
-      "source": { "source": "github", "repo": "testy-cool/claude-agent-portraits" }
+      "tags": [
+        "mod",
+        "avatar",
+        "pixel-art",
+        "kitty-graphics"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "testy-cool/claude-agent-portraits"
+      }
+    },
+    {
+      "name": "github-issues",
+      "description": "A side pane listing the repository's GitHub issues, with one click to have Claude work on one",
+      "author": {
+        "name": "MarcoCarnevali",
+        "url": "https://github.com/MarcoCarnevali"
+      },
+      "homepage": "https://github.com/MarcoCarnevali/claude-code-mods/tree/main/github-issues",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "MarcoCarnevali/claude-code-mods",
+        "path": "github-issues"
+      },
+      "license": "MIT"
     }
   ]
 }

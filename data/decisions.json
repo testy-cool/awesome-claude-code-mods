@@ -1,0 +1,10 @@
+{
+  "MarcoCarnevali/claude-code-mods:github-issues": {
+    "verdict": "keep",
+    "at": "2026-10-06"
+  },
+  "LamAnhNguyenHTW/token-keeper:token-keeper": {
+    "verdict": "skip",
+    "at": "2026-10-06"
+  }
+}
