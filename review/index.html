@@ -226,6 +226,8 @@ async function showReadme(id) {
   box.innerHTML = DOMPurify.sanitize(marked.parse(r.markdown));
   const abs = (u, base) => { try { return new URL(u, base).href; } catch { return u; } };
   box.querySelectorAll("img[src]").forEach((img) => img.src = abs(img.getAttribute("src"), r.base));
+  box.querySelectorAll("[srcset]").forEach((el) => el.srcset = el.getAttribute("srcset").split(",")
+    .map((s) => { const [u, ...w] = s.trim().split(/\s+/); return [abs(u, r.base), ...w].join(" "); }).join(", "));
   box.querySelectorAll("a[href]").forEach((a) => {
     const h = a.getAttribute("href");
     if (!h.startsWith("#")) { a.href = abs(h, r.blob); a.target = "_blank"; }
