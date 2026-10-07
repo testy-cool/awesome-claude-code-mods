@@ -24,8 +24,8 @@ Each entry points at the author's own repository, so you always get their latest
 
 | Mod | What it does | Stars | Last update |
 |-----|--------------|------:|-------------|
-| [prismantis](https://github.com/NahumLitvin/prismantis)<br>by Nahum Litvin | Colorful, themeable replies: tables, code, diagrams, charts and tool rows in 15 themes. | ★ 38 | 2026-10-06 |
-| [glowup](https://github.com/NovusEdge/glowup)<br>by Aliasgar Khimani | A live cockpit pane for changes, subagents and context, an activity band, shareable themes and a pixel pet. | ★ 3 | 2026-10-06 |
+| [prismantis](https://github.com/NahumLitvin/prismantis)<br>by Nahum Litvin | Colorful, themeable replies: tables, code, diagrams, charts and tool rows in 15 themes. | ★ 43 | 2026-10-07 |
+| [glowup](https://github.com/NovusEdge/glowup)<br>by Aliasgar Khimani | A live cockpit pane for changes, subagents and context, an activity band, shareable themes and a pixel pet. | ★ 16 | 2026-10-07 |
 | [agent-portrait](https://github.com/testy-cool/claude-agent-portraits)<br>by testy-cool | Animated pixel-art portrait above the prompt that reacts to thinking, talking, tools, failures and idle time. | ★ 0 | 2026-10-05 |
 <!-- mods:end -->
 
