@@ -54,6 +54,9 @@ Each entry points at the author's own repository, so you always get their latest
 | [dopa-mode](https://github.com/charimsma/dopa-mode/tree/main/plugin)<br>by charimsma | DOPA MODE (DOPA is short for dopamine) for Claude Code: fireworks for everything you do and every milestone Claude reaches (finished turns, commits, pushes, pull requests, passing tests), context and plan-limit meters with warnings, trophies, a daily command card and a focus timer. | ★ 3 | 2026-10-03 |
 | [mod-store](https://github.com/hellosverre/mod-store)<br>by hellosverre | An app store for Claude Code mods, inside Claude Code: /mods to browse, search and install 2,700 mods, or ask Claude to find one | ★ 2 | 2026-10-07 |
 | [glanceflow](https://github.com/Antreas-Strb/glanceflow)<br>by Antreas-Strb | GlanceFlow for Claude Code: a calm checklist above the prompt showing the plan, progress and when Claude needs you. Simple view for everyone, Details for engineers. | ★ 2 | 2026-10-08 |
+| [sessiondeck](https://github.com/NetipunJi/sessiondeck)<br>by NetipunJi | Live session dashboard mod for Claude Code: context, cache, permissions, tool latency, and a chart band for up to a hundred agents. | ★ 2 | 2026-10-05 |
+| [claude-code-agent-monitor](https://github.com/NeriakTo/claude-code-agent-monitor)<br>by NeriakTo | A Claude Code mod: a band above the prompt and a /monitor pane tracking inbox, running tools, dispatches and custom cards. | ★ 2 | 2026-10-07 |
+| [a2a-mod](https://github.com/NovusEdge/a2a-mod)<br>by NovusEdge | A2A protocol client for Claude Code: Claude hands tasks to non-Claude worker agents over Agent2Agent and picks up their results. | ★ 1 | 2026-10-04 |
 <!-- mods:end -->
 
 Install any of them with `claude plugin install <mod>@awesome-claude-code-mods`.
