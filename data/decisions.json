@@ -166,5 +166,37 @@
   "DrishtantKaushal/AwesomeClaudeCodeMods": {
     "verdict": "skip",
     "at": "2026-10-08"
+  },
+  "hamzafer/claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "whyashthakker/awesome-claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "Elesiann/usagemeter": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "ofekbetzalel/claude-code-cli-rtl": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "NetipunJi/sessiondeck": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "NeriakTo/claude-code-agent-monitor": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "thanhnhoncntt/oxen-pet": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "NovusEdge/a2a-mod": {
+    "verdict": "keep",
+    "at": "2026-10-08"
   }
 }

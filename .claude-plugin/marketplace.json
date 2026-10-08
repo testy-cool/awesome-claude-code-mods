@@ -467,6 +467,59 @@
         "repo": "Antreas-Strb/glanceflow"
       },
       "license": "MIT"
+    },
+    {
+      "name": "sessiondeck",
+      "description": "Live session dashboard mod for Claude Code: context, cache, permissions, tool latency, and a chart band for up to a hundred agents.",
+      "author": {
+        "name": "NetipunJi",
+        "url": "https://github.com/NetipunJi"
+      },
+      "homepage": "https://github.com/NetipunJi/sessiondeck",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "NetipunJi/sessiondeck"
+      }
+    },
+    {
+      "name": "claude-code-agent-monitor",
+      "description": "A Claude Code mod: a band above the prompt and a /monitor pane tracking inbox, running tools, dispatches and custom cards.",
+      "author": {
+        "name": "NeriakTo",
+        "url": "https://github.com/NeriakTo"
+      },
+      "homepage": "https://github.com/NeriakTo/claude-code-agent-monitor",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "NeriakTo/claude-code-agent-monitor"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "a2a-mod",
+      "description": "A2A protocol client for Claude Code: Claude hands tasks to non-Claude worker agents over Agent2Agent and picks up their results.",
+      "author": {
+        "name": "NovusEdge",
+        "url": "https://github.com/NovusEdge"
+      },
+      "homepage": "https://github.com/NovusEdge/a2a-mod",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "NovusEdge/a2a-mod"
+      },
+      "license": "MIT"
     }
   ]
 }
