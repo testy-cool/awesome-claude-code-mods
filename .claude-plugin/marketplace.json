@@ -71,6 +71,402 @@
         "source": "github",
         "repo": "testy-cool/claude-agent-portraits"
       }
+    },
+    {
+      "name": "flightdeck",
+      "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
+      "author": {
+        "name": "scasella",
+        "url": "https://github.com/scasella"
+      },
+      "homepage": "https://github.com/scasella/claude-flightdeck",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "scasella/claude-flightdeck"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pokemon",
+      "description": "A pixel Pokémon that lives at the right edge of the band above the prompt",
+      "author": {
+        "name": "dgokcin",
+        "url": "https://github.com/dgokcin"
+      },
+      "homepage": "https://github.com/dgokcin/claude-pokemon-mod",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "dgokcin/claude-pokemon-mod"
+      }
+    },
+    {
+      "name": "paste-view",
+      "description": "See what you paste into Claude Code: image thumbnails and long-text previews above the prompt instead of bare [Image #1] and [Pasted text #2] tags",
+      "author": {
+        "name": "Amorfx",
+        "url": "https://github.com/Amorfx"
+      },
+      "homepage": "https://github.com/Amorfx/claude-paste-view",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Amorfx/claude-paste-view"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "human-in-the-loop",
+      "description": "Claude assigns you the tasks only you can do. They wait in a My tasks pane, counted under the prompt, until you answer or reject them, so nothing Claude needs from you gets lost in the chat.",
+      "author": {
+        "name": "tzafrir",
+        "url": "https://github.com/tzafrir"
+      },
+      "homepage": "https://github.com/tzafrir/human-in-the-loop",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "tzafrir/human-in-the-loop"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "skins",
+      "description": "Skins for Claude Code's transcript: themed tool rows, reply gutters and spinner words. /skin swaps them live.",
+      "author": {
+        "name": "hellosverre",
+        "url": "https://github.com/hellosverre"
+      },
+      "homepage": "https://github.com/hellosverre/claude-skins",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "hellosverre/claude-skins"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "desktop-statusline",
+      "description": "Status band above the prompt in the Claude Desktop app's Code tab: folder, git branch and state, session age, prompt count and cost, a context meter, 5-hour and weekly plan usage limit meters with reset countdowns, last-turn model, duration and cache hit rate, idle time against the prompt-cache TTL, compactions, and running agents. Toasts at 80% and 95% of a usage limit. Draws only on the desktop surface, so a CLI statusLine is left alone.",
+      "author": {
+        "name": "centminmod",
+        "url": "https://github.com/centminmod"
+      },
+      "homepage": "https://github.com/centminmod/claude-plugins/tree/master/plugins/desktop-statusline",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "centminmod/claude-plugins",
+        "path": "plugins/desktop-statusline"
+      }
+    },
+    {
+      "name": "glass",
+      "description": "A desktop-app look for Claude Code's terminal: colored shell commands in prose, a Bottom line card, content-fit code cards, borderless tables, gutter marks beside paragraphs that need you, painted tool rows and a turn footer.",
+      "author": {
+        "name": "rashedInt32",
+        "url": "https://github.com/rashedInt32"
+      },
+      "homepage": "https://github.com/rashedInt32/glass",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "rashedInt32/glass"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "figures",
+      "description": "Draw diagrams, LaTeX math, and tool-result images inline in kitty-graphics terminals",
+      "author": {
+        "name": "natsukium",
+        "url": "https://github.com/natsukium"
+      },
+      "homepage": "https://github.com/natsukium/claude-code-figures-plugin",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "natsukium/claude-code-figures-plugin"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "paneline",
+      "description": "Claude Code mod (plugin) that adds a side pane with Activity, Files, Agents, Context and MCP tabs, a status line above the prompt, a restyled chat, Mermaid diagrams in the terminal, tables, and code and diff panels. Colours follow both /color and the /theme (dark, light and others).",
+      "author": {
+        "name": "markneonin",
+        "url": "https://github.com/markneonin"
+      },
+      "homepage": "https://github.com/markneonin/paneline",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "markneonin/paneline"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "agentpane",
+      "description": "A side pane for Claude Code that lists the subagents a session runs, what each is doing and what it costs in tokens, with each one's conversation a click away.",
+      "author": {
+        "name": "xuanji86",
+        "url": "https://github.com/xuanji86"
+      },
+      "homepage": "https://github.com/xuanji86/claude-agentpane",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "xuanji86/claude-agentpane"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "statuspane",
+      "description": "A floating status card above the Claude Code prompt — model, effort, context, 5h/week limits, cost, directory and branch, GitHub CI and deploys — with clickable settings and a progress-row API any script or mod can feed.",
+      "author": {
+        "name": "xuanji86",
+        "url": "https://github.com/xuanji86"
+      },
+      "homepage": "https://github.com/xuanji86/claude-statuspane",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "xuanji86/claude-statuspane"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "mdview",
+      "description": "Click a .md path in the Claude Code conversation to read it rendered as markdown beside the session, pictures included, and point at any block to have Claude edit it.",
+      "author": {
+        "name": "xuanji86",
+        "url": "https://github.com/xuanji86"
+      },
+      "homepage": "https://github.com/xuanji86/claude-mdview",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "xuanji86/claude-mdview"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "deck",
+      "description": "A cockpit for Claude Code: plan bars and subagent strips, context, usage limits with reset countdowns and burn rates, spend, the model route and a pet. Six bar styles, three collapsed looks. CLI and Desktop.",
+      "author": {
+        "name": "nvr0x5",
+        "url": "https://github.com/nvr0x5"
+      },
+      "homepage": "https://github.com/nvr0x5/claude-deck",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "nvr0x5/claude-deck"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "whats-agent-doing",
+      "description": "A small box above the prompt that always says what the agent is doing right now (reading, thinking, writing, running a tool, waiting for you) and expands to show what it has done.",
+      "author": {
+        "name": "tzafrir",
+        "url": "https://github.com/tzafrir"
+      },
+      "homepage": "https://github.com/tzafrir/whats-agent-doing",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "tzafrir/whats-agent-doing"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "fynn-mods",
+      "description": "Six mods for Claude Code: animated Clawd mascot, usage-limit and prompt-cache bars, a pre-send message checker, quick replies, a to-do queue and a cost ledger. Terminal and desktop app, English/German.",
+      "author": {
+        "name": "FynnXland",
+        "url": "https://github.com/FynnXland"
+      },
+      "homepage": "https://github.com/FynnXland/fynn-mods",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "FynnXland/fynn-mods"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "remcycle",
+      "description": "Garbage collection for Claude Code's memory. A mod that rereads your sessions every day, keeps what you decided, and questions the notes that have gone stale.",
+      "author": {
+        "name": "lianmatsuo",
+        "url": "https://github.com/lianmatsuo"
+      },
+      "homepage": "https://github.com/lianmatsuo/remcycle",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "lianmatsuo/remcycle"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "archpane",
+      "description": "Live architecture diagram in a side pane that Claude draws and edits while you talk",
+      "author": {
+        "name": "facumarcet",
+        "url": "https://github.com/facumarcet"
+      },
+      "homepage": "https://github.com/facumarcet/archpane/tree/main/plugins/archpane",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "facumarcet/archpane",
+        "path": "plugins/archpane"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pinboard",
+      "description": "Keeps open decisions, the task list and links Claude creates in a sidebar pane, updated through its own tool",
+      "author": {
+        "name": "sirkitree",
+        "url": "https://github.com/sirkitree"
+      },
+      "homepage": "https://github.com/sirkitree/pinboard",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "sirkitree/pinboard"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "ricky-pixel-mod",
+      "description": "Ricky, a pixel-art cat companion for Claude Code: an animated night-sky pane with a task / subagent / activity / files board, a cat in the band above the prompt, and a purple-gold spinner",
+      "author": {
+        "name": "muxia23",
+        "url": "https://github.com/muxia23"
+      },
+      "homepage": "https://github.com/muxia23/ricky-pixel-mod",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "muxia23/ricky-pixel-mod"
+      }
+    },
+    {
+      "name": "dopa-mode",
+      "description": "DOPA MODE (DOPA is short for dopamine) for Claude Code: fireworks for everything you do and every milestone Claude reaches (finished turns, commits, pushes, pull requests, passing tests), context and plan-limit meters with warnings, trophies, a daily command card and a focus timer.",
+      "author": {
+        "name": "charimsma",
+        "url": "https://github.com/charimsma"
+      },
+      "homepage": "https://github.com/charimsma/dopa-mode/tree/main/plugin",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "charimsma/dopa-mode",
+        "path": "plugin"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "mod-store",
+      "description": "An app store for Claude Code mods, inside Claude Code: /mods to browse, search and install 2,700 mods, or ask Claude to find one",
+      "author": {
+        "name": "hellosverre",
+        "url": "https://github.com/hellosverre"
+      },
+      "homepage": "https://github.com/hellosverre/mod-store",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "hellosverre/mod-store"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "glanceflow",
+      "description": "GlanceFlow for Claude Code: a calm checklist above the prompt showing the plan, progress and when Claude needs you. Simple view for everyone, Details for engineers.",
+      "author": {
+        "name": "Antreas-Strb",
+        "url": "https://github.com/Antreas-Strb"
+      },
+      "homepage": "https://github.com/Antreas-Strb/glanceflow",
+      "category": "other",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Antreas-Strb/glanceflow"
+      },
+      "license": "MIT"
     }
   ]
 }

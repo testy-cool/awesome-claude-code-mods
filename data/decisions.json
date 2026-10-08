@@ -1,1 +1,170 @@
-{}
+{
+  "scasella/claude-flightdeck": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "dgokcin/claude-pokemon-mod": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "artemnovichkov/xcode-mods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "Amorfx/claude-paste-view": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "lemomo-ai/lemo-mod": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "tzafrir/human-in-the-loop": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "hellosverre/claude-skins": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "centminmod/claude-plugins": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "rashedInt32/glass": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "jack21/claude-mod-usage": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "jkf87/ide-mod": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "danyuchn/claude-mods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "augiefra/claude-mods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "natsukium/claude-code-figures-plugin": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "OneWave-AI/claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "markneonin/paneline": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "omarcevi/claudemods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "xuanji86/claude-agentpane": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "xuanji86/claude-statuspane": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "leopiney/wolfbud-claude-mod": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "arasovic/claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "eighteyes/cactus": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "xuanji86/claude-mdview": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "helenkwok/gsd-status-mod": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "nvr0x5/claude-deck": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "bixxter/adlib-lyrics": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "NathanAB/statusline-anywhere": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "tzafrir/whats-agent-doing": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "FynnXland/fynn-mods": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "lianmatsuo/remcycle": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "Tsun-u/tsunu-pet": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "facumarcet/archpane": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "sirkitree/pinboard": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "muxia23/ricky-pixel-mod": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "charimsma/dopa-mode": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "NarenDawar/narens-claude-toolkit": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "AI-Experts-LLC/claudelingo": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "drkokorev/cockpit-for-claude": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "hellosverre/mod-store": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "Abdallah-Abdelazim/usage-limits-cc-mod": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  },
+  "Antreas-Strb/glanceflow": {
+    "verdict": "keep",
+    "at": "2026-10-08"
+  },
+  "DrishtantKaushal/AwesomeClaudeCodeMods": {
+    "verdict": "skip",
+    "at": "2026-10-08"
+  }
+}
