@@ -34,8 +34,7 @@ def main():
             repo = source.get("repo") or source["url"]
             link = mod.get("homepage") or f"https://github.com/{repo}"
             info = repo_info(repo)
-            author = mod.get("author", {}).get("name", info["owner"]["login"])
-            rows.append((info["stargazers_count"], f"| [{mod['name']}]({link})<br>by {author} | {mod['description']} | ★ {info['stargazers_count']} | {info['pushed_at'][:10]} |"))
+            rows.append((info["stargazers_count"], f"| [{mod['name']}]({link}) | {mod['description']} | ★ {info['stargazers_count']} | {info['pushed_at'][:10]} |"))
         out += [row for _, row in sorted(rows, key=lambda r: -r[0])] + [""]
 
     path = os.path.join(ROOT, "README.md")

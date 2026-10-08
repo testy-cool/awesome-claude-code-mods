@@ -69,7 +69,7 @@ def set_listed(entry, keep):
                 "description": mod.get("description") or "",
                 "author": {"name": owner, "url": f"https://github.com/{owner}"},
                 "homepage": mod["url"],
-                "category": "other",
+                "category": "appearance",
                 "tags": ["mod"],
                 "source": source_of(repo, mod),
             }
