@@ -520,6 +520,24 @@
         "repo": "NovusEdge/a2a-mod"
       },
       "license": "MIT"
+    },
+    {
+      "name": "banana",
+      "description": "A clicker pane that opens while Claude thinks: clicks earn coins and rare banana drops, which a sponsor server trades for $1 of LLM tokens.",
+      "author": {
+        "name": "somethingwentwell",
+        "url": "https://github.com/somethingwentwell"
+      },
+      "homepage": "https://github.com/somethingwentwell/cc-mod-banana-game",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "somethingwentwell/cc-mod-banana-game"
+      },
+      "license": "MIT"
     }
   ]
 }
