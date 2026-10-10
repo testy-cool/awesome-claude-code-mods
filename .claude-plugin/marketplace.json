@@ -520,6 +520,150 @@
         "repo": "NovusEdge/a2a-mod"
       },
       "license": "MIT"
+    },
+    {
+      "name": "repo-radar",
+      "description": "A live map of your codebase for Claude Code that lights up where Claude is working, with a colour per subagent.",
+      "author": {
+        "name": "lakmadev",
+        "url": "https://github.com/lakmadev"
+      },
+      "homepage": "https://github.com/lakmadev/repo-radar",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "lakmadev/repo-radar"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claude-devtools-mod",
+      "description": "Claude DevTools: a debugger for Claude Code tool calls. Breakpoints, pause/step/reject, timeline, inspector and Error Lens failure diagnosis, as a Claude Code mod.",
+      "author": {
+        "name": "NMenzel",
+        "url": "https://github.com/NMenzel"
+      },
+      "homepage": "https://github.com/NMenzel/claude-devtools-mod",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "NMenzel/claude-devtools-mod"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "code-wrapped",
+      "description": "Your Claude Code Wrapped: activity heatmap, coding personality and unlockable achievements, right in your terminal.",
+      "author": {
+        "name": "lakmadev",
+        "url": "https://github.com/lakmadev"
+      },
+      "homepage": "https://github.com/lakmadev/code-wrapped",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "lakmadev/code-wrapped"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "installguard",
+      "description": "Claude Code mod: looks up every new package before Claude installs it, and holds made-up names, typosquats and days-old releases for your answer",
+      "author": {
+        "name": "griches",
+        "url": "https://github.com/griches"
+      },
+      "homepage": "https://github.com/griches/installguard",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "griches/installguard"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "glimt",
+      "description": "A quiet side pane for Claude Code: what this session is doing, its plan, its agents, and every other session",
+      "author": {
+        "name": "mmedum",
+        "url": "https://github.com/mmedum"
+      },
+      "homepage": "https://github.com/mmedum/glimt",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "mmedum/glimt"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "claude-mods",
+      "description": "KOZMOS — live, visual mods for Claude Code (CLI + desktop): bands above the prompt, sidebars, status ticker, companions, guards and sound.",
+      "author": {
+        "name": "ersinkoc",
+        "url": "https://github.com/ersinkoc"
+      },
+      "homepage": "https://github.com/ersinkoc/claude-mods",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "ersinkoc/claude-mods"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "codyssey",
+      "description": "Turn every Claude Code session into a little adventure: generative music that follows the agent's mood, a pixel knight who battles a monster for every edit and command, and a transcript retold in game style.",
+      "author": {
+        "name": "delexw",
+        "url": "https://github.com/delexw"
+      },
+      "homepage": "https://github.com/delexw/codyssey",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "delexw/codyssey"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claude-code-tint-mod",
+      "description": "Claude Code mod (CC tint mod): color each window by its repository, ring the window you are in, number your threads, and tint the whole Claude desktop app. Light and dark mode.",
+      "author": {
+        "name": "JimmySadek",
+        "url": "https://github.com/JimmySadek"
+      },
+      "homepage": "https://github.com/JimmySadek/claude-code-tint-mod",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "JimmySadek/claude-code-tint-mod"
+      },
+      "license": "MIT"
     }
   ]
 }

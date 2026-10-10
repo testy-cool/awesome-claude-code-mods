@@ -198,5 +198,129 @@
   "NovusEdge/a2a-mod": {
     "verdict": "keep",
     "at": "2026-10-08"
+  },
+  "sanciyuandehundan/claude-chan": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "oguz-hd/claude-code-chime": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "naoanao/agent-cross-check": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Mechazawa/claude-inline-images": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "nnemirovsky/cc-monitor-rearm": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "naoanao/shared-repo-guard": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "alkanalperen/lofi-radio": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "nevermemo/token-watch": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "michaelblaess/turbo-mod": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Jarvizx/hablo": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "lakmadev/repo-radar": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "NMenzel/claude-devtools-mod": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "lakmadev/code-wrapped": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "lakmadev/pixel-pet": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "VkaZas/claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Chappo29/usage-band": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "alexlifexyz/p3c-guard": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "lakmadev/claude-mods": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "griches/simpane": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "griches/installguard": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "griches/buildpane": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "nickhealthy/claude-code-prompt-jump": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "SmartAnalyticsAV/claude-sessions-panel": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "mmedum/glimt": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "ersinkoc/claude-mods": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "MDmubarak786/claude-mods": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "onk3sh/fix-on-edit": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "ruihe774/cc-ciel-mode": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "delexw/codyssey": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "Trosfy/claude-styx": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "JimmySadek/claude-code-tint-mod": {
+    "verdict": "keep",
+    "at": "2026-10-10"
   }
 }
