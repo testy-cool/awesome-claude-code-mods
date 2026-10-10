@@ -844,6 +844,24 @@
         "repo": "soulrocha/Claude-code-hero-journey"
       },
       "license": "MIT"
+    },
+    {
+      "name": "omni-cat",
+      "description": "A pixel cat above your Claude Code prompt that runs an OmniDimension voice agent test call. Claude Code mod.",
+      "author": {
+        "name": "aloki-alok",
+        "url": "https://github.com/aloki-alok"
+      },
+      "homepage": "https://github.com/aloki-alok/omni-cat",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "aloki-alok/omni-cat"
+      },
+      "license": "MIT"
     }
   ]
 }

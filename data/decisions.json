@@ -486,5 +486,25 @@
   "soulrocha/Claude-code-hero-journey": {
     "verdict": "keep",
     "at": "2026-10-10"
+  },
+  "divramod/divramod-claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "vigneshbarani24/claude-session-namer": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "jimmysteinmetz/b-sides": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "aloki-alok/omni-cat": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "dominicrico/jev-router": {
+    "verdict": "skip",
+    "at": "2026-10-10"
   }
 }
