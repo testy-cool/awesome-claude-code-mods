@@ -322,5 +322,13 @@
   "JimmySadek/claude-code-tint-mod": {
     "verdict": "keep",
     "at": "2026-10-10"
+  },
+  "paragpandyareal/lazy-panda-panel": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "CodyAMaughan/meme-factory": {
+    "verdict": "keep",
+    "at": "2026-10-10"
   }
 }

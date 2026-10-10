@@ -664,6 +664,24 @@
         "repo": "JimmySadek/claude-code-tint-mod"
       },
       "license": "MIT"
+    },
+    {
+      "name": "meme-factory",
+      "description": "Fresh from the factory. A Claude Code mod: ask for a meme, keep working. Drafts cook in a side panel; pick, remix, approve and post to Slack.",
+      "author": {
+        "name": "CodyAMaughan",
+        "url": "https://github.com/CodyAMaughan"
+      },
+      "homepage": "https://github.com/CodyAMaughan/meme-factory",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "CodyAMaughan/meme-factory"
+      },
+      "license": "MIT"
     }
   ]
 }
