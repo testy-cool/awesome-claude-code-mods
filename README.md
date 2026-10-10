@@ -61,6 +61,9 @@ Each entry points at the author's own repository, so you always get their latest
 | [claude-code-galactic-battle](https://github.com/DarkVelours/claude-code-galactic-battle) | A space battle above Claude Code's prompt while it works. | ★ 1 | 2026-10-09 |
 | [cyxj-notch](https://github.com/chenyuxiaojin/cyxj-notch) | macOS notch dashboard for Claude Code: usage limits, open sessions, task progress, prompt-cache countdown and to-dos — fed by five Claude Code mods (included). | ★ 1 | 2026-10-10 |
 | [clawd-minecraft](https://github.com/amsultan2010/clawd-minecraft) | A Claude mod: your Claude Code usage as a Minecraft-style HUD in the desktop app (5-hour and 7-day limits, context window), with Clawd walking beside it | ★ 1 | 2026-10-10 |
+| [cachebeat](https://github.com/404Mayank/cachebeat) | A Claude Code mod that keeps your prompt cache warm while you're away. | ★ 1 | 2026-10-09 |
+| [claude-code-diagrams](https://github.com/tomasvarga/claude-code-diagrams) | A Claude Code mod that pins the diagrams Claude draws to a chip above the prompt: expand, full screen, Mermaid pictures, browser view, copy | ★ 1 | 2026-10-08 |
+| [rabe](https://github.com/lorenzh/rabe) | Watch Claude Code's background work: subagents, Codex jobs, shells, monitors, cron jobs and workflows. | ★ 1 | 2026-10-10 |
 | [agent-portrait](https://github.com/testy-cool/claude-agent-portraits) | Animated pixel-art portrait above the prompt that reacts to thinking, talking, tools, failures and idle time. | ★ 0 | 2026-10-05 |
 | [repo-radar](https://github.com/lakmadev/repo-radar) | A live map of your codebase for Claude Code that lights up where Claude is working, with a colour per subagent. | ★ 0 | 2026-10-09 |
 | [code-wrapped](https://github.com/lakmadev/code-wrapped) | Your Claude Code Wrapped: activity heatmap, coding personality and unlockable achievements, right in your terminal. | ★ 0 | 2026-10-09 |
@@ -71,6 +74,8 @@ Each entry points at the author's own repository, so you always get their latest
 | [dashband](https://github.com/EgonLeitner/dashband) | Prompt cache, context and plan limits at a glance for Claude Code, in the prompt footer and above the prompt | ★ 0 | 2026-10-09 |
 | [Claude-code-hero-journey](https://github.com/soulrocha/Claude-code-hero-journey) | 🦀 A cozy RPG HUD mod for Claude Code (beta, desktop app first; CLI support planned): multiclass Clawd crab mascots, a quest log, a file guard and a grimoire that remembers what you learned. pt-BR + English. | ★ 0 | 2026-10-10 |
 | [omni-cat](https://github.com/aloki-alok/omni-cat) | A pixel cat above your Claude Code prompt that runs an OmniDimension voice agent test call. Claude Code mod. | ★ 0 | 2026-10-10 |
+| [smartcompact](https://github.com/ambervdberg/smartcompact) |  A Claude Code mod that picks a good moment to compact to keep the context window small. | ★ 0 | 2026-10-10 |
+| [oh-my-claude-mods](https://github.com/xinhuagu/oh-my-claude-mods) | Mods for Claude Code. agent-crew: watch your subagents work as a live pixel crew, with role, model, current tool, progress, tokens and time. | ★ 0 | 2026-10-08 |
 <!-- mods:end -->
 
 Install any of them with `claude plugin install <mod>@awesome-claude-code-mods`.
