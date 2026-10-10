@@ -330,5 +330,161 @@
   "CodyAMaughan/meme-factory": {
     "verdict": "keep",
     "at": "2026-10-10"
+  },
+  "Tanish-Dev/claude-usage-band": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Nexus-nimdA/null-radio": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Yanir-R/catchup": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "kjhq/haiku-compact": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "gecm0/skill-router-mod": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "gecm0/jev-mod": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Jh-jaehyuk/plan-checklist": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "fanoisme/claude-mods": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "kajidog/cc-mods-tts": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "C-M-Jones/suggestion-spotlight": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "ozdeger/claude-looked-at-mod": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Tum4s/sprout": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "AlexeyHRDesign/colorwheel": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "sruthik27/claude-foundry": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "ptpmediabr/mods-manager": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "ptpmediabr/side-chat": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "ptpmediabr/ideas-shelf": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "ptpmediabr/usage-weather": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Ashley-Pettit/lgtm-flash": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "DarkVelours/claude-code-galactic-battle": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "Ashley-Pettit/villager-hp": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "hellosverre/redgreen": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "icedevil2001/session-sidebar": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "rajib2k5/claude-market-watch": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "RedRoosterKey/claude-code-ssh-usage-band": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "cGradying/claude-code-cockpit": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "nevermemo/token-watch-vscode": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "krishna-goutham-tls/folio": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "drkokorev/context-diet": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "icedevil2001/auto-continue": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "NMenzel/claude-integrity-mod": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Blind3y3Design/agents-panel": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "chenyuxiaojin/cyxj-notch": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "EgonLeitner/claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "EgonLeitner/dashband": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "rezzminator/tool-visibility-controller": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "Talap-creator/pixel-dash": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "amsultan2010/clawd-minecraft": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "soulrocha/Claude-code-hero-journey": {
+    "verdict": "keep",
+    "at": "2026-10-10"
   }
 }

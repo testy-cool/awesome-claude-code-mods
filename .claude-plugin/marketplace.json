@@ -682,6 +682,168 @@
         "repo": "CodyAMaughan/meme-factory"
       },
       "license": "MIT"
+    },
+    {
+      "name": "catchup",
+      "description": "A Claude Code mod that summarizes the agent messages you have not read, in plain English. Run /catchup, type 'brief me', or press a button.",
+      "author": {
+        "name": "Yanir-R",
+        "url": "https://github.com/Yanir-R"
+      },
+      "homepage": "https://github.com/Yanir-R/catchup",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Yanir-R/catchup"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "sprout",
+      "description": "Claude Code mod: a band and a panel that track your subagents, with the files they use",
+      "author": {
+        "name": "Tum4s",
+        "url": "https://github.com/Tum4s"
+      },
+      "homepage": "https://github.com/Tum4s/sprout",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Tum4s/sprout"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "colorwheel",
+      "description": "Themed replies, full-width diagrams, and your context and limits at a glance, in Claude Code Desktop.",
+      "author": {
+        "name": "AlexeyHRDesign",
+        "url": "https://github.com/AlexeyHRDesign"
+      },
+      "homepage": "https://github.com/AlexeyHRDesign/colorwheel",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "AlexeyHRDesign/colorwheel"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "lgtm-flash",
+      "description": "The LGTM Lines ship sails past after every code change — a Claude Code mod",
+      "author": {
+        "name": "Ashley-Pettit",
+        "url": "https://github.com/Ashley-Pettit"
+      },
+      "homepage": "https://github.com/Ashley-Pettit/lgtm-flash",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Ashley-Pettit/lgtm-flash"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claude-code-galactic-battle",
+      "description": "A space battle above Claude Code's prompt while it works.",
+      "author": {
+        "name": "DarkVelours",
+        "url": "https://github.com/DarkVelours"
+      },
+      "homepage": "https://github.com/DarkVelours/claude-code-galactic-battle",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "DarkVelours/claude-code-galactic-battle"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "cyxj-notch",
+      "description": "macOS notch dashboard for Claude Code: usage limits, open sessions, task progress, prompt-cache countdown and to-dos — fed by five Claude Code mods (included).",
+      "author": {
+        "name": "chenyuxiaojin",
+        "url": "https://github.com/chenyuxiaojin"
+      },
+      "homepage": "https://github.com/chenyuxiaojin/cyxj-notch",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "chenyuxiaojin/cyxj-notch"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "dashband",
+      "description": "Prompt cache, context and plan limits at a glance for Claude Code, in the prompt footer and above the prompt",
+      "author": {
+        "name": "EgonLeitner",
+        "url": "https://github.com/EgonLeitner"
+      },
+      "homepage": "https://github.com/EgonLeitner/dashband",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "EgonLeitner/dashband"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "clawd-minecraft",
+      "description": "A Claude mod: your Claude Code usage as a Minecraft-style HUD in the desktop app (5-hour and 7-day limits, context window), with Clawd walking beside it",
+      "author": {
+        "name": "amsultan2010",
+        "url": "https://github.com/amsultan2010"
+      },
+      "homepage": "https://github.com/amsultan2010/clawd-minecraft",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "amsultan2010/clawd-minecraft"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "Claude-code-hero-journey",
+      "description": "🦀 A cozy RPG HUD mod for Claude Code (beta, desktop app first; CLI support planned): multiclass Clawd crab mascots, a quest log, a file guard and a grimoire that remembers what you learned. pt-BR + English.",
+      "author": {
+        "name": "soulrocha",
+        "url": "https://github.com/soulrocha"
+      },
+      "homepage": "https://github.com/soulrocha/Claude-code-hero-journey",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "soulrocha/Claude-code-hero-journey"
+      },
+      "license": "MIT"
     }
   ]
 }
