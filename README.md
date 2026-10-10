@@ -70,6 +70,7 @@ Each entry points at the author's own repository, so you always get their latest
 | [lgtm-flash](https://github.com/Ashley-Pettit/lgtm-flash) | The LGTM Lines ship sails past after every code change — a Claude Code mod | ★ 0 | 2026-10-10 |
 | [dashband](https://github.com/EgonLeitner/dashband) | Prompt cache, context and plan limits at a glance for Claude Code, in the prompt footer and above the prompt | ★ 0 | 2026-10-09 |
 | [Claude-code-hero-journey](https://github.com/soulrocha/Claude-code-hero-journey) | 🦀 A cozy RPG HUD mod for Claude Code (beta, desktop app first; CLI support planned): multiclass Clawd crab mascots, a quest log, a file guard and a grimoire that remembers what you learned. pt-BR + English. | ★ 0 | 2026-10-10 |
+| [omni-cat](https://github.com/aloki-alok/omni-cat) | A pixel cat above your Claude Code prompt that runs an OmniDimension voice agent test call. Claude Code mod. | ★ 0 | 2026-10-10 |
 <!-- mods:end -->
 
 Install any of them with `claude plugin install <mod>@awesome-claude-code-mods`.
