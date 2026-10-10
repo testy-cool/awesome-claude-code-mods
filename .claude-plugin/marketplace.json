@@ -862,6 +862,96 @@
         "repo": "aloki-alok/omni-cat"
       },
       "license": "MIT"
+    },
+    {
+      "name": "cachebeat",
+      "description": "A Claude Code mod that keeps your prompt cache warm while you're away.",
+      "author": {
+        "name": "404Mayank",
+        "url": "https://github.com/404Mayank"
+      },
+      "homepage": "https://github.com/404Mayank/cachebeat",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "404Mayank/cachebeat"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "smartcompact",
+      "description": " A Claude Code mod that picks a good moment to compact to keep the context window small.",
+      "author": {
+        "name": "ambervdberg",
+        "url": "https://github.com/ambervdberg"
+      },
+      "homepage": "https://github.com/ambervdberg/smartcompact",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "ambervdberg/smartcompact"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claude-code-diagrams",
+      "description": "A Claude Code mod that pins the diagrams Claude draws to a chip above the prompt: expand, full screen, Mermaid pictures, browser view, copy",
+      "author": {
+        "name": "tomasvarga",
+        "url": "https://github.com/tomasvarga"
+      },
+      "homepage": "https://github.com/tomasvarga/claude-code-diagrams",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "tomasvarga/claude-code-diagrams"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "rabe",
+      "description": "Watch Claude Code's background work: subagents, Codex jobs, shells, monitors, cron jobs and workflows.",
+      "author": {
+        "name": "lorenzh",
+        "url": "https://github.com/lorenzh"
+      },
+      "homepage": "https://github.com/lorenzh/rabe",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "lorenzh/rabe"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "oh-my-claude-mods",
+      "description": "Mods for Claude Code. agent-crew: watch your subagents work as a live pixel crew, with role, model, current tool, progress, tokens and time.",
+      "author": {
+        "name": "xinhuagu",
+        "url": "https://github.com/xinhuagu"
+      },
+      "homepage": "https://github.com/xinhuagu/oh-my-claude-mods",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "xinhuagu/oh-my-claude-mods"
+      },
+      "license": "MIT"
     }
   ]
 }

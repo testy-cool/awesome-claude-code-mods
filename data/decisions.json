@@ -506,5 +506,29 @@
   "dominicrico/jev-router": {
     "verdict": "skip",
     "at": "2026-10-10"
+  },
+  "claude-code-mods/best-claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-10"
+  },
+  "404Mayank/cachebeat": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "ambervdberg/smartcompact": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "tomasvarga/claude-code-diagrams": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "lorenzh/rabe": {
+    "verdict": "keep",
+    "at": "2026-10-10"
+  },
+  "xinhuagu/oh-my-claude-mods": {
+    "verdict": "keep",
+    "at": "2026-10-10"
   }
 }
