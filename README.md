@@ -24,10 +24,10 @@ Each entry points at the author's own repository, so you always get their latest
 
 | Mod | What it does | Stars | Last update |
 |-----|--------------|------:|-------------|
-| [skins](https://github.com/hellosverre/claude-skins) | Skins for Claude Code's transcript: themed tool rows, reply gutters and spinner words. /skin swaps them live. | ★ 75 | 2026-10-09 |
+| [skins](https://github.com/hellosverre/claude-skins) | Skins for Claude Code's transcript: themed tool rows, reply gutters and spinner words. /skin swaps them live. | ★ 77 | 2026-10-10 |
 | [prismantis](https://github.com/NahumLitvin/prismantis) | Colorful, themeable replies: tables, code, diagrams, charts and tool rows in 15 themes. | ★ 71 | 2026-10-09 |
-| [flightdeck](https://github.com/scasella/claude-flightdeck) | Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events | ★ 56 | 2026-10-02 |
-| [pokemon](https://github.com/dgokcin/claude-pokemon-mod) | A pixel Pokémon that lives at the right edge of the band above the prompt | ★ 25 | 2026-10-09 |
+| [flightdeck](https://github.com/scasella/claude-flightdeck) | Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events | ★ 57 | 2026-10-02 |
+| [pokemon](https://github.com/dgokcin/claude-pokemon-mod) | A pixel Pokémon that lives at the right edge of the band above the prompt | ★ 25 | 2026-10-10 |
 | [glowup](https://github.com/NovusEdge/glowup) | A live cockpit pane for changes, subagents and context, an activity band, shareable themes and a pixel pet. | ★ 22 | 2026-10-08 |
 | [human-in-the-loop](https://github.com/tzafrir/human-in-the-loop) | Claude assigns you the tasks only you can do. They wait in a My tasks pane, counted under the prompt, until you answer or reject them, so nothing Claude needs from you gets lost in the chat. | ★ 19 | 2026-10-05 |
 | [paste-view](https://github.com/Amorfx/claude-paste-view) | See what you paste into Claude Code: image thumbnails and long-text previews above the prompt instead of bare [Image #1] and [Pasted text #2] tags | ★ 18 | 2026-10-09 |
@@ -54,10 +54,10 @@ Each entry points at the author's own repository, so you always get their latest
 | [installguard](https://github.com/griches/installguard) | Claude Code mod: looks up every new package before Claude installs it, and holds made-up names, typosquats and days-old releases for your answer | ★ 2 | 2026-10-09 |
 | [meme-factory](https://github.com/CodyAMaughan/meme-factory) | Fresh from the factory. A Claude Code mod: ask for a meme, keep working. Drafts cook in a side panel; pick, remix, approve and post to Slack. | ★ 2 | 2026-10-10 |
 | [a2a-mod](https://github.com/NovusEdge/a2a-mod) | A2A protocol client for Claude Code: Claude hands tasks to non-Claude worker agents over Agent2Agent and picks up their results. | ★ 1 | 2026-10-04 |
+| [claude-devtools-mod](https://github.com/NMenzel/claude-devtools-mod) | Claude DevTools: a debugger for Claude Code tool calls. Breakpoints, pause/step/reject, timeline, inspector and Error Lens failure diagnosis, as a Claude Code mod. | ★ 1 | 2026-10-10 |
 | [claude-code-tint-mod](https://github.com/JimmySadek/claude-code-tint-mod) | Claude Code mod (CC tint mod): color each window by its repository, ring the window you are in, number your threads, and tint the whole Claude desktop app. Light and dark mode. | ★ 1 | 2026-10-09 |
 | [agent-portrait](https://github.com/testy-cool/claude-agent-portraits) | Animated pixel-art portrait above the prompt that reacts to thinking, talking, tools, failures and idle time. | ★ 0 | 2026-10-05 |
 | [repo-radar](https://github.com/lakmadev/repo-radar) | A live map of your codebase for Claude Code that lights up where Claude is working, with a colour per subagent. | ★ 0 | 2026-10-09 |
-| [claude-devtools-mod](https://github.com/NMenzel/claude-devtools-mod) | Claude DevTools: a debugger for Claude Code tool calls. Breakpoints, pause/step/reject, timeline, inspector and Error Lens failure diagnosis, as a Claude Code mod. | ★ 0 | 2026-10-09 |
 | [code-wrapped](https://github.com/lakmadev/code-wrapped) | Your Claude Code Wrapped: activity heatmap, coding personality and unlockable achievements, right in your terminal. | ★ 0 | 2026-10-09 |
 | [glimt](https://github.com/mmedum/glimt) | A quiet side pane for Claude Code: what this session is doing, its plan, its agents, and every other session | ★ 0 | 2026-10-10 |
 | [codyssey](https://github.com/delexw/codyssey) | Turn every Claude Code session into a little adventure: generative music that follows the agent's mood, a pixel knight who battles a monster for every edit and command, and a transcript retold in game style. | ★ 0 | 2026-10-10 |
