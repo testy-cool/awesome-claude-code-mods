@@ -952,6 +952,27 @@
         "repo": "xinhuagu/oh-my-claude-mods"
       },
       "license": "MIT"
+    },
+    {
+      "name": "swear-slap",
+      "description": "Swear in a prompt and a pixel-art hand slaps the band above it, then puts a polite version back in your prompt box, with a swear jar and a slap sound.",
+      "author": {
+        "name": "Parag Pandya",
+        "url": "https://github.com/paragpandyareal"
+      },
+      "homepage": "https://github.com/paragpandyareal/swear-slap",
+      "license": "MIT",
+      "category": "appearance",
+      "tags": [
+        "mod",
+        "fun",
+        "animation",
+        "sound"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "paragpandyareal/swear-slap"
+      }
     }
   ]
 }
