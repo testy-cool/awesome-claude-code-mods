@@ -952,6 +952,27 @@
         "repo": "xinhuagu/oh-my-claude-mods"
       },
       "license": "MIT"
+    },
+    {
+      "name": "subagent-tuner",
+      "description": "Choose which model and effort every subagent runs on: a Manual/Auto band above the prompt, a pick pane, and a saved default that beats what the agent asked for.",
+      "author": {
+        "name": "Aleh Kruhlikau",
+        "url": "https://github.com/Kruhlikau"
+      },
+      "homepage": "https://github.com/Kruhlikau/subagent-tuner",
+      "license": "MIT",
+      "category": "workflow",
+      "tags": [
+        "mod",
+        "subagents",
+        "model",
+        "effort"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "Kruhlikau/subagent-tuner"
+      }
     }
   ]
 }
