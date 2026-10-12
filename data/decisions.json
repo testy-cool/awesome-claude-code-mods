@@ -530,5 +530,81 @@
   "xinhuagu/oh-my-claude-mods": {
     "verdict": "keep",
     "at": "2026-10-10"
+  },
+  "iamumeransari/claude-show-your-work": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "awss1i/assay": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "SavaSoftworks/BitFrost": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "BrianHuang813/clawd-actor": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "Shuffzord/RoadRaven": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "neteye-platform/cc-split-diff-view": {
+    "verdict": "skip",
+    "at": "2026-10-12"
+  },
+  "VedantAndhale/claude-pro-kit": {
+    "verdict": "skip",
+    "at": "2026-10-12"
+  },
+  "matthlh/claude-mods": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "JAICHANGPARK/ASD-STE100": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "Danovich/turntype": {
+    "verdict": "skip",
+    "at": "2026-10-12"
+  },
+  "scodge-24/workface": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "ugglr/claude-token-monster": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "timoncool/givememod": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "GarvitNangru/claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-12"
+  },
+  "ice-lfernandes/claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-12"
+  },
+  "NeelAPatel/Claude-Mod-ConversationAtlas": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "plaxagoras/clawd-tales": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "Revono/clawd-pet": {
+    "verdict": "keep",
+    "at": "2026-10-12"
+  },
+  "griches/xcpane": {
+    "verdict": "skip",
+    "at": "2026-10-12"
   }
 }
