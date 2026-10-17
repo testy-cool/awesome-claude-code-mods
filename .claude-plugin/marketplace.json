@@ -1186,6 +1186,28 @@
         "path": "plugins/clawd-pet"
       },
       "license": "MIT"
+    },
+    {
+      "name": "modstage",
+      "description": "Runs Codex, Grok, Muse, Antigravity, Kimi, Qwen Code and OpenCode as Claude Code subagents, each in a live tab, with approval for risky actions and mid-run steering.",
+      "author": {
+        "name": "Varun Pratap Bhardwaj",
+        "url": "https://github.com/qualixar"
+      },
+      "homepage": "https://github.com/qualixar/modstage",
+      "license": "MIT",
+      "category": "agents",
+      "tags": [
+        "mod",
+        "subagents",
+        "pane",
+        "approvals",
+        "multi-agent"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "qualixar/modstage"
+      }
     }
   ]
 }
