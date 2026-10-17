@@ -1,4 +1,298 @@
 {
+ "naoanao/overclaim-guard": {
+  "repo": "naoanao/overclaim-guard",
+  "name": "overclaim-guard",
+  "description": "A Claude Code mod that stops Claude from publishing claims nobody measured (100%, guaranteed, zero risk...).",
+  "url": "https://github.com/naoanao/overclaim-guard",
+  "stars": 0,
+  "pushedAt": "2026-10-17T10:26:20Z",
+  "createdAt": "2026-10-17T10:26:14Z",
+  "license": "MIT",
+  "commits": 2,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "trkaplan/claude-plugins": {
+  "repo": "trkaplan/claude-plugins",
+  "name": "claude-plugins",
+  "description": "Claude Code mods and skills: smart-rename and more",
+  "url": "https://github.com/trkaplan/claude-plugins",
+  "stars": 0,
+  "pushedAt": "2026-10-17T10:21:45Z",
+  "createdAt": "2026-10-17T10:21:40Z",
+  "license": "MIT",
+  "commits": 3,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "mattsebastianh/claude-code-mods": {
+  "repo": "mattsebastianh/claude-code-mods",
+  "name": "claude-code-mods",
+  "description": "Claude Code mods: usage-pane, context-bar and speak, installable as a plugin marketplace",
+  "url": "https://github.com/mattsebastianh/claude-code-mods",
+  "stars": 0,
+  "pushedAt": "2026-10-17T09:33:35Z",
+  "createdAt": "2026-10-17T09:02:53Z",
+  "license": "MIT",
+  "commits": 12,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "huynamboz/strays": {
+  "repo": "huynamboz/strays",
+  "name": "strays",
+  "description": "See every process Claude Code started and left running, in any session, with its port, and end it with one key. A Claude Code mod for macOS.",
+  "url": "https://github.com/huynamboz/strays",
+  "stars": 0,
+  "pushedAt": "2026-10-17T09:52:28Z",
+  "createdAt": "2026-10-17T08:58:13Z",
+  "license": "MIT",
+  "commits": 8,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "pquattro/task-anchor": {
+  "repo": "pquattro/task-anchor",
+  "name": "task-anchor",
+  "description": "Claude Code mod that keeps long sessions on track: remembers the session goal, scores topic drift, and re-anchors the model. /  Mod Claude Code qui garde le cap dans les longues sessions : retient le but, mesure la dérive de sujet et réancre le modèle.",
+  "url": "https://github.com/pquattro/task-anchor",
+  "stars": 0,
+  "pushedAt": "2026-10-17T08:13:34Z",
+  "createdAt": "2026-10-17T08:09:41Z",
+  "license": "MIT",
+  "commits": 2,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "moneycode11101-svg/claude-code-live-viewer": {
+  "repo": "moneycode11101-svg/claude-code-live-viewer",
+  "name": "claude-code-live-viewer",
+  "description": "See what Claude Code is writing, while it writes it: a mod that streams every tool call into a side-pane tab.",
+  "url": "https://github.com/moneycode11101-svg/claude-code-live-viewer",
+  "stars": 0,
+  "pushedAt": "2026-10-17T09:10:24Z",
+  "createdAt": "2026-10-17T07:20:49Z",
+  "license": "MIT",
+  "commits": 7,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "sairam0424/claude-prompt-master": {
+  "repo": "sairam0424/claude-prompt-master",
+  "name": "claude-prompt-master",
+  "description": "A Claude Code mod that enhances prompts using project instructions and skills",
+  "url": "https://github.com/sairam0424/claude-prompt-master",
+  "stars": 0,
+  "pushedAt": "2026-10-17T06:45:28Z",
+  "createdAt": "2026-10-17T06:34:07Z",
+  "license": "MIT",
+  "commits": 51,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "letusnotc/folder-map": {
+  "repo": "letusnotc/folder-map",
+  "name": "folder-map",
+  "description": "Claude Code mod: side panel with the folder tree, every file Claude edited numbered in order, and a trail to the latest file.",
+  "url": "https://github.com/letusnotc/folder-map",
+  "stars": 0,
+  "pushedAt": "2026-10-17T06:15:24Z",
+  "createdAt": "2026-10-17T06:09:44Z",
+  "license": "MIT",
+  "commits": 2,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "Jakobbarnwell/sticky-skills": {
+  "repo": "Jakobbarnwell/sticky-skills",
+  "name": "sticky-skills",
+  "description": "Compaction wipes Claude Code's skill list. sticky-skills puts it back.",
+  "url": "https://github.com/Jakobbarnwell/sticky-skills",
+  "stars": 1,
+  "pushedAt": "2026-10-16T23:02:26Z",
+  "createdAt": "2026-10-16T22:08:04Z",
+  "license": "MIT",
+  "commits": 17,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "AMoncade/done-waiting-ping-claudecode": {
+  "repo": "AMoncade/done-waiting-ping-claudecode",
+  "name": "done-waiting-ping-claudecode",
+  "description": "Claude Code mod: a desktop notification and/or a sound when Claude is done or waiting on you. Native on Windows, also WSL, macOS and Linux.",
+  "url": "https://github.com/AMoncade/done-waiting-ping-claudecode",
+  "stars": 0,
+  "pushedAt": "2026-10-16T21:05:14Z",
+  "createdAt": "2026-10-16T21:05:08Z",
+  "license": "MIT",
+  "commits": 1,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "smhosseini72/claude-code-rtl": {
+  "repo": "smhosseini72/claude-code-rtl",
+  "name": "claude-code-rtl",
+  "description": "Right-to-left (RTL) support for Claude Code: Persian (Farsi), Arabic and Hebrew text in the right order, even mixed with English, code and numbers. A Claude Code plugin / mod.",
+  "url": "https://github.com/smhosseini72/claude-code-rtl",
+  "stars": 1,
+  "pushedAt": "2026-10-17T01:25:50Z",
+  "createdAt": "2026-10-16T19:42:55Z",
+  "license": "MIT",
+  "commits": 9,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "qualixar/modstage": {
+  "repo": "qualixar/modstage",
+  "name": "modstage",
+  "description": "A Claude Code mod that runs Codex, Grok, Muse, Antigravity (Gemini), Kimi, Qwen Code, OpenCode and Claude as subagents inside Claude Code: watch every step live, steer mid-run, approve risky actions. MIT.",
+  "url": "https://github.com/qualixar/modstage",
+  "stars": 1,
+  "pushedAt": "2026-10-17T08:52:40Z",
+  "createdAt": "2026-10-16T19:32:52Z",
+  "license": "MIT",
+  "commits": 7,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "headdira/ze-capibara": {
+  "repo": "headdira/ze-capibara",
+  "name": "ze-capibara",
+  "description": "A pixel art capybara that works above your Claude Code prompt. Every subagent becomes a little capybara. 100% local.",
+  "url": "https://github.com/headdira/ze-capibara",
+  "stars": 2,
+  "pushedAt": "2026-10-16T17:50:57Z",
+  "createdAt": "2026-10-16T17:17:01Z",
+  "license": "Apache-2.0",
+  "commits": 3,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "angar2/session-note": {
+  "repo": "angar2/session-note",
+  "name": "session-note",
+  "description": "A mod plugin for Claude Code — gives every session a note where you and the agent jot down what to do or check, and tick it off together.",
+  "url": "https://github.com/angar2/session-note",
+  "stars": 0,
+  "pushedAt": "2026-10-16T16:08:40Z",
+  "createdAt": "2026-10-16T16:08:21Z",
+  "license": "MIT",
+  "commits": 33,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "michaelSelbertinger/payback": {
+  "repo": "michaelSelbertinger/payback",
+  "name": "payback",
+  "description": "Payback is a Claude Code mod that counts what Claude finished for you, sorts it, reads your git and test activity, and estimates the hours and money it saved.",
+  "url": "https://github.com/michaelSelbertinger/payback",
+  "stars": 1,
+  "pushedAt": "2026-10-16T15:51:27Z",
+  "createdAt": "2026-10-16T14:46:46Z",
+  "license": "GPL-3.0",
+  "commits": 16,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "OskarasM/workbar": {
+  "repo": "OskarasM/workbar",
+  "name": "workbar",
+  "description": "Claude Code mod: live progress with honest time estimates, subagent rows, chat and cache health with one-press Compact or Hand off, alerts. Near-zero token cost.",
+  "url": "https://github.com/OskarasM/workbar",
+  "stars": 0,
+  "pushedAt": "2026-10-17T00:54:52Z",
+  "createdAt": "2026-10-16T14:28:32Z",
+  "license": "MIT",
+  "commits": 5,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "overvac/usage-bar": {
+  "repo": "overvac/usage-bar",
+  "name": "usage-bar",
+  "description": "Claude Code plugin showing your 5-hour and weekly usage limits, context window and session cost as colour-graded bars above the prompt. One-line install.",
+  "url": "https://github.com/overvac/usage-bar",
+  "stars": 0,
+  "pushedAt": "2026-10-16T16:14:39Z",
+  "createdAt": "2026-10-16T14:02:28Z",
+  "license": "MIT",
+  "commits": 6,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "Telefaxnix/ROQAM": {
+  "repo": "Telefaxnix/ROQAM",
+  "name": "ROQAM",
+  "description": "ROQAM – Readout & Quick Access Mod: a status bar for Claude Code (terminal and desktop app, Windows) showing context, plan limits, cache countdown, service status, quick buttons, sky and weather. Independent project, not made by Anthropic.",
+  "url": "https://github.com/Telefaxnix/ROQAM",
+  "stars": 0,
+  "pushedAt": "2026-10-16T16:33:01Z",
+  "createdAt": "2026-10-16T13:18:25Z",
+  "license": "Apache-2.0",
+  "commits": 1,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "ttqteo/claude-skim": {
+  "repo": "ttqteo/claude-skim",
+  "name": "claude-skim",
+  "description": "A Claude Code mod that highlights the 2-4 sentences of a long reply you actually need to read, and dims the rest.",
+  "url": "https://github.com/ttqteo/claude-skim",
+  "stars": 0,
+  "pushedAt": "2026-10-16T10:31:39Z",
+  "createdAt": "2026-10-16T09:52:18Z",
+  "license": "MIT",
+  "commits": 2,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "jaylane/pilot-light": {
+  "repo": "jaylane/pilot-light",
+  "name": "pilot-light",
+  "description": "Keeps your Claude Code prompt cache warm, and shows what your session is costing.",
+  "url": "https://github.com/jaylane/pilot-light",
+  "stars": 0,
+  "pushedAt": "2026-10-16T18:35:13Z",
+  "createdAt": "2026-10-16T06:31:49Z",
+  "license": "MIT",
+  "commits": 17,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "atozzi-dev/model-escalator": {
+  "repo": "atozzi-dev/model-escalator",
+  "name": "model-escalator",
+  "description": "Claude Code mod that runs cheap models in parallel and escalates to a stronger one only when an agent gets stuck. Measures the savings and learns the right model for each task.",
+  "url": "https://github.com/atozzi-dev/model-escalator",
+  "stars": 2,
+  "pushedAt": "2026-10-17T09:10:22Z",
+  "createdAt": "2026-10-09T05:57:15Z",
+  "license": "MIT",
+  "commits": 185,
+  "firstSeen": "2026-10-17",
+  "inCatalogue": false,
+  "mods": []
+ },
  "XyndoX/agentdeck": {
   "repo": "XyndoX/agentdeck",
   "name": "agentdeck",
@@ -19,10 +313,10 @@
   "description": "A global kanban board in Claude Code that hands queued cards to background Claude agents across your projects",
   "url": "https://github.com/roboza/kanbot",
   "stars": 0,
-  "pushedAt": "2026-10-16T11:03:35Z",
+  "pushedAt": "2026-10-16T19:52:27Z",
   "createdAt": "2026-10-16T09:45:53Z",
   "license": "MIT",
-  "commits": 8,
+  "commits": 12,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -61,10 +355,10 @@
   "description": "A pixel progress bar with time left for Claude Code: tasks done, percent and ETA above the prompt, a new colour each session.",
   "url": "https://github.com/Krishna30396/Pixel-Progress",
   "stars": 0,
-  "pushedAt": "2026-10-16T04:06:05Z",
+  "pushedAt": "2026-10-16T12:29:37Z",
   "createdAt": "2026-10-16T03:38:01Z",
   "license": "NOASSERTION",
-  "commits": 3,
+  "commits": 5,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -89,10 +383,10 @@
   "description": "Mods para Claude Code: panel de agentes y tareas con cuota y caché, y banda de uso sobre el prompt",
   "url": "https://github.com/gabriel9004/claude-code-mods",
   "stars": 1,
-  "pushedAt": "2026-10-16T03:03:11Z",
+  "pushedAt": "2026-10-16T19:11:27Z",
   "createdAt": "2026-10-16T02:32:36Z",
   "license": "MIT",
-  "commits": 6,
+  "commits": 11,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -103,10 +397,10 @@
   "description": "A process monitoring and ticket system for Claude Code: your todo as a live ticket board you can hand to Claude, with each of Claude's steps and each agent linked to tickets and fully tracked.",
   "url": "https://github.com/Marceux-Croix/Claudeopticon",
   "stars": 0,
-  "pushedAt": "2026-10-16T04:10:25Z",
+  "pushedAt": "2026-10-16T18:32:12Z",
   "createdAt": "2026-10-16T00:03:51Z",
   "license": "MIT",
-  "commits": 16,
+  "commits": 22,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -117,10 +411,10 @@
   "description": "A clearer Claude Code terminal: boxed and organized you/claude conversations, colour-coded clickable tool rows, a live status band with a timer and task info, a session panel, copy buttons, cards, alerts, readable palettes, and overall transforms Claude Code.",
   "url": "https://github.com/CircularBlox/Clarity",
   "stars": 1,
-  "pushedAt": "2026-10-16T05:18:57Z",
+  "pushedAt": "2026-10-17T02:08:30Z",
   "createdAt": "2026-10-16T00:03:19Z",
   "license": "MIT",
-  "commits": 4,
+  "commits": 7,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -159,10 +453,10 @@
   "description": "Claude Code mod that rewrites your prompt in ASD-STE100 Simplified Technical English. Review it, then accept, edit or deny before it is sent.",
   "url": "https://github.com/minhtran3124/cc-ste-mod",
   "stars": 0,
-  "pushedAt": "2026-10-15T15:09:30Z",
+  "pushedAt": "2026-10-17T05:06:23Z",
   "createdAt": "2026-10-15T14:52:54Z",
   "license": "MIT",
-  "commits": 3,
+  "commits": 17,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -201,24 +495,10 @@
   "description": "Work on a remote dev VM as if it were next to you: send and sync worktrees, forward dev-server ports, keep agents running, over Tailscale. macOS and Windows.",
   "url": "https://github.com/Eliezir/elsewhere",
   "stars": 0,
-  "pushedAt": "2026-10-15T22:51:00Z",
+  "pushedAt": "2026-10-16T21:08:01Z",
   "createdAt": "2026-10-15T13:37:56Z",
   "license": "MIT",
-  "commits": 43,
-  "firstSeen": "2026-10-16",
-  "inCatalogue": false,
-  "mods": []
- },
- "wjsekrud/motive-mem": {
-  "repo": "wjsekrud/motive-mem",
-  "name": "motive-mem",
-  "description": "Claude Code mod: after every turn, a separate model reviews the change against your repo's principles — intent, violations, band-aid fixes",
-  "url": "https://github.com/wjsekrud/motive-mem",
-  "stars": 0,
-  "pushedAt": "2026-10-15T13:05:23Z",
-  "createdAt": "2026-10-15T12:22:19Z",
-  "license": "MIT",
-  "commits": 5,
+  "commits": 50,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -270,11 +550,11 @@
   "name": "prompt-pin",
   "description": "Pin your latest prompt above the input and browse this session's prompts",
   "url": "https://github.com/AJMarquez99/prompt-pin",
-  "stars": 0,
-  "pushedAt": "2026-10-16T06:29:36Z",
+  "stars": 1,
+  "pushedAt": "2026-10-16T14:33:44Z",
   "createdAt": "2026-10-15T04:17:56Z",
   "license": "MIT",
-  "commits": 16,
+  "commits": 20,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -285,10 +565,10 @@
   "description": "Live mission-control pane for Claude Code: Fable and Codex usage, branch review status, permission gate, subagent cards (incl. codex exec) and sessions waiting on you. Based on scasella/claude-flightdeck (MIT). 即時任務控制台。",
   "url": "https://github.com/kaisudo0520/cc-dashboard",
   "stars": 0,
-  "pushedAt": "2026-10-16T08:36:19Z",
+  "pushedAt": "2026-10-16T14:20:38Z",
   "createdAt": "2026-10-14T23:41:35Z",
   "license": "MIT",
-  "commits": 23,
+  "commits": 26,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -299,10 +579,10 @@
   "description": "Claude Code plugin marketplace: guardrails and cockpit mod bundles",
   "url": "https://github.com/bharath-gp/ai-harness",
   "stars": 0,
-  "pushedAt": "2026-10-16T05:51:54Z",
+  "pushedAt": "2026-10-17T06:38:30Z",
   "createdAt": "2026-10-14T16:52:07Z",
   "license": "MIT",
-  "commits": 24,
+  "commits": 28,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -313,10 +593,10 @@
   "description": "Know the question before it is asked, and what you can safely say. A Claude Code side panel that predicts meeting questions, live too, with answers ranked by risk.",
   "url": "https://github.com/jsc2304/great-question",
   "stars": 0,
-  "pushedAt": "2026-10-15T15:20:28Z",
+  "pushedAt": "2026-10-16T13:06:30Z",
   "createdAt": "2026-10-14T16:01:10Z",
   "license": "MIT",
-  "commits": 24,
+  "commits": 26,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -327,10 +607,10 @@
   "description": "Codex-style Add to chat for Claude Code: annotate any part of a reply, send all annotations at once",
   "url": "https://github.com/FunJim/claude-code-add-to-chat",
   "stars": 0,
-  "pushedAt": "2026-10-16T07:39:21Z",
+  "pushedAt": "2026-10-17T04:28:01Z",
   "createdAt": "2026-10-12T12:30:54Z",
   "license": "MIT",
-  "commits": 39,
+  "commits": 43,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -341,10 +621,10 @@
   "description": "Mods for Claude Code: panes, commands and hooks built with the plugin function-hooks API",
   "url": "https://github.com/dougcunha/claude-mods",
   "stars": 4,
-  "pushedAt": "2026-10-15T19:41:12Z",
+  "pushedAt": "2026-10-16T19:17:53Z",
   "createdAt": "2026-10-10T22:00:12Z",
   "license": "MIT",
-  "commits": 53,
+  "commits": 56,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -407,17 +687,41 @@
  },
  "edtrackai/claude-code-guardrails-lite": {
   "repo": "edtrackai/claude-code-guardrails-lite",
-  "name": "claude-code-guardrails-lite",
-  "description": "Free Claude Code plugin: denies .env reads, git force push and rm -rf on / or home. MIT.",
+  "name": "guardrails-lite",
+  "description": "Pattern-based checks that deny .env reads, git force pushes and rm -rf on / or your home folder before Claude Code runs them.",
   "url": "https://github.com/edtrackai/claude-code-guardrails-lite",
   "stars": 0,
-  "pushedAt": "2026-10-16T05:51:44Z",
+  "pushedAt": "2026-10-17T03:45:45Z",
   "createdAt": "2026-10-15T05:51:52Z",
   "license": "MIT",
-  "commits": 5,
+  "commits": 7,
   "firstSeen": "2026-10-15",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "edtrackai/claude-code-guardrails-lite:.",
+    "name": "guardrails-lite",
+    "path": ".",
+    "description": "Pattern-based checks that deny .env reads, git force pushes and rm -rf on / or your home folder before Claude Code runs them.",
+    "url": "https://github.com/edtrackai/claude-code-guardrails-lite",
+    "reach": {
+     "level": 0,
+     "name": "draws and remembers",
+     "labels": []
+    },
+    "sees": [
+     "every tool call"
+    ],
+    "draws": [],
+    "hooks": [
+     {
+      "event": "tool.call",
+      "matcher": {}
+     }
+    ],
+    "calls": []
+   }
+  ]
  },
  "RyanWeera/crab-progress": {
   "repo": "RyanWeera/crab-progress",
@@ -436,16 +740,82 @@
  "kiankhooban/open-paths": {
   "repo": "kiankhooban/open-paths",
   "name": "open-paths",
-  "description": "Click a file path in Claude Code and the file opens in its app: Word, Preview, Excel, or VS Code at the line. A Claude Code mod.",
+  "description": "Click a file path in a Claude Code reply and the file opens in its app: Word, Preview, Excel, VS Code for code. Not a Finder reveal.",
   "url": "https://github.com/kiankhooban/open-paths",
-  "stars": 0,
+  "stars": 1,
   "pushedAt": "2026-10-15T05:45:04Z",
   "createdAt": "2026-10-15T05:27:35Z",
   "license": "MIT",
   "commits": 6,
   "firstSeen": "2026-10-15",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "kiankhooban/open-paths:.",
+    "name": "open-paths",
+    "path": ".",
+    "description": "Click a file path in a Claude Code reply and the file opens in its app: Word, Preview, Excel, VS Code for code. Not a Finder reveal.",
+    "url": "https://github.com/kiankhooban/open-paths",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "runs processes",
+      "reads files",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "every tool call"
+    ],
+    "draws": [
+     "AssistantMessage",
+     "ToolUse"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "open-paths"
+      }
+     },
+     {
+      "event": "tool.call",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AssistantMessage"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolUse"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.clock.now",
+     "$.command.register",
+     "$.fs.stat",
+     "$.process.run",
+     "$.session.cwd",
+     "$.store.get",
+     "$.store.set",
+     "$.ui.invalidate",
+     "$.ui.resolve",
+     "$.ui.toast"
+    ]
+   }
+  ]
  },
  "vulcanshen/ccdrawu": {
   "repo": "vulcanshen/ccdrawu",
@@ -495,10 +865,10 @@
   "description": "",
   "url": "https://github.com/HuliLulu46/cc-commit-command",
   "stars": 0,
-  "pushedAt": "2026-10-15T02:52:04Z",
+  "pushedAt": "2026-10-17T08:48:14Z",
   "createdAt": "2026-10-15T02:51:58Z",
   "license": null,
-  "commits": 1,
+  "commits": 3,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -509,10 +879,10 @@
   "description": "",
   "url": "https://github.com/HuliLulu46/pending-decisions",
   "stars": 0,
-  "pushedAt": "2026-10-15T02:51:56Z",
+  "pushedAt": "2026-10-17T09:42:04Z",
   "createdAt": "2026-10-15T02:51:49Z",
   "license": null,
-  "commits": 1,
+  "commits": 3,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -537,10 +907,10 @@
   "description": "",
   "url": "https://github.com/HuliLulu46/cc-effort-switch",
   "stars": 0,
-  "pushedAt": "2026-10-15T02:40:02Z",
+  "pushedAt": "2026-10-17T08:11:20Z",
   "createdAt": "2026-10-15T02:39:56Z",
   "license": null,
-  "commits": 1,
+  "commits": 2,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -579,10 +949,10 @@
   "description": "A doc viewer and editor inside the Claude Code TUI, built as a Claude Code mod: rendered, interactive markdown, HTML and PDF",
   "url": "https://github.com/sergeiwallace/doc-editor",
   "stars": 0,
-  "pushedAt": "2026-10-16T03:14:11Z",
+  "pushedAt": "2026-10-17T03:07:13Z",
   "createdAt": "2026-10-14T23:09:57Z",
   "license": "MIT",
-  "commits": 40,
+  "commits": 41,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -593,10 +963,10 @@
   "description": "Beads task manager UI: a Claude Code mod for the TUI, an MCP UI app for Claude Desktop and the web, and a local or hostable web app, sharing one core",
   "url": "https://github.com/sergeiwallace/beads-ui",
   "stars": 0,
-  "pushedAt": "2026-10-16T10:02:47Z",
+  "pushedAt": "2026-10-17T10:04:01Z",
   "createdAt": "2026-10-14T23:09:52Z",
   "license": "MIT",
-  "commits": 62,
+  "commits": 66,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -621,10 +991,10 @@
   "description": "Small, independent mods for Claude Code: install only the ones you want. Starting with autoroute, which picks the model and effort per prompt and guards Fable and extra-usage spend.",
   "url": "https://github.com/daydeda/daymods",
   "stars": 1,
-  "pushedAt": "2026-10-15T18:31:20Z",
+  "pushedAt": "2026-10-17T08:14:10Z",
   "createdAt": "2026-10-14T21:47:15Z",
   "license": "MIT",
-  "commits": 12,
+  "commits": 15,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -761,10 +1131,10 @@
   "description": "herdr mobile & web client that shows what your Claude Code mods report — answer your agents from your phone, over your own Tailscale",
   "url": "https://github.com/arcnessai/arcdr",
   "stars": 3,
-  "pushedAt": "2026-10-15T11:51:07Z",
+  "pushedAt": "2026-10-17T08:05:34Z",
   "createdAt": "2026-10-14T13:08:05Z",
   "license": "MIT",
-  "commits": 36,
+  "commits": 41,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -816,8 +1186,8 @@
   "name": "workflow-conductor",
   "description": "Visual workflow planner in Claude Code",
   "url": "https://github.com/bruw/workflow-conductor",
-  "stars": 9,
-  "pushedAt": "2026-10-15T13:44:21Z",
+  "stars": 10,
+  "pushedAt": "2026-10-16T17:47:05Z",
   "createdAt": "2026-10-12T12:24:27Z",
   "license": "MIT",
   "commits": 99,
@@ -845,10 +1215,10 @@
   "description": "Claude Code mod: context window band with RTK savings and a pixel Yemeni companion",
   "url": "https://github.com/iyiob96/Context-Mod-Companion",
   "stars": 0,
-  "pushedAt": "2026-10-14T19:08:38Z",
+  "pushedAt": "2026-10-17T00:34:25Z",
   "createdAt": "2026-10-11T20:03:21Z",
   "license": "MIT",
-  "commits": 6,
+  "commits": 8,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -1245,10 +1615,10 @@
   "description": "A very opinionated Claude Code plugin designed by a Rustacean obsessed with harness engineering",
   "url": "https://github.com/xsyetopz/claudetto",
   "stars": 3,
-  "pushedAt": "2026-10-15T17:40:21Z",
+  "pushedAt": "2026-10-17T02:54:54Z",
   "createdAt": "2026-09-25T12:36:14Z",
   "license": "MIT",
-  "commits": 1266,
+  "commits": 1344,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -1259,10 +1629,10 @@
   "description": "Live context-window meter above the Claude Code prompt: animated fill bar, auto-compact headroom, trend, cost, rate limits, one-click effort picker and Clawd.",
   "url": "https://github.com/Krs7N/context-meter",
   "stars": 2,
-  "pushedAt": "2026-10-16T10:55:22Z",
+  "pushedAt": "2026-10-16T11:15:20Z",
   "createdAt": "2026-10-14T10:52:19Z",
   "license": "MIT",
-  "commits": 49,
+  "commits": 52,
   "firstSeen": "2026-10-14",
   "inCatalogue": false,
   "mods": []
@@ -1385,10 +1755,10 @@
   "description": "See what every Claude Code subagent is really doing — two-way messaging, tokens & cost per agent, and animated pixel crabs.",
   "url": "https://github.com/joaquinsalinas06/crabbus",
   "stars": 1,
-  "pushedAt": "2026-10-15T01:13:22Z",
+  "pushedAt": "2026-10-16T22:31:26Z",
   "createdAt": "2026-10-13T22:07:56Z",
   "license": "MIT",
-  "commits": 22,
+  "commits": 29,
   "firstSeen": "2026-10-14",
   "inCatalogue": false,
   "mods": []
@@ -1455,13 +1825,232 @@
   "description": "See what Claude changed, turn by turn. Keep it or send it back. Claude Code mods: Changes and Receipts.",
   "url": "https://github.com/candygoogy/notary",
   "stars": 0,
-  "pushedAt": "2026-10-15T17:01:48Z",
+  "pushedAt": "2026-10-16T16:28:00Z",
   "createdAt": "2026-10-13T18:21:07Z",
   "license": "MIT",
-  "commits": 4,
+  "commits": 6,
   "firstSeen": "2026-10-14",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "candygoogy/notary:plugins/changes",
+    "name": "changes",
+    "path": "plugins/changes",
+    "description": "See what Claude changed, turn by turn. Keep it or send it back. A per-turn timeline with each file's diff and keep/revert.",
+    "url": "https://github.com/candygoogy/notary/tree/main/plugins/changes",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "other: $.state.get",
+      "other: $.state.set",
+      "runs processes",
+      "writes files",
+      "reads files",
+      "reads env vars",
+      "draws"
+     ]
+    },
+    "sees": [
+     "every tool call",
+     "every prompt"
+    ],
+    "draws": [
+     "AbovePrompt",
+     "PromptHint",
+     "Pane"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "turn.start",
+      "matcher": {}
+     },
+     {
+      "event": "tool.call",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "changes"
+      }
+     },
+     {
+      "event": "ui.close",
+      "matcher": {
+       "id": "changes"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "PromptHint"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "changes"
+      }
+     },
+     {
+      "event": "ui.focus",
+      "matcher": {
+       "requestId": "changes"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.clock.every",
+     "$.clock.now",
+     "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.list",
+     "$.fs.read",
+     "$.fs.stat",
+     "$.fs.write",
+     "$.process.run",
+     "$.session.append",
+     "$.session.id",
+     "$.session.root",
+     "$.session.version",
+     "$.state.get",
+     "$.state.set",
+     "$.ui.invalidate",
+     "$.ui.log",
+     "$.ui.open",
+     "$.ui.panes",
+     "$.ui.resolve",
+     "$.ui.toast"
+    ]
+   },
+   {
+    "id": "candygoogy/notary:plugins/receipts",
+    "name": "receipts",
+    "path": "plugins/receipts",
+    "description": "Claude says the tests pass. Receipts checks. Flags success claims that no check backs up.",
+    "url": "https://github.com/candygoogy/notary/tree/main/plugins/receipts",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "other: $.state.get",
+      "other: $.state.set",
+      "changes config",
+      "drives Claude",
+      "reads files",
+      "draws"
+     ]
+    },
+    "sees": [
+     "every tool call",
+     "classic hooks",
+     "every prompt"
+    ],
+    "draws": [
+     "AbovePrompt",
+     "Pane"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "turn.start",
+      "matcher": {}
+     },
+     {
+      "event": "tool.call",
+      "matcher": {}
+     },
+     {
+      "event": "classic.Stop",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "receipts"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "receipts"
+      }
+     },
+     {
+      "event": "ui.close",
+      "matcher": {
+       "id": "receipts"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.now",
+     "$.command.register",
+     "$.config.set",
+     "$.fs.stat",
+     "$.model.complete",
+     "$.session.append",
+     "$.session.cwd",
+     "$.session.version",
+     "$.state.get",
+     "$.state.set",
+     "$.ui.invalidate",
+     "$.ui.log",
+     "$.ui.open",
+     "$.ui.panes",
+     "$.ui.resolve",
+     "$.ui.toast"
+    ]
+   }
+  ]
  },
  "codehamster69/skills-band": {
   "repo": "codehamster69/skills-band",
@@ -1483,7 +2072,7 @@
   "description": "This Claude Code mod (prompt-polish) rewrites your prompt with prompt engineering before you send it, following the official prompting guide for your session’s model. A mod is a Claude Code plugin with a hooks module.",
   "url": "https://github.com/jheroorehj/prompt-polish",
   "stars": 0,
-  "pushedAt": "2026-10-14T02:36:32Z",
+  "pushedAt": "2026-10-17T09:53:49Z",
   "createdAt": "2026-10-13T16:05:08Z",
   "license": null,
   "commits": 1,
@@ -1665,10 +2254,10 @@
   "description": "pickle for Claude Code: language-agnostic engineering playbooks and principles, lazy-loaded by effort level (low, medium, high), extendable per project",
   "url": "https://github.com/PickleBoxer/pickle",
   "stars": 0,
-  "pushedAt": "2026-10-16T10:38:50Z",
+  "pushedAt": "2026-10-16T15:47:53Z",
   "createdAt": "2026-10-13T12:59:22Z",
   "license": "MIT",
-  "commits": 96,
+  "commits": 102,
   "firstSeen": "2026-10-13",
   "inCatalogue": false,
   "mods": []
@@ -1707,10 +2296,10 @@
   "description": "Claude Code plugins: status-card (会话状态卡片) & session-title (智能自动标题) — Live session recap & auto-updating titles.",
   "url": "https://github.com/tyler4400/tyler-claude-mods",
   "stars": 0,
-  "pushedAt": "2026-10-16T08:52:52Z",
+  "pushedAt": "2026-10-17T10:17:08Z",
   "createdAt": "2026-10-13T11:50:50Z",
   "license": "MIT",
-  "commits": 15,
+  "commits": 34,
   "firstSeen": "2026-10-13",
   "inCatalogue": false,
   "mods": []
@@ -1721,10 +2310,10 @@
   "description": "Live Claude Code pane that shows what your delegated coding agents (agy, cursor-agent, opencode) are doing while they work.",
   "url": "https://github.com/EslamHanafy/delegate-watch",
   "stars": 0,
-  "pushedAt": "2026-10-16T08:24:27Z",
+  "pushedAt": "2026-10-16T18:24:38Z",
   "createdAt": "2026-10-13T10:19:03Z",
   "license": "MIT",
-  "commits": 10,
+  "commits": 11,
   "firstSeen": "2026-10-13",
   "inCatalogue": false,
   "mods": []
@@ -1914,16 +2503,127 @@
  "T-AI-Labs/claude-code-mods": {
   "repo": "T-AI-Labs/claude-code-mods",
   "name": "claude-code-mods",
-  "description": "Mods for Claude Code. cache-meter: prompt-cache hit rate, context fill and auto-compact controls. usage-limits: 5-hour and weekly limits. Two quiet lines above the prompt.",
+  "description": "Mods for Claude Code. context-usage: context fill with auto-compact controls and the 5-hour and weekly limits above the prompt. cache-meter: prompt-cache hit rate and Keep warm. catalog-pane: every skill, command, agent, plugin, MCP server and tool in one pane.",
   "url": "https://github.com/T-AI-Labs/claude-code-mods",
   "stars": 0,
-  "pushedAt": "2026-10-13T18:58:43Z",
+  "pushedAt": "2026-10-17T10:15:55Z",
   "createdAt": "2026-10-12T19:11:31Z",
   "license": "MIT",
-  "commits": 18,
+  "commits": 62,
   "firstSeen": "2026-10-13",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "T-AI-Labs/claude-code-mods:cache-meter",
+    "name": "cache-meter",
+    "path": "cache-meter",
+    "description": "Prompt-cache hit rate and context fill in one row above the prompt, with a switchable auto-compact threshold and Compact and Clear buttons.",
+    "url": "https://github.com/T-AI-Labs/claude-code-mods/tree/main/cache-meter",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "other: $.state.get",
+      "other: $.state.set",
+      "drives Claude",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "compaction"
+    ],
+    "draws": [
+     "AbovePrompt"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "session.measure",
+      "matcher": {}
+     },
+     {
+      "event": "session.compact",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.command.run",
+     "$.session.usage",
+     "$.state.get",
+     "$.state.set",
+     "$.store.get",
+     "$.store.set",
+     "$.ui.resolve",
+     "$.ui.toast"
+    ]
+   },
+   {
+    "id": "T-AI-Labs/claude-code-mods:usage-limits",
+    "name": "usage-limits",
+    "path": "usage-limits",
+    "description": "One row above the prompt: how much of the 5-hour and weekly usage limits is used, in percent, with the time until each resets.",
+    "url": "https://github.com/T-AI-Labs/claude-code-mods/tree/main/usage-limits",
+    "reach": {
+     "level": 1,
+     "name": "reads",
+     "labels": [
+      "other: $.state.get",
+      "other: $.state.set",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [],
+    "draws": [
+     "AbovePrompt"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "session.measure",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.every",
+     "$.clock.now",
+     "$.session.usage",
+     "$.state.get",
+     "$.state.set",
+     "$.store.get",
+     "$.store.set",
+     "$.ui.resolve"
+    ]
+   }
+  ]
  },
  "KrasimirKralev/krasi-mods": {
   "repo": "KrasimirKralev/krasi-mods",
@@ -2070,11 +2770,11 @@
   "name": "my-claude-code-mods",
   "description": "Custom Claude Code Mods that I need",
   "url": "https://github.com/YeonwooSung/my-claude-code-mods",
-  "stars": 875,
-  "pushedAt": "2026-10-14T09:52:58Z",
+  "stars": 940,
+  "pushedAt": "2026-10-17T10:28:00Z",
   "createdAt": "2026-10-09T13:09:11Z",
-  "license": null,
-  "commits": 106,
+  "license": "Apache-2.0",
+  "commits": 115,
   "firstSeen": "2026-10-13",
   "inCatalogue": false,
   "mods": []
@@ -2085,10 +2785,10 @@
   "description": "Claude Code plugin (beta): team chat inside Claude Code. Your agent asks a teammate's machine for status, diff, tests or a file, at zero tokens.",
   "url": "https://github.com/partalemre/transceiver",
   "stars": 0,
-  "pushedAt": "2026-10-12T23:30:47Z",
+  "pushedAt": "2026-10-16T13:10:29Z",
   "createdAt": "2026-10-09T12:20:19Z",
   "license": "MIT",
-  "commits": 86,
+  "commits": 90,
   "firstSeen": "2026-10-13",
   "inCatalogue": false,
   "mods": []
@@ -2099,10 +2799,10 @@
   "description": "17 Claude Code plugins in one panel. See every move Claude makes: agents, files, plans, tests and risky commands, live.",
   "url": "https://github.com/partalemre/MODZ",
   "stars": 2,
-  "pushedAt": "2026-10-13T09:44:35Z",
+  "pushedAt": "2026-10-16T14:19:44Z",
   "createdAt": "2026-10-09T10:31:54Z",
   "license": "MIT",
-  "commits": 119,
+  "commits": 178,
   "firstSeen": "2026-10-13",
   "inCatalogue": false,
   "mods": []
@@ -2280,7 +2980,7 @@
   "description": "Function-hook mods for Claude Code: a limits telemetry row, multi-select question and next-step panes, and README updates after every commit.",
   "url": "https://github.com/bully911210/claude-code-mods",
   "stars": 1,
-  "pushedAt": "2026-10-13T00:11:03Z",
+  "pushedAt": "2026-10-17T04:41:30Z",
   "createdAt": "2026-10-12T14:00:03Z",
   "license": "MIT",
   "commits": 26,
@@ -2291,7 +2991,7 @@
  "Kruhlikau/subagent-tuner": {
   "repo": "Kruhlikau/subagent-tuner",
   "name": "subagent-tuner",
-  "description": "Claude Code mod: picks the model and reasoning effort of every subagent",
+  "description": "Picks the model and reasoning effort of every subagent: a recommendation by task kind, a band above the prompt, and a saved default that wins. Needs Claude Code 2.1.295 or later.",
   "url": "https://github.com/Kruhlikau/subagent-tuner",
   "stars": 2,
   "pushedAt": "2026-10-15T07:26:09Z",
@@ -2299,8 +2999,89 @@
   "license": "MIT",
   "commits": 15,
   "firstSeen": "2026-10-12",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "Kruhlikau/subagent-tuner:.",
+    "name": "subagent-tuner",
+    "path": ".",
+    "description": "Picks the model and reasoning effort of every subagent: a recommendation by task kind, a band above the prompt, and a saved default that wins. Needs Claude Code 2.1.295 or later.",
+    "url": "https://github.com/Kruhlikau/subagent-tuner",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "other: $.state.get",
+      "other: $.state.set",
+      "runs processes",
+      "writes files",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "subagent spawns",
+     "Agent calls"
+    ],
+    "draws": [
+     "Pane",
+     "AbovePrompt"
+    ],
+    "hooks": [
+     {
+      "event": "agent.offer",
+      "matcher": {}
+     },
+     {
+      "event": "agent.spawn",
+      "matcher": {}
+     },
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "tool.call",
+      "matcher": {
+       "tool": "Agent"
+      }
+     },
+     {
+      "event": "ui.close",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.now",
+     "$.clock.sleep",
+     "$.fs.write",
+     "$.process.run",
+     "$.session.surfaces",
+     "$.state.get",
+     "$.state.set",
+     "$.store.get",
+     "$.store.set",
+     "$.ui.ask",
+     "$.ui.close",
+     "$.ui.open",
+     "$.ui.panes",
+     "$.ui.resolve",
+     "$.ui.toast"
+    ]
+   }
+  ]
  },
  "deepr1tester-cloud/claude-pr-tracker": {
   "repo": "deepr1tester-cloud/claude-pr-tracker",
@@ -2377,7 +3158,7 @@
   "name": "claude-gh-status",
   "description": "Claude Code mod: live GitHub pull request status (checks, reviews, threads, merge queue) in a band and pane, with confirmed merge actions.",
   "url": "https://github.com/oborchers/claude-gh-status",
-  "stars": 5,
+  "stars": 6,
   "pushedAt": "2026-10-13T10:15:59Z",
   "createdAt": "2026-10-12T09:53:26Z",
   "license": "MIT",
@@ -2532,10 +3313,10 @@
   "description": "fishStack: a Claude Code mod. Perm worktrees with a read-only head start, crew dials and a context library, in one pane and a status rail.",
   "url": "https://github.com/patrick-lai/claude-fish-stack-mod",
   "stars": 0,
-  "pushedAt": "2026-10-16T08:48:00Z",
+  "pushedAt": "2026-10-16T14:19:01Z",
   "createdAt": "2026-10-12T02:05:01Z",
   "license": "MIT",
-  "commits": 73,
+  "commits": 75,
   "firstSeen": "2026-10-12",
   "inCatalogue": false,
   "mods": []
@@ -2686,7 +3467,7 @@
   "description": "Stash prompts for later and pop them back into Claude Code's input box. Instant, no model call.",
   "url": "https://github.com/maxsoldev/pstash",
   "stars": 1,
-  "pushedAt": "2026-10-11T13:36:09Z",
+  "pushedAt": "2026-10-16T20:02:37Z",
   "createdAt": "2026-10-11T12:03:20Z",
   "license": "MIT",
   "commits": 10,
@@ -2898,10 +3679,10 @@
   "description": "Claude Code mod: every Claude Code session in one floating window, with live summaries of what each is doing and which need you. Mac, Windows and Linux.",
   "url": "https://github.com/KiranPothana/session-board",
   "stars": 0,
-  "pushedAt": "2026-10-14T10:14:34Z",
+  "pushedAt": "2026-10-17T09:28:24Z",
   "createdAt": "2026-10-11T04:27:10Z",
   "license": "MIT",
-  "commits": 35,
+  "commits": 38,
   "firstSeen": "2026-10-12",
   "inCatalogue": false,
   "mods": []
@@ -2923,16 +3704,139 @@
  "muellerei/sweet-spot": {
   "repo": "muellerei/sweet-spot",
   "name": "sweet-spot",
-  "description": "Claude Code mod that waits for a safe pause, then hands your session over or compacts it.",
+  "description": "Hands a long session over, to a fresh one or by compacting, before the context gets too big",
   "url": "https://github.com/muellerei/sweet-spot",
   "stars": 0,
-  "pushedAt": "2026-10-15T21:48:49Z",
+  "pushedAt": "2026-10-17T02:10:46Z",
   "createdAt": "2026-10-09T22:34:17Z",
   "license": "MIT",
-  "commits": 25,
+  "commits": 34,
   "firstSeen": "2026-10-12",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "muellerei/sweet-spot:.",
+    "name": "sweet-spot",
+    "path": ".",
+    "description": "Hands a long session over, to a fresh one or by compacting, before the context gets too big",
+    "url": "https://github.com/muellerei/sweet-spot",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "other: $.prompt.read",
+      "runs processes",
+      "drives Claude",
+      "writes the prompt box",
+      "reads files",
+      "reads env vars"
+     ]
+    },
+    "sees": [
+     "classic hooks",
+     "every prompt",
+     "every tool call",
+     "compaction"
+    ],
+    "draws": [
+     "AbovePrompt"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "sweet-spot"
+      }
+     },
+     {
+      "event": "turn.start",
+      "matcher": {}
+     },
+     {
+      "event": "classic.SessionStart",
+      "matcher": {}
+     },
+     {
+      "event": "classic.PostModelSwitch",
+      "matcher": {}
+     },
+     {
+      "event": "classic.PermissionRequest",
+      "matcher": {}
+     },
+     {
+      "event": "classic.UserPromptSubmit",
+      "matcher": {}
+     },
+     {
+      "event": "turn.step",
+      "matcher": {}
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     },
+     {
+      "event": "tool.call",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
+      "matcher": {}
+     },
+     {
+      "event": "session.compact",
+      "matcher": {}
+     },
+     {
+      "event": "prompt.edit",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "classic.Stop",
+      "matcher": {}
+     }
+    ],
+    "calls": [
+     "$.agent.list",
+     "$.clock.after",
+     "$.clock.every",
+     "$.clock.now",
+     "$.command.list",
+     "$.command.register",
+     "$.command.run",
+     "$.env.get",
+     "$.fs.list",
+     "$.fs.read",
+     "$.fs.stat",
+     "$.model.fork",
+     "$.process.run",
+     "$.prompt.fill",
+     "$.prompt.read",
+     "$.prompt.submit",
+     "$.session.compact",
+     "$.session.cwd",
+     "$.session.id",
+     "$.session.surfaces",
+     "$.session.turns",
+     "$.session.usage"
+    ]
+   }
+  ]
  },
  "andrej-kolic/claude-mods": {
   "repo": "andrej-kolic/claude-mods",
@@ -3048,10 +3952,10 @@
   "description": "Claude Code mods: curated and tested.",
   "url": "https://github.com/modmyclaude/claude-code-mods",
   "stars": 1,
-  "pushedAt": "2026-10-15T04:07:24Z",
+  "pushedAt": "2026-10-16T17:36:05Z",
   "createdAt": "2026-10-09T04:35:08Z",
   "license": "MIT",
-  "commits": 451,
+  "commits": 453,
   "firstSeen": "2026-10-12",
   "inCatalogue": false,
   "mods": []
@@ -3389,11 +4293,11 @@
   "name": "better-claude",
   "description": "Small plugins and mods that make your life (and Claude Code) better",
   "url": "https://github.com/midudev/better-claude",
-  "stars": 2,
-  "pushedAt": "2026-10-15T18:02:07Z",
+  "stars": 65,
+  "pushedAt": "2026-10-16T22:01:21Z",
   "createdAt": "2026-10-05T10:09:42Z",
   "license": "MIT",
-  "commits": 28,
+  "commits": 29,
   "firstSeen": "2026-10-12",
   "inCatalogue": false,
   "mods": []
@@ -3418,10 +4322,10 @@
   "description": "Claude Code 简体中文 UI mod —— 以静态词典把斜杠命令说明、/config 项、Spinner 词、提示与通知显示为中文。零 token、零网络、不碰官方产物。",
   "url": "https://github.com/jiangnanquan/claude-code-zh/tree/main/mods/cc-zh",
   "stars": 0,
-  "pushedAt": "2026-10-13T07:30:28Z",
+  "pushedAt": "2026-10-17T02:52:02Z",
   "createdAt": "2026-08-11T07:42:39Z",
   "license": "MIT",
-  "commits": 19,
+  "commits": 20,
   "firstSeen": "2026-10-12",
   "inCatalogue": true,
   "mods": [
@@ -3548,10 +4452,10 @@
   "description": "Claude Code, with receipts. Plans with you, hands each task to a specialist agent, and keeps a session from calling work done until a verification is logged. Its hooks run in every session, a guard holds destructive shell commands for review, and setup can point your status line at OMCA.",
   "url": "https://github.com/UtsavBalar1231/oh-my-claudeagent",
   "stars": 2,
-  "pushedAt": "2026-10-15T20:28:55Z",
+  "pushedAt": "2026-10-17T08:44:38Z",
   "createdAt": "2026-02-23T18:59:41Z",
   "license": "MIT",
-  "commits": 1113,
+  "commits": 1138,
   "firstSeen": "2026-10-12",
   "inCatalogue": true,
   "mods": [
@@ -3811,17 +4715,110 @@
  },
  "leonidb/claude-code-mods": {
   "repo": "leonidb/claude-code-mods",
-  "name": "claude-code-mods",
-  "description": "Don't let your attention wander off while waiting for Claude Code's answer.",
-  "url": "https://github.com/leonidb/claude-code-mods",
+  "name": "twenty-forty-wait",
+  "description": "A 2048 game above the prompt to keep your attention in Claude Code while it works, with a live view of Claude's work and a your-turn card when it stops.",
+  "url": "https://github.com/leonidb/claude-code-mods/tree/main/mods/twenty-forty-wait",
   "stars": 1,
-  "pushedAt": "2026-10-13T15:46:22Z",
+  "pushedAt": "2026-10-16T18:19:57Z",
   "createdAt": "2026-10-11T08:03:05Z",
   "license": "Apache-2.0",
-  "commits": 5,
+  "commits": 6,
   "firstSeen": "2026-10-11",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "leonidb/claude-code-mods:mods/twenty-forty-wait",
+    "name": "twenty-forty-wait",
+    "path": "mods/twenty-forty-wait",
+    "description": "A 2048 game above the prompt to keep your attention in Claude Code while it works, with a live view of Claude's work and a your-turn card when it stops.",
+    "url": "https://github.com/leonidb/claude-code-mods/tree/main/mods/twenty-forty-wait",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "other: $.state.get",
+      "other: $.state.set",
+      "drives Claude",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "every tool call",
+     "classic hooks",
+     "every prompt"
+    ],
+    "draws": [
+     "AbovePrompt"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "fortywait"
+      }
+     },
+     {
+      "event": "turn.start",
+      "matcher": {}
+     },
+     {
+      "event": "tool.call",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "classic.PermissionRequest",
+      "matcher": {}
+     },
+     {
+      "event": "ui.message",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "prompt.edit",
+      "matcher": {}
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     },
+     {
+      "event": "ui.fault",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.clock.every",
+     "$.clock.now",
+     "$.command.register",
+     "$.model.complete",
+     "$.state.get",
+     "$.state.set",
+     "$.store.get",
+     "$.store.set",
+     "$.ui.invalidate",
+     "$.ui.log",
+     "$.ui.resolve"
+    ]
+   }
+  ]
  },
  "yeonwooook/claude-study-latex": {
   "repo": "yeonwooook/claude-study-latex",
@@ -4112,10 +5109,10 @@
   "description": "🍑 Spank Claude when it messes up — a stress-relief mod for Claude Code: cartoon butt, 8 slappers, 9 butts, marks, combos, sounds. Claude gets the tally with your next message. English and Russian.",
   "url": "https://github.com/timoncool/slapbox",
   "stars": 2,
-  "pushedAt": "2026-10-16T08:14:06Z",
+  "pushedAt": "2026-10-17T07:50:48Z",
   "createdAt": "2026-10-11T02:29:08Z",
   "license": "MIT",
-  "commits": 12,
+  "commits": 13,
   "firstSeen": "2026-10-11",
   "inCatalogue": false,
   "mods": []
@@ -4154,10 +5151,10 @@
   "description": "Claude Code mods on demand — a skill that reads your conversation and builds the mod that fits: plan progress bar, files pane, context gauge, risky-command guard, test watcher. 11 tested templates, 29 building blocks, a map of 3,057 public mods. Terminal and desktop.",
   "url": "https://github.com/timoncool/givememod",
   "stars": 8,
-  "pushedAt": "2026-10-16T08:10:47Z",
+  "pushedAt": "2026-10-17T07:47:51Z",
   "createdAt": "2026-10-11T00:03:59Z",
   "license": "MIT",
-  "commits": 24,
+  "commits": 25,
   "firstSeen": "2026-10-11",
   "inCatalogue": false,
   "mods": []
@@ -4837,10 +5834,10 @@
   "description": "Review every file Claude touches, like a pull request, without leaving the terminal",
   "url": "https://github.com/comertial/claude-pending-changes",
   "stars": 3,
-  "pushedAt": "2026-10-14T16:57:50Z",
+  "pushedAt": "2026-10-17T07:44:16Z",
   "createdAt": "2026-10-10T12:59:59Z",
   "license": "GPL-3.0",
-  "commits": 6,
+  "commits": 13,
   "firstSeen": "2026-10-11",
   "inCatalogue": false,
   "mods": []
@@ -4851,7 +5848,7 @@
   "description": "Hey, Muted it! Ditch the diff cut the riff, no more edits less of credits",
   "url": "https://github.com/Egrn/claude-code-mutedit",
   "stars": 0,
-  "pushedAt": "2026-10-10T19:13:19Z",
+  "pushedAt": "2026-10-17T04:53:37Z",
   "createdAt": "2026-10-10T12:31:06Z",
   "license": "MIT",
   "commits": 10,
@@ -4921,10 +5918,10 @@
   "description": "A fluffy black cat above your Claude Code prompt. She blinks, purrs, naps and worries about your context. Made with love, in memory of my cat Mango. ❤️",
   "url": "https://github.com/malinfossum/mango-buddy",
   "stars": 0,
-  "pushedAt": "2026-10-16T07:53:33Z",
+  "pushedAt": "2026-10-17T02:29:00Z",
   "createdAt": "2026-10-09T01:06:53Z",
   "license": "MIT",
-  "commits": 43,
+  "commits": 75,
   "firstSeen": "2026-10-11",
   "inCatalogue": false,
   "mods": []
@@ -4962,7 +5959,7 @@
   "name": "project-sentinel",
   "description": "Project Sentinel keeps long Claude Code runs on track: a status bar, the Control Room panel, Context Autopilot (automatic handoff to a fresh context), Cache Guardian (the prompt cache in view, kept warm on request), Operations (work queued for later, decisions Claude leaves for you, watchers that wake a parked run, a Cold Resume Guard), permission categories that ask or deny, a run chain, Frontier Max, a lazy-exit guard, a model router, subagent limits, Focus view, machine load and Kit, an optional pixel companion.",
   "url": "https://github.com/Arjun0014/project-sentinel/tree/main/plugins/project-sentinel",
-  "stars": 51,
+  "stars": 52,
   "pushedAt": "2026-10-13T08:16:46Z",
   "createdAt": "2026-10-07T06:10:51Z",
   "license": "MIT",
@@ -5405,9 +6402,9 @@
       "other: $.process.spawn",
       "runs processes",
       "writes files",
+      "writes the prompt box",
       "reads files",
       "reads env vars",
-      "reads the transcript",
       "plays audio"
      ]
     },
@@ -5569,11 +6566,11 @@
       "matcher": {}
      },
      {
-      "event": "pro",
+      "event": "prompt.",
       "matcher": {}
      },
      {
-      "event": "708",
+      "event": "1076",
       "matcher": {}
      },
      {
@@ -5589,15 +6586,15 @@
      "$.clock.now",
      "$.command.register",
      "$.env.get",
+     "$.fs.exists",
      "$.fs.list",
      "$.fs.read",
      "$.fs.stat",
      "$.fs.write",
      "$.process.run",
      "$.process.spawn",
-     "$.session.id",
-     "$.session.messages",
-     "$.session.repo"
+     "$.prompt.fill",
+     "$.session.id"
     ]
    },
    {
@@ -5613,22 +6610,35 @@
       "other: $.state.get",
       "other: $.state.set",
       "runs processes",
+      "writes files",
       "drives Claude",
       "reads files",
       "reads env vars",
       "reads settings",
+      "reads the transcript",
+      "persists state",
       "draws"
      ]
     },
     "sees": [
+     "classic hooks",
      "subagent spawns",
-     "every prompt",
-     "classic hooks"
+     "every prompt"
     ],
     "draws": [],
     "hooks": [
      {
+      "event": "classic.PreToolUse",
+      "matcher": {
+       "tool": "/\"^(?:Bash|Read|Edit|Write|Grep)$\"/"
+      }
+     },
+     {
       "event": "agent.spawn",
+      "matcher": {}
+     },
+     {
+      "event": "prompt.mention",
       "matcher": {}
      },
      {
@@ -5674,21 +6684,71 @@
      {
       "event": "classic.Stop",
       "matcher": {}
+     },
+     {
+      "event": "session.start",
+      "matcher": {
+       "cwd": "/\"^\"/"
+      }
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "memory-check"
+      }
+     },
+     {
+      "event": "session.start",
+      "matcher": {
+       "cwd": "/\"^\"/"
+      }
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "reflect"
+      }
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {
+       "reason": "answer"
+      }
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {
+       "wait": "true|false"
+      }
      }
     ],
     "calls": [
+     "$.agent.list",
      "$.clock.after",
      "$.clock.now",
+     "$.command.register",
      "$.command.run",
      "$.env.get",
+     "$.fs.exists",
+     "$.fs.list",
+     "$.fs.read",
      "$.fs.stat",
+     "$.fs.write",
+     "$.model.complete",
      "$.process.run",
      "$.session.compact",
+     "$.session.cwd",
+     "$.session.id",
+     "$.session.messages",
+     "$.session.repo",
      "$.session.root",
      "$.session.usage",
      "$.settings.read",
      "$.state.get",
      "$.state.set",
+     "$.store.delete",
+     "$.store.get",
+     "$.store.set",
      "$.ui.log",
      "$.ui.toast"
     ]
@@ -5710,16 +6770,23 @@
       "drives Claude",
       "reads files",
       "reads env vars",
+      "reads the transcript",
       "draws"
      ]
     },
     "sees": [
-     "Skill calls",
      "classic hooks",
+     "Skill calls",
      "every prompt"
     ],
     "draws": [],
     "hooks": [
+     {
+      "event": "classic.PreToolUse",
+      "matcher": {
+       "tool": "Bash|Read"
+      }
+     },
      {
       "event": "session.start",
       "matcher": {}
@@ -5764,6 +6831,7 @@
      }
     ],
     "calls": [
+     "$.agent.list",
      "$.clock.every",
      "$.clock.now",
      "$.env.get",
@@ -5773,7 +6841,9 @@
      "$.fs.write",
      "$.process.run",
      "$.prompt.submit",
+     "$.session.cwd",
      "$.session.id",
+     "$.session.messages",
      "$.session.root",
      "$.state.get",
      "$.state.set",
@@ -5799,6 +6869,7 @@
      ]
     },
     "sees": [
+     "classic hooks",
      "every prompt"
     ],
     "draws": [],
@@ -5807,6 +6878,12 @@
       "event": "turn.complete",
       "matcher": {
        "turnId": "/\"^\"/"
+      }
+     },
+     {
+      "event": "classic.PostToolUse",
+      "matcher": {
+       "tool_name": "/\"^mcp__ccd_turn__wrap_up$\"/"
       }
      },
      {
@@ -5903,6 +6980,12 @@
       "event": "classic.PostToolUse",
       "matcher": {
        "tool_name": "Bash"
+      }
+     },
+     {
+      "event": "classic.PostToolUse",
+      "matcher": {
+       "tool_name": "mcp__ccd_turn__update_plan"
       }
      },
      {
@@ -6399,7 +7482,7 @@
   "name": "usage-weather",
   "description": "One quiet line above the prompt: context, 5-hour and weekly usage, whether the prompt cache is warm, and a Clear & continue button.",
   "url": "https://github.com/ptpmediabr/usage-weather",
-  "stars": 2,
+  "stars": 3,
   "pushedAt": "2026-10-09T23:08:29Z",
   "createdAt": "2026-10-09T23:08:23Z",
   "license": "MIT",
@@ -7283,10 +8366,10 @@
   "description": "Claude Code plugin for per-agent tool visibility — hide and refuse subagents, skills, MCP and built-in tools per loop",
   "url": "https://github.com/rezzminator/tool-visibility-controller",
   "stars": 1,
-  "pushedAt": "2026-10-15T03:52:51Z",
+  "pushedAt": "2026-10-16T19:33:42Z",
   "createdAt": "2026-10-09T14:55:25Z",
   "license": "MIT",
-  "commits": 15,
+  "commits": 17,
   "firstSeen": "2026-10-10",
   "inCatalogue": false,
   "mods": []
@@ -7745,13 +8828,13 @@
  "naoanao/agent-cross-check": {
   "repo": "naoanao/agent-cross-check",
   "name": "agent-cross-check",
-  "description": "Claude Code mod: when another coding agent commits to your repo, Claude notices and audits it by diff and tests instead of trusting its report.",
+  "description": "Claude audits commits made by another coding agent, checks its report against the real files, and holds git push until reviewed.",
   "url": "https://github.com/naoanao/agent-cross-check",
   "stars": 0,
-  "pushedAt": "2026-10-09T12:28:05Z",
+  "pushedAt": "2026-10-17T10:25:46Z",
   "createdAt": "2026-10-09T12:27:59Z",
   "license": "MIT",
-  "commits": 1,
+  "commits": 2,
   "firstSeen": "2026-10-09",
   "inCatalogue": false,
   "mods": []
@@ -7832,7 +8915,7 @@
   "description": "Side pane for Claude Code: files Claude wrote, terminal splits, git repo status with pull, usage bars, new tickets and a TODO list - in 41 retro color schemes",
   "url": "https://github.com/michaelblaess/turbo-mod",
   "stars": 0,
-  "pushedAt": "2026-10-12T09:41:44Z",
+  "pushedAt": "2026-10-16T20:10:33Z",
   "createdAt": "2026-10-09T10:01:16Z",
   "license": "Apache-2.0",
   "commits": 10,
@@ -8447,7 +9530,7 @@
   "name": "claude-mods",
   "description": "KOZMOS — live, visual mods for Claude Code (CLI + desktop): bands above the prompt, sidebars, status ticker, companions, guards and sound.",
   "url": "https://github.com/ersinkoc/claude-mods",
-  "stars": 12,
+  "stars": 13,
   "pushedAt": "2026-10-10T10:25:44Z",
   "createdAt": "2026-10-09T05:24:17Z",
   "license": "MIT",
@@ -8518,10 +9601,10 @@
   "description": "Claude Code mod (CC tint mod): color each window by its repository, ring the window you are in, number your threads, and tint the whole Claude desktop app. Light and dark mode.",
   "url": "https://github.com/JimmySadek/claude-code-tint-mod",
   "stars": 1,
-  "pushedAt": "2026-10-12T09:44:00Z",
+  "pushedAt": "2026-10-16T23:01:56Z",
   "createdAt": "2026-10-08T22:55:12Z",
   "license": "MIT",
-  "commits": 30,
+  "commits": 42,
   "firstSeen": "2026-10-09",
   "inCatalogue": false,
   "mods": []
@@ -8708,7 +9791,7 @@
  "404Mayank/cachebeat": {
   "repo": "404Mayank/cachebeat",
   "name": "cachebeat",
-  "description": "A Claude Code mod that keeps your prompt cache warm while you're away.",
+  "description": "Keeps the prompt cache warm while a session sits idle: shortly before the cache would expire, a small background request re-reads it, without touching the transcript. A beating heart under the prompt shows it working, and Claude can read and change it for you. Each beat counts toward your usage.",
   "url": "https://github.com/404Mayank/cachebeat",
   "stars": 1,
   "pushedAt": "2026-10-13T19:44:48Z",
@@ -8716,8 +9799,199 @@
   "license": "MIT",
   "commits": 84,
   "firstSeen": "2026-10-09",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "404Mayank/cachebeat:.",
+    "name": "cachebeat",
+    "path": ".",
+    "description": "Keeps the prompt cache warm while a session sits idle: shortly before the cache would expire, a small background request re-reads it, without touching the transcript. A beating heart under the prompt shows it working, and Claude can read and change it for you. Each beat counts toward your usage.",
+    "url": "https://github.com/404Mayank/cachebeat",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "other: $.state.get",
+      "other: $.state.set",
+      "drives Claude",
+      "reads env vars",
+      "reads settings",
+      "reads the transcript",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "classic hooks",
+     "mcp__cachebeat__state calls",
+     "mcp__cachebeat__set calls",
+     "compaction"
+    ],
+    "draws": [
+     "ToolUse",
+     "ToolResult",
+     "TurnDuration",
+     "PromptHint",
+     "AbovePrompt",
+     "Pane"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
+      "matcher": {
+       "reason": "clear"
+      }
+     },
+     {
+      "event": "session.end",
+      "matcher": {
+       "reason": "resume"
+      }
+     },
+     {
+      "event": "classic.SessionStart",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "cachebeat"
+      }
+     },
+     {
+      "event": "tool.call",
+      "matcher": {
+       "tool": "mcp__cachebeat__state"
+      }
+     },
+     {
+      "event": "tool.call",
+      "matcher": {
+       "tool": "mcp__cachebeat__set"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolUse",
+       "props has {tool": "mcp__cachebeat__state"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolUse",
+       "props has {tool": "mcp__cachebeat__set"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolResult",
+       "props has {tool": "mcp__cachebeat__state"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolResult",
+       "props has {tool": "mcp__cachebeat__set"
+      }
+     },
+     {
+      "event": "classic.PostModelSwitch",
+      "matcher": {}
+     },
+     {
+      "event": "session.compact",
+      "matcher": {}
+     },
+     {
+      "event": "turn.start",
+      "matcher": {}
+     },
+     {
+      "event": "turn.step",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "TurnDuration"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "PromptHint"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "?"
+      }
+     },
+     {
+      "event": "ui.focus",
+      "matcher": {
+       "requestId": "?"
+      }
+     },
+     {
+      "event": "ui.scroll",
+      "matcher": {
+       "requestId": "?"
+      }
+     },
+     {
+      "event": "ui.close",
+      "matcher": {
+       "id": "?"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.clock.every",
+     "$.clock.now",
+     "$.command.register",
+     "$.env.get",
+     "$.model.fork",
+     "$.session.messages",
+     "$.session.model",
+     "$.session.root",
+     "$.session.usage",
+     "$.settings.read",
+     "$.state.get",
+     "$.state.set",
+     "$.store.get",
+     "$.store.set",
+     "$.tool.register",
+     "$.ui.focus",
+     "$.ui.log",
+     "$.ui.open",
+     "$.ui.resolve",
+     "$.ui.scroll",
+     "$.ui.toast"
+    ]
+   }
+  ]
  },
  "ambervdberg/smartcompact": {
   "repo": "ambervdberg/smartcompact",
@@ -8753,10 +10027,10 @@
   "description": "Watch Claude Code's background work: subagents, Codex jobs, shells, monitors, cron jobs and workflows.",
   "url": "https://github.com/lorenzh/rabe",
   "stars": 2,
-  "pushedAt": "2026-10-16T11:02:11Z",
+  "pushedAt": "2026-10-16T12:55:00Z",
   "createdAt": "2026-10-08T20:26:43Z",
   "license": "MIT",
-  "commits": 284,
+  "commits": 289,
   "firstSeen": "2026-10-09",
   "inCatalogue": true,
   "mods": [
@@ -8825,6 +10099,12 @@
       }
      },
      {
+      "event": "turn.step",
+      "matcher": {
+       "model": "/\"^\"/"
+      }
+     },
+     {
       "event": "tool.call",
       "matcher": {
        "tool": "Edit|Write"
@@ -8857,7 +10137,7 @@
      {
       "event": "session.start",
       "matcher": {
-       "isInteractive": "true"
+       "isInteractive": "true|false"
       }
      },
      {
@@ -8957,21 +10237,11 @@
       }
      },
      {
-      "event": "turn.step",
-      "matcher": {
-       "index": "0"
-      }
-     },
-     {
-      "event": "turn.complete",
+      "event": "turn.st",
       "matcher": {}
      },
      {
-      "event": "rea",
-      "matcher": {}
-     },
-     {
-      "event": "680",
+      "event": "716",
       "matcher": {}
      },
      {
@@ -8996,6 +10266,7 @@
      "$.session.id",
      "$.session.root",
      "$.session.send",
+     "$.session.surfaces",
      "$.session.usage",
      "$.session.version",
      "$.state.get",
@@ -9003,8 +10274,8 @@
      "$.store.get",
      "$.store.set",
      "$.tool.call",
-     "$.ui.copy",
-     "$.ui.focus"
+     "$.ui.close",
+     "$.ui.copy"
     ]
    }
   ]
@@ -9264,7 +10535,7 @@
   "description": "Claude Code mod that draws Edit and Write diffs in two side-by-side columns",
   "url": "https://github.com/neteye-platform/cc-split-diff-view",
   "stars": 7,
-  "pushedAt": "2026-10-15T03:57:15Z",
+  "pushedAt": "2026-10-17T04:06:12Z",
   "createdAt": "2026-10-08T14:58:27Z",
   "license": "Apache-2.0",
   "commits": 2,
@@ -9572,10 +10843,10 @@
   "description": "Claude Code plugin (mod) that makes the Claude Code terminal UI look like the Claude desktop app: prompt bubbles, markdown tables, mermaid diagrams, folded tool calls, subagent cards, diff pane and context meter.",
   "url": "https://github.com/KyongSik-Yoon/cc-desktop-mod",
   "stars": 2,
-  "pushedAt": "2026-10-16T08:18:47Z",
+  "pushedAt": "2026-10-17T07:30:07Z",
   "createdAt": "2026-10-08T10:36:44Z",
   "license": "MIT",
-  "commits": 83,
+  "commits": 85,
   "firstSeen": "2026-10-09",
   "inCatalogue": false,
   "mods": []
@@ -9958,7 +11229,7 @@
   "name": "xcpane",
   "description": "Turns xcodebuild and swift build output into a live pane of errors grouped by file, and hands Claude the diagnostics instead of the raw log.",
   "url": "https://github.com/griches/xcpane",
-  "stars": 3,
+  "stars": 4,
   "pushedAt": "2026-10-09T14:27:09Z",
   "createdAt": "2026-10-03T19:15:59Z",
   "license": "MIT",
@@ -10098,8 +11369,8 @@
   "name": "grounded-engineering",
   "description": "Source-backed engineering practices and a reviewed shelf of skill repos, as a Claude Code mod and a CLI.",
   "url": "https://github.com/madjagstudios/grounded-engineering",
-  "stars": 6,
-  "pushedAt": "2026-10-08T21:21:52Z",
+  "stars": 8,
+  "pushedAt": "2026-10-17T04:19:45Z",
   "createdAt": "2026-08-26T04:41:16Z",
   "license": "MIT",
   "commits": 96,
@@ -10112,7 +11383,7 @@
   "name": "agent-usage-guard",
   "description": "A Claude Code mod that holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window. It reads your plan's usage, counts agents across every session, and asks in Claude Code's own dialog.",
   "url": "https://github.com/rbartoli/agent-usage-guard",
-  "stars": 2,
+  "stars": 3,
   "pushedAt": "2026-10-11T19:33:26Z",
   "createdAt": "2026-07-28T18:06:57Z",
   "license": "MIT",
@@ -10212,10 +11483,10 @@
   "description": "Always-on band above the Claude Code prompt: context fill and rate-limit windows, on desktop and terminal",
   "url": "https://github.com/zexion7873/usage-band",
   "stars": 0,
-  "pushedAt": "2026-10-16T03:00:54Z",
+  "pushedAt": "2026-10-16T15:03:22Z",
   "createdAt": "2026-10-08T11:36:59Z",
   "license": "MIT",
-  "commits": 51,
+  "commits": 58,
   "firstSeen": "2026-10-08",
   "inCatalogue": false,
   "mods": []
@@ -13892,10 +15163,10 @@
   "description": "An agent-native QA CLI for web pages. Deterministic, no tests to write, no LLM.",
   "url": "https://github.com/awss1i/assay",
   "stars": 107,
-  "pushedAt": "2026-10-11T16:05:40Z",
+  "pushedAt": "2026-10-17T01:33:37Z",
   "createdAt": "2026-09-17T15:49:50Z",
   "license": "MIT",
-  "commits": 2,
+  "commits": 10,
   "firstSeen": "2026-10-08",
   "inCatalogue": false,
   "mods": []
@@ -13903,7 +15174,7 @@
  "feizaodemon/claude-mods": {
   "repo": "feizaodemon/claude-mods",
   "name": "session-meter",
-  "description": "A band above the prompt: context forecast and turns left, prompt cache countdown, rate limits with their pace, a cache hit warning, cost, and stand-up / late-night reminders, fitted to the width. /meter shows the details.",
+  "description": "A band above the prompt: context against the auto-compact window and turns left to it, prompt cache countdown, rate limits with their pace, a cache hit warning, cost, and stand-up / late-night reminders, fitted to the width. /meter shows the details.",
   "url": "https://github.com/feizaodemon/claude-mods/tree/main/mods/session-meter",
   "stars": 0,
   "pushedAt": "2026-10-15T17:45:42Z",
@@ -13917,7 +15188,7 @@
     "id": "feizaodemon/claude-mods:mods/session-meter",
     "name": "session-meter",
     "path": "mods/session-meter",
-    "description": "A band above the prompt: context forecast and turns left, prompt cache countdown, rate limits with their pace, a cache hit warning, cost, and stand-up / late-night reminders, fitted to the width. /meter shows the details.",
+    "description": "A band above the prompt: context against the auto-compact window and turns left to it, prompt cache countdown, rate limits with their pace, a cache hit warning, cost, and stand-up / late-night reminders, fitted to the width. /meter shows the details.",
     "url": "https://github.com/feizaodemon/claude-mods/tree/main/mods/session-meter",
     "reach": {
      "level": 1,
@@ -13942,6 +15213,10 @@
      },
      {
       "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "session.attach",
       "matcher": {}
      },
      {
@@ -13973,6 +15248,7 @@
      "$.clock.every",
      "$.clock.now",
      "$.command.register",
+     "$.session.surfaces",
      "$.session.usage",
      "$.state.get",
      "$.state.set",
@@ -13991,10 +15267,10 @@
   "description": "The best all-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for rm -rf and git reset --hard, .env and secret protection, and a receipt for every turn.",
   "url": "https://github.com/mertkayacs/ultramod/tree/main/plugin",
   "stars": 4,
-  "pushedAt": "2026-10-16T08:54:08Z",
+  "pushedAt": "2026-10-16T15:18:36Z",
   "createdAt": "2026-10-07T11:43:25Z",
   "license": "MIT",
-  "commits": 49,
+  "commits": 51,
   "firstSeen": "2026-10-07",
   "inCatalogue": true,
   "mods": [
@@ -19469,10 +20745,10 @@
   "description": "Your context window as one quiet line above the prompt: a patterned bar, the fill against the compaction point, a compact button and your session and weekly limits, grey until something gets warm. /quiet-token-bar shows or hides it.",
   "url": "https://github.com/arthurglaizal/quiet-token-bar",
   "stars": 0,
-  "pushedAt": "2026-10-13T19:45:41Z",
+  "pushedAt": "2026-10-16T14:02:10Z",
   "createdAt": "2026-10-06T11:42:19Z",
   "license": "MIT",
-  "commits": 59,
+  "commits": 62,
   "firstSeen": "2026-10-07",
   "inCatalogue": true,
   "mods": [
@@ -20297,7 +21573,7 @@
   "description": "GlanceFlow: see what Claude is doing, at a glance. Hides tool rows and shows one plain-English checklist above the prompt, with progress, helpers, history, a team report, pause and continue, and a password guard.",
   "url": "https://github.com/Antreas-Strb/glanceflow/tree/master/glanceflow",
   "stars": 5,
-  "pushedAt": "2026-10-16T10:30:02Z",
+  "pushedAt": "2026-10-16T16:34:24Z",
   "createdAt": "2026-10-05T23:46:32Z",
   "license": "MIT",
   "commits": 87,
@@ -21297,7 +22573,7 @@
   "name": "claude-ops",
   "description": "Claude Code plugins: an audit of how you use Claude Code, and early warnings before you hit usage limits",
   "url": "https://github.com/AbhiramDwivedi/claude-ops",
-  "stars": 1,
+  "stars": 2,
   "pushedAt": "2026-10-14T23:18:19Z",
   "createdAt": "2026-10-03T23:07:06Z",
   "license": "MIT",
@@ -22232,6 +23508,10 @@
       "matcher": {}
      },
      {
+      "event": "classic.Stop",
+      "matcher": {}
+     },
+     {
       "event": "session.end",
       "matcher": {}
      },
@@ -22275,6 +23555,7 @@
      }
     ],
     "calls": [
+     "$.clock.now",
      "$.process.spawn",
      "$.ui.status"
     ]
@@ -23256,10 +24537,10 @@
   "description": "The mod shop for Claude Code: scrapes GitHub for mods, previews them, hosts a marketplace",
   "url": "https://github.com/ryx2/slopshopper",
   "stars": 0,
-  "pushedAt": "2026-10-10T14:46:12Z",
+  "pushedAt": "2026-10-16T14:22:55Z",
   "createdAt": "2026-10-06T04:31:22Z",
   "license": "MIT",
-  "commits": 16,
+  "commits": 17,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -25066,10 +26347,10 @@
   "description": "A curated list of Claude Code mods, installable as a plugin marketplace: themes, panes, status lines, portraits.",
   "url": "https://github.com/testy-cool/awesome-claude-code-mods",
   "stars": 3,
-  "pushedAt": "2026-10-15T11:25:57Z",
+  "pushedAt": "2026-10-16T11:20:21Z",
   "createdAt": "2026-10-05T21:05:19Z",
   "license": null,
-  "commits": 64,
+  "commits": 66,
   "firstSeen": "2026-10-06",
   "inCatalogue": false,
   "mods": []
@@ -29324,7 +30605,7 @@
   "name": "clawd-actor",
   "description": "While Claude works, Clawd acts out the spinner's -ing word above the prompt, and the tool that is running",
   "url": "https://github.com/BrianHuang813/clawd-actor",
-  "stars": 20,
+  "stars": 21,
   "pushedAt": "2026-10-16T06:37:52Z",
   "createdAt": "2026-10-05T03:23:18Z",
   "license": "MIT",
@@ -29919,7 +31200,7 @@
   "name": "gtm-operator",
   "description": "The GTM operator mod for Claude Code: scores every go-to-market draft with its own skill pack's scorer, flags stale and inconsistent drafts across packs, pack dashboards, a guided sprint, analytics, and a guard that keeps brand-config.json and SOUL.md merged.",
   "url": "https://github.com/cmj-hub/gtm-operator-claude-mod",
-  "stars": 1,
+  "stars": 2,
   "pushedAt": "2026-10-05T16:06:25Z",
   "createdAt": "2026-10-05T00:44:40Z",
   "license": "MIT",
@@ -30741,7 +32022,8 @@
      "every prompt"
     ],
     "draws": [
-     "AbovePrompt"
+     "AbovePrompt",
+     "Pane"
     ],
     "hooks": [
      {
@@ -30785,6 +32067,26 @@
       "matcher": {
        "component": "AbovePrompt"
       }
+     },
+     {
+      "event": "ui.focus",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "todos"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "todos"
+      }
+     },
+     {
+      "event": "ui.close",
+      "matcher": {
+       "id": "todos"
+      }
      }
     ],
     "calls": [
@@ -30792,6 +32094,7 @@
      "$.clock.now",
      "$.command.register",
      "$.command.run",
+     "$.config.list",
      "$.model.complete",
      "$.model.fork",
      "$.prompt.fill",
@@ -30806,8 +32109,10 @@
      "$.store.get",
      "$.store.keys",
      "$.store.set",
+     "$.ui.close",
      "$.ui.focus",
      "$.ui.log",
+     "$.ui.open",
      "$.ui.resolve",
      "$.ui.toast"
     ]
@@ -30819,7 +32124,7 @@
   "name": "clawd-bar",
   "description": "Clawd, Claude Code's crab, lives in a band above your prompt: he acts out the session, shows what's running, your context and usage limits, and races your CI builds. Unofficial fan mod.",
   "url": "https://github.com/KaiC5504/clawd-bar",
-  "stars": 0,
+  "stars": 1,
   "pushedAt": "2026-10-07T03:40:57Z",
   "createdAt": "2026-10-04T18:45:25Z",
   "license": "MIT",
@@ -31160,6 +32465,7 @@
       "other: $.state.set",
       "drives Claude",
       "reads env vars",
+      "reads settings",
       "persists state",
       "draws"
      ]
@@ -31231,6 +32537,7 @@
      "$.prompt.submit",
      "$.session.id",
      "$.session.usage",
+     "$.settings.read",
      "$.state.get",
      "$.state.set",
      "$.store.delete",
@@ -32007,7 +33314,7 @@
   "description": "Bookmarks and vim-style marks inside Claude Code conversations: mark a line, jump back, keep a reading position, browse your prompts, and let Claude cite earlier places as clickable links.",
   "url": "https://github.com/DazzleML/claude-bookmarks/tree/main/plugin",
   "stars": 0,
-  "pushedAt": "2026-10-16T05:29:56Z",
+  "pushedAt": "2026-10-17T06:32:15Z",
   "createdAt": "2026-10-04T14:41:06Z",
   "license": "GPL-3.0",
   "commits": 146,
@@ -32039,7 +33346,7 @@
     },
     "sees": [
      "every prompt",
-     "/\"^mcp__bookmarks__bookmark$\"/ calls"
+     "every tool call"
     ],
     "draws": [
      "ToolUse",
@@ -32053,7 +33360,23 @@
     ],
     "hooks": [
      {
+      "event": "config.set",
+      "matcher": {
+       "key": "/\"^bookmarks\\\\.\"/"
+      }
+     },
+     {
+      "event": "config.set",
+      "matcher": {
+       "key": "theme"
+      }
+     },
+     {
       "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
       "matcher": {}
      },
      {
@@ -32073,7 +33396,7 @@
      {
       "event": "ui.close",
       "matcher": {
-       "id": "bm-poc"
+       "id": "bm-pane"
       }
      },
      {
@@ -32232,22 +33555,14 @@
      },
      {
       "event": "tool.call",
-      "matcher": {
-       "tool": "/\"^mcp__bookmarks__bookmark$\"/"
-      }
-     },
-     {
-      "event": "command.run",
-      "matcher": {
-       "command": "bm-debug"
-      }
-     },
-     {
-      "event": "comma",
       "matcher": {}
      },
      {
-      "event": "134",
+      "event": "to",
+      "matcher": {}
+     },
+     {
+      "event": "206",
       "matcher": {}
      },
      {
@@ -32260,6 +33575,7 @@
      "$.clock.every",
      "$.clock.now",
      "$.command.register",
+     "$.config.list",
      "$.env.get",
      "$.env.set",
      "$.fs.exists",
@@ -32273,19 +33589,12 @@
      "$.session.version",
      "$.state.get",
      "$.state.set",
+     "$.store.delete",
      "$.store.get",
+     "$.store.keys",
      "$.store.set",
      "$.tool.register",
-     "$.ui.close",
-     "$.ui.copy",
-     "$.ui.focus",
-     "$.ui.log",
-     "$.ui.open",
-     "$.ui.panes",
-     "$.ui.resolve",
-     "$.ui.scroll",
-     "$.ui.selection",
-     "$.ui.toast"
+     "$.ui.close"
     ]
    }
   ]
@@ -32990,10 +34299,10 @@
   "description": "🧩 Tested, one-command-install Claude Code mods: guardrails for YOLO mode, live cost & context, panes, pets and more. Plus a curated list of the best community mods.",
   "url": "https://github.com/Singh-AP/awesome-claude-mods",
   "stars": 3,
-  "pushedAt": "2026-10-16T10:11:18Z",
+  "pushedAt": "2026-10-17T09:40:22Z",
   "createdAt": "2026-10-04T12:27:43Z",
   "license": "MIT",
-  "commits": 29,
+  "commits": 30,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -42072,6 +43381,7 @@
      "labels": [
       "other: $.state.get",
       "other: $.state.set",
+      "changes config",
       "drives Claude",
       "reads files",
       "reads env vars",
@@ -42131,6 +43441,7 @@
      "$.command.register",
      "$.command.run",
      "$.config.list",
+     "$.config.set",
      "$.env.get",
      "$.fs.exists",
      "$.fs.read",
@@ -43253,7 +44564,7 @@
   "name": "awesome-claude-code-mods",
   "description": "Collection of 100+ mods you can use with Claude Code.",
   "url": "https://github.com/whyashthakker/awesome-claude-code-mods",
-  "stars": 71,
+  "stars": 74,
   "pushedAt": "2026-10-03T10:09:06Z",
   "createdAt": "2026-10-03T05:06:35Z",
   "license": "MIT",
@@ -47055,11 +48366,11 @@
   "name": "deck",
   "description": "A cockpit for Claude Code: plan bars and subagent strips, context, usage limits with reset countdowns and burn rates, spend, the model route and a pet. Six bar styles, three collapsed looks. CLI and Desktop.",
   "url": "https://github.com/nvr0x5/claude-deck",
-  "stars": 18,
-  "pushedAt": "2026-10-15T03:32:45Z",
+  "stars": 20,
+  "pushedAt": "2026-10-17T01:24:31Z",
   "createdAt": "2026-10-03T02:59:43Z",
   "license": "MIT",
-  "commits": 27,
+  "commits": 29,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -47421,7 +48732,7 @@
   "name": "statuspane",
   "description": "A floating status card above the Claude Code prompt — model, effort, context, 5h/week limits, cost, directory and branch, GitHub CI and deploys — with clickable settings and a progress-row API any script or mod can feed.",
   "url": "https://github.com/xuanji86/claude-statuspane",
-  "stars": 11,
+  "stars": 12,
   "pushedAt": "2026-10-15T00:44:49Z",
   "createdAt": "2026-10-03T01:39:37Z",
   "license": "MIT",
@@ -47845,13 +49156,78 @@
   "description": "Classic desktop games as Claude Code mods, played in a pane while Claude works. Made by Reporails.",
   "url": "https://github.com/reporails/arcade",
   "stars": 3,
-  "pushedAt": "2026-10-05T15:37:16Z",
+  "pushedAt": "2026-10-16T13:11:50Z",
   "createdAt": "2026-10-02T22:55:21Z",
   "license": "MIT",
-  "commits": 5,
+  "commits": 6,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
+   {
+    "id": "reporails/arcade:brickfall",
+    "name": "brickfall",
+    "path": "brickfall",
+    "description": "A brick breaker in a Claude Code pane, after Arkanoid: steer with the mouse, catch capsules, chain volt bricks, over a shimmering iridescent field. A real picture in kitty and Ghostty, block characters elsewhere.",
+    "url": "https://github.com/reporails/arcade/tree/main/brickfall",
+    "reach": {
+     "level": 1,
+     "name": "reads",
+     "labels": [
+      "reads env vars",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [],
+    "draws": [
+     "Pane"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "bricks"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane"
+      }
+     },
+     {
+      "event": "ui.message",
+      "matcher": {}
+     },
+     {
+      "event": "ui.close",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
+      "matcher": {}
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.clock.every",
+     "$.command.register",
+     "$.env.get",
+     "$.session.surfaces",
+     "$.store.get",
+     "$.store.set",
+     "$.ui.blit",
+     "$.ui.close",
+     "$.ui.invalidate",
+     "$.ui.open",
+     "$.ui.panes",
+     "$.ui.resolve"
+    ]
+   },
    {
     "id": "reporails/arcade:doom",
     "name": "doom",
@@ -48273,7 +49649,7 @@
   "description": "A creature card game above your prompt. Wild creatures, Rivals and other players' teams come to battle while Claude works. Catch, fuse, trade and gift one-of-a-kind cards.",
   "url": "https://github.com/416rehman/spinlings/tree/main/plugin",
   "stars": 4,
-  "pushedAt": "2026-10-06T20:55:50Z",
+  "pushedAt": "2026-10-17T00:23:00Z",
   "createdAt": "2026-10-02T21:33:02Z",
   "license": "MIT",
   "commits": 71,
@@ -48693,6 +50069,7 @@
      "labels": [
       "other: $.state.get",
       "other: $.state.set",
+      "reads env vars",
       "draws"
      ]
     },
@@ -48722,6 +50099,7 @@
     "calls": [
      "$.command.register",
      "$.config.list",
+     "$.env.get",
      "$.state.get",
      "$.state.set",
      "$.ui.open",
@@ -49240,11 +50618,11 @@
   "name": "skins",
   "description": "Skins for Claude Code: tool rows that open onto their input and answer, highlighted code, diff, table, math, Mermaid and shell cards, links, folding, a usage band, a calm mode and fifteen themes. /skin swaps them live.",
   "url": "https://github.com/hellosverre/claude-skins",
-  "stars": 153,
-  "pushedAt": "2026-10-16T08:15:38Z",
+  "stars": 154,
+  "pushedAt": "2026-10-17T08:54:09Z",
   "createdAt": "2026-10-02T18:37:22Z",
   "license": "MIT",
-  "commits": 78,
+  "commits": 83,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -49258,6 +50636,7 @@
      "level": 3,
      "name": "network",
      "labels": [
+      "other: $.skinCode.draws",
       "other: $.state.get",
       "other: $.state.set",
       "network",
@@ -49440,6 +50819,7 @@
      "$.session.cwd",
      "$.session.id",
      "$.session.usage",
+     "$.skinCode.draws",
      "$.state.get",
      "$.state.set",
      "$.store.get",
@@ -49776,7 +51156,7 @@
   "name": "flightdeck",
   "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
   "url": "https://github.com/scasella/claude-flightdeck",
-  "stars": 95,
+  "stars": 96,
   "pushedAt": "2026-10-12T14:20:14Z",
   "createdAt": "2026-10-02T17:23:13Z",
   "license": "MIT",
@@ -50151,11 +51531,11 @@
   "name": "token-weather-usage",
   "description": "One line above the prompt: context tokens with their weather, a bar per recent prompt, your 5-hour and 7-day limits against the time elapsed, the prompt cache with its time left, the session cost with the last prompt's share in dollars and in points of the 5-hour limit, and the subagents running. Labels in English, French or Russian. After Token Weather (Anthropic, Apache-2.0) and the ideas of usage-meter (HolyGrail) and prompt-cache-control (Daniel San).",
   "url": "https://github.com/augiefra/claude-mods/tree/main/plugins/token-weather-usage",
-  "stars": 12,
-  "pushedAt": "2026-10-16T06:28:48Z",
+  "stars": 16,
+  "pushedAt": "2026-10-16T15:25:53Z",
   "createdAt": "2026-10-02T13:27:03Z",
   "license": "Apache-2.0",
-  "commits": 25,
+  "commits": 32,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -50175,8 +51555,6 @@
      ]
     },
     "sees": [
-     "every tool call",
-     "subagent spawns",
      "compaction"
     ],
     "draws": [
@@ -50185,14 +51563,6 @@
     "hooks": [
      {
       "event": "session.start",
-      "matcher": {}
-     },
-     {
-      "event": "tool.call",
-      "matcher": {}
-     },
-     {
-      "event": "agent.spawn",
       "matcher": {}
      },
      {
@@ -50391,7 +51761,7 @@
   "name": "claude-code-mods",
   "description": "Claude Code mods: plugins built on hooks that add live lines above the prompt, guards, panes and games. Context bar, usage meter, Codex review watch, Markdown preview, Spotify now playing and more.",
   "url": "https://github.com/hamzafer/claude-code-mods",
-  "stars": 261,
+  "stars": 266,
   "pushedAt": "2026-10-16T10:15:50Z",
   "createdAt": "2026-10-02T13:15:06Z",
   "license": "MIT",
@@ -50411,6 +51781,8 @@
      "labels": [
       "other: $.state.get",
       "other: $.state.set",
+      "reads files",
+      "reads env vars",
       "reads the transcript",
       "draws"
      ]
@@ -50464,6 +51836,9 @@
      "$.agent.list",
      "$.clock.every",
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.session.messages",
      "$.state.get",
      "$.state.set",
@@ -50486,6 +51861,7 @@
       "other: $.state.get",
       "other: $.state.set",
       "runs processes",
+      "reads files",
       "reads env vars",
       "draws"
      ]
@@ -50521,6 +51897,8 @@
     "calls": [
      "$.clock.now",
      "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.process.run",
      "$.session.surfaces",
      "$.state.get",
@@ -50543,6 +51921,8 @@
       "other: $.state.get",
       "other: $.state.set",
       "runs processes",
+      "reads files",
+      "reads env vars",
       "persists state",
       "draws"
      ]
@@ -50590,6 +51970,9 @@
     ],
     "calls": [
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.process.run",
      "$.session.cwd",
      "$.session.id",
@@ -50657,6 +52040,8 @@
      "labels": [
       "other: $.state.get",
       "other: $.state.set",
+      "reads files",
+      "reads env vars",
       "persists state",
       "draws"
      ]
@@ -50695,6 +52080,9 @@
     ],
     "calls": [
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.session.usage",
      "$.state.get",
      "$.state.set",
@@ -50717,6 +52105,8 @@
       "other: $.state.set",
       "MCP servers",
       "runs processes",
+      "reads files",
+      "reads env vars",
       "draws"
      ]
     },
@@ -50746,6 +52136,9 @@
      "$.clock.every",
      "$.clock.now",
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.mcp.call",
      "$.process.run",
      "$.state.get",
@@ -50960,6 +52353,7 @@
     "calls": [
      "$.command.register",
      "$.env.get",
+     "$.fs.exists",
      "$.fs.read",
      "$.process.run",
      "$.session.cwd",
@@ -51071,6 +52465,8 @@
       "other: $.state.get",
       "other: $.state.set",
       "drives Claude",
+      "reads files",
+      "reads env vars",
       "reads the transcript",
       "draws"
      ]
@@ -51107,6 +52503,9 @@
     ],
     "calls": [
      "$.agent.list",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.model.complete",
      "$.session.messages",
      "$.state.get",
@@ -51128,6 +52527,8 @@
       "other: $.state.set",
       "network",
       "runs processes",
+      "reads files",
+      "reads env vars",
       "draws"
      ]
     },
@@ -51162,6 +52563,9 @@
      "$.clock.now",
      "$.clock.sleep",
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.http.fetch",
      "$.process.run",
      "$.state.get",
@@ -51183,6 +52587,8 @@
       "other: $.state.set",
       "network",
       "runs processes",
+      "reads files",
+      "reads env vars",
       "persists state",
       "draws"
      ]
@@ -51217,6 +52623,9 @@
      "$.clock.every",
      "$.clock.now",
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.http.fetch",
      "$.process.run",
      "$.state.get",
@@ -51240,6 +52649,8 @@
       "other: $.state.set",
       "network",
       "runs processes",
+      "reads files",
+      "reads env vars",
       "persists state",
       "draws"
      ]
@@ -51274,6 +52685,9 @@
      "$.clock.every",
      "$.clock.now",
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.http.fetch",
      "$.process.run",
      "$.state.get",
@@ -51295,6 +52709,8 @@
      "labels": [
       "other: $.state.get",
       "other: $.state.set",
+      "reads files",
+      "reads env vars",
       "draws"
      ]
     },
@@ -51324,6 +52740,9 @@
      "$.clock.every",
      "$.clock.now",
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.state.get",
      "$.state.set",
      "$.ui.resolve",
@@ -51486,6 +52905,7 @@
       "other: $.state.get",
       "other: $.state.set",
       "runs processes",
+      "reads files",
       "reads env vars",
       "draws"
      ]
@@ -51527,6 +52947,8 @@
      "$.agent.list",
      "$.clock.every",
      "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.process.run",
      "$.state.get",
      "$.state.set",
@@ -51603,6 +53025,8 @@
       "other: $.state.set",
       "runs processes",
       "drives Claude",
+      "reads files",
+      "reads env vars",
       "reads the transcript",
       "persists state",
       "draws"
@@ -51647,6 +53071,9 @@
     ],
     "calls": [
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.model.complete",
      "$.process.run",
      "$.session.id",
@@ -51742,6 +53169,7 @@
       "other: $.state.get",
       "other: $.state.set",
       "network",
+      "reads files",
       "reads env vars",
       "draws"
      ]
@@ -51791,6 +53219,8 @@
      "$.clock.sleep",
      "$.command.register",
      "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.http.fetch",
      "$.state.get",
      "$.state.set",
@@ -51851,6 +53281,7 @@
      "$.clock.after",
      "$.clock.now",
      "$.env.get",
+     "$.fs.exists",
      "$.fs.read",
      "$.fs.stat",
      "$.process.run",
@@ -51878,6 +53309,8 @@
      "labels": [
       "other: $.state.get",
       "other: $.state.set",
+      "reads files",
+      "reads env vars",
       "draws"
      ]
     },
@@ -51904,6 +53337,9 @@
     "calls": [
      "$.clock.every",
      "$.clock.now",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.session.usage",
      "$.state.get",
      "$.state.set",
@@ -51924,6 +53360,8 @@
       "other: $.state.get",
       "other: $.state.set",
       "drives Claude",
+      "reads files",
+      "reads env vars",
       "reads the transcript",
       "draws"
      ]
@@ -51967,6 +53405,9 @@
     ],
     "calls": [
      "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
      "$.model.complete",
      "$.session.messages",
      "$.state.get",
@@ -53081,8 +54522,8 @@
   "name": "lemo-mod",
   "description": "Claude Code mods: 21 styles and a full set of features you turn on when you need them, for the terminal and the desktop app. · 一键为 Claude 换上新风格，并提供一整套按需开启的功能。",
   "url": "https://github.com/lemomo-ai/lemo-mod",
-  "stars": 22,
-  "pushedAt": "2026-10-04T08:41:28Z",
+  "stars": 23,
+  "pushedAt": "2026-10-17T06:22:59Z",
   "createdAt": "2026-10-02T09:03:55Z",
   "license": "MIT",
   "commits": 6,
@@ -54540,11 +55981,11 @@
   "name": "figures",
   "description": "Draw diagrams, LaTeX math, and tool-result images inline in kitty-graphics terminals",
   "url": "https://github.com/natsukium/claude-code-figures-plugin",
-  "stars": 7,
-  "pushedAt": "2026-10-15T22:59:29Z",
+  "stars": 9,
+  "pushedAt": "2026-10-17T01:02:38Z",
   "createdAt": "2026-10-02T08:27:47Z",
   "license": "Apache-2.0",
-  "commits": 24,
+  "commits": 25,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -54752,10 +56193,10 @@
   "description": "Curated Claude Code mods, original creator demos, public repositories, and installation resources.",
   "url": "https://github.com/magiccreator-ai/awesome-claude-code-mods",
   "stars": 1,
-  "pushedAt": "2026-10-16T03:35:18Z",
+  "pushedAt": "2026-10-17T03:33:32Z",
   "createdAt": "2026-10-02T07:37:12Z",
   "license": null,
-  "commits": 14,
+  "commits": 15,
   "firstSeen": "2026-10-06",
   "inCatalogue": false,
   "mods": []
@@ -54765,7 +56206,7 @@
   "name": "asd-ste100",
   "description": "ASD-STE100 (Simplified Technical English) and 80% Karpathy Mode plugin, mod, and skill for Claude Code. Enforces clean, unambiguous technical explanations.",
   "url": "https://github.com/JAICHANGPARK/ASD-STE100",
-  "stars": 7,
+  "stars": 8,
   "pushedAt": "2026-10-02T10:44:46Z",
   "createdAt": "2026-10-02T07:35:47Z",
   "license": "MIT",
@@ -55658,10 +57099,10 @@
   "description": "Mods for Claude Code: function-hook plugins that add live panes and behaviour to the terminal UI",
   "url": "https://github.com/arasovic/claude-code-mods",
   "stars": 6,
-  "pushedAt": "2026-10-15T11:39:43Z",
+  "pushedAt": "2026-10-17T02:27:38Z",
   "createdAt": "2026-10-02T06:24:10Z",
   "license": "MIT",
-  "commits": 98,
+  "commits": 99,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -56515,10 +57956,10 @@
   "description": "A desktop-app look for Claude Code's terminal: colored shell commands in prose, a Bottom line card, content-fit code cards, borderless tables, gutter marks beside paragraphs that need you, painted tool rows and turn headers.",
   "url": "https://github.com/rashedInt32/glass",
   "stars": 15,
-  "pushedAt": "2026-10-16T10:13:55Z",
+  "pushedAt": "2026-10-17T04:01:45Z",
   "createdAt": "2026-10-02T05:08:44Z",
   "license": "MIT",
-  "commits": 77,
+  "commits": 81,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -56703,7 +58144,8 @@
      "$.ui.notify",
      "$.ui.resolve",
      "$.ui.status",
-     "$.ui.toast"
+     "$.ui.toast",
+     "$.ui.view"
     ]
    }
   ]
@@ -57959,10 +59401,10 @@
   "description": "A live cactus inbox pane for the session's project, answerable in place",
   "url": "https://github.com/eighteyes/cactus/tree/cactus-v1/mods/cactus-pane",
   "stars": 9,
-  "pushedAt": "2026-10-09T19:25:34Z",
+  "pushedAt": "2026-10-16T19:01:08Z",
   "createdAt": "2026-09-25T14:39:08Z",
   "license": "MIT",
-  "commits": 306,
+  "commits": 319,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -59260,7 +60702,7 @@
   "description": "Write a handover when a Claude Code session gets long, type /clear, and the next session picks up where you left off with nothing to paste.",
   "url": "https://github.com/m4cd4r4/clear-resume/tree/main/plugin",
   "stars": 1,
-  "pushedAt": "2026-10-14T08:05:57Z",
+  "pushedAt": "2026-10-16T12:05:36Z",
   "createdAt": "2026-09-19T10:54:38Z",
   "license": "MIT",
   "commits": 111,
@@ -59636,10 +61078,10 @@
   "description": "The usage panel in a sidebar inside Claude Code: this session, today, the last 30 days, projects, top sessions, the day's costliest turns with why each was dear, what pauses cost in cache written again, and insights, with graphs, and, where Claude Burst is installed, the context it really sends by part and Plan Utilisation: how much of the plan's 5-hour and weekly limits is used and which projects used it, with a warning as one gets close. /usage-panel opens it, /usage-panel pin and /usage-panel unpin choose whether every session opens it",
   "url": "https://github.com/andrewbakercloudscale/claude-code-cost-sidebar/tree/main/mods/usage-panel",
   "stars": 1,
-  "pushedAt": "2026-10-16T10:27:32Z",
+  "pushedAt": "2026-10-16T17:43:34Z",
   "createdAt": "2026-08-23T11:47:12Z",
   "license": null,
-  "commits": 275,
+  "commits": 279,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -59746,7 +61188,7 @@
   "name": "desktop-statusline",
   "description": "Status band above the prompt in the Claude Desktop app's Code tab: folder, git branch and state, session age, prompt count and cost, a context meter, 5-hour and weekly plan usage limit meters with reset countdowns, last-turn model, duration and cache hit rate, idle time against the prompt-cache TTL, compactions, server-side tool use, subagents by state, and one row per workflow run with live done/failed counts. A notification (or toast) at 80% and 95% of a usage limit. Draws only on the desktop surface, so a CLI statusLine is left alone.",
   "url": "https://github.com/centminmod/claude-plugins/tree/master/plugins/desktop-statusline",
-  "stars": 15,
+  "stars": 16,
   "pushedAt": "2026-10-15T01:00:19Z",
   "createdAt": "2026-04-18T03:50:06Z",
   "license": "NOASSERTION",
