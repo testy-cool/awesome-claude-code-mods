@@ -1186,6 +1186,60 @@
         "path": "plugins/clawd-pet"
       },
       "license": "MIT"
+    },
+    {
+      "name": "ccswap",
+      "description": "Multi-account and usage manager for Claude Code and OpenAI Codex - switch logins, track quota, auto-rotate before rate limits",
+      "author": {
+        "name": "errhythm",
+        "url": "https://github.com/errhythm"
+      },
+      "homepage": "https://github.com/errhythm/ccswap",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "errhythm/ccswap"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claudinho",
+      "description": "⚽ Live football(soccer) scores, fixtures and standings for the competition you follow (World Cup, Premier League, LALIGA, Champions League and 12 more) in your terminal, your Claude Code and Cursor CLI statusline, and MCP clients. No API key. Independent fan project. Not affiliated with FIFA, any confederation, league or club, or Anthropic.",
+      "author": {
+        "name": "arturogarrido",
+        "url": "https://github.com/arturogarrido"
+      },
+      "homepage": "https://github.com/arturogarrido/claudinho",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "arturogarrido/claudinho"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "workflow-conductor",
+      "description": "Visual workflow planner in Claude Code",
+      "author": {
+        "name": "bruw",
+        "url": "https://github.com/bruw"
+      },
+      "homepage": "https://github.com/bruw/workflow-conductor",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "bruw/workflow-conductor"
+      },
+      "license": "MIT"
     }
   ]
 }

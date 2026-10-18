@@ -606,5 +606,29 @@
   "griches/xcpane": {
     "verdict": "skip",
     "at": "2026-10-12"
+  },
+  "YeonwooSung/my-claude-code-mods": {
+    "verdict": "skip",
+    "at": "2026-10-19"
+  },
+  "midudev/better-claude": {
+    "verdict": "skip",
+    "at": "2026-10-19"
+  },
+  "Arjun0014/project-sentinel": {
+    "verdict": "skip",
+    "at": "2026-10-19"
+  },
+  "errhythm/ccswap": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "arturogarrido/claudinho": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "bruw/workflow-conductor": {
+    "verdict": "keep",
+    "at": "2026-10-19"
   }
 }
