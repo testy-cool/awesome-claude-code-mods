@@ -630,5 +630,57 @@
   "bruw/workflow-conductor": {
     "verdict": "keep",
     "at": "2026-10-19"
+  },
+  "michalstrnadel/AgentBar": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "madjagstudios/grounded-engineering": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "ElirazKed/claude-code-pr-watch": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "oborchers/claude-gh-status": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "chrisluo5311/squad-chat": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "mertkayacs/ultramod": {
+    "verdict": "skip",
+    "at": "2026-10-19"
+  },
+  "dougcunha/claude-mods": {
+    "verdict": "skip",
+    "at": "2026-10-19"
+  },
+  "LudovicLaloux/agent-crew": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "nuromirzak/nibbl": {
+    "verdict": "skip",
+    "at": "2026-10-19"
+  },
+  "BatuhanCakmakk/wavy-usage": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "416rehman/spinlings": {
+    "verdict": "skip",
+    "at": "2026-10-19"
+  },
+  "comertial/claude-pending-changes": {
+    "verdict": "keep",
+    "at": "2026-10-19"
+  },
+  "yeonwooook/claude-study-latex": {
+    "verdict": "skip",
+    "at": "2026-10-19"
   }
 }

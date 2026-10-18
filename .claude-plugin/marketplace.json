@@ -1240,6 +1240,151 @@
         "repo": "bruw/workflow-conductor"
       },
       "license": "MIT"
+    },
+    {
+      "name": "AgentBar",
+      "description": "Approve Claude Code permission prompts right from your menu bar — no terminal switching — plus live status for every AI coding agent (Claude, Codex, Copilot, Antigravity).",
+      "author": {
+        "name": "michalstrnadel",
+        "url": "https://github.com/michalstrnadel"
+      },
+      "homepage": "https://github.com/michalstrnadel/AgentBar",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "michalstrnadel/AgentBar"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "grounded-engineering",
+      "description": "Source-backed engineering practices and reviewed skill repositories, in a Claude Code pane.",
+      "author": {
+        "name": "madjagstudios",
+        "url": "https://github.com/madjagstudios"
+      },
+      "homepage": "https://github.com/madjagstudios/grounded-engineering/tree/main/plugin",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "madjagstudios/grounded-engineering",
+        "path": "plugin"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pr-watch",
+      "description": "Live pane tracking the GitHub PRs touched in a session: CI, review, conflicts, merge. One shared poller for every session on the machine.",
+      "author": {
+        "name": "ElirazKed",
+        "url": "https://github.com/ElirazKed"
+      },
+      "homepage": "https://github.com/ElirazKed/claude-code-pr-watch",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "ElirazKed/claude-code-pr-watch"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claude-gh-status",
+      "description": "Claude Code mod: live GitHub pull request status (checks, reviews, threads, merge queue) in a band and pane, with confirmed merge actions.",
+      "author": {
+        "name": "oborchers",
+        "url": "https://github.com/oborchers"
+      },
+      "homepage": "https://github.com/oborchers/claude-gh-status",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "oborchers/claude-gh-status"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "squad-chat",
+      "description": "The all-in-one Claude Code plugin. Talk with your squad, share code, and keep live rooms (usage, git, weather, lo-fi and more) next to your session. Zero tokens, zero leaks to Claude.",
+      "author": {
+        "name": "chrisluo5311",
+        "url": "https://github.com/chrisluo5311"
+      },
+      "homepage": "https://github.com/chrisluo5311/squad-chat/tree/main/plugins/squad-chat",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "chrisluo5311/squad-chat",
+        "path": "plugins/squad-chat"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "agent-crew",
+      "description": "Claude Code mod: see your parallel agents as costumed pixel-art Clawds, in a band above the prompt and a crew panel",
+      "author": {
+        "name": "LudovicLaloux",
+        "url": "https://github.com/LudovicLaloux"
+      },
+      "homepage": "https://github.com/LudovicLaloux/agent-crew",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "LudovicLaloux/agent-crew"
+      }
+    },
+    {
+      "name": "wavy-usage",
+      "description": "Liquid-filled rings above the Claude Code prompt for the 5-hour and 7-day limit windows, context fill and prompt-cache lifetime, a fighter jet that shows the model's effort, and a pane of recent turns, their cost, their share of the 5-hour window and what filled it.",
+      "author": {
+        "name": "BatuhanCakmakk",
+        "url": "https://github.com/BatuhanCakmakk"
+      },
+      "homepage": "https://github.com/BatuhanCakmakk/wavy-usage",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "BatuhanCakmakk/wavy-usage"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claude-pending-changes",
+      "description": "Review every file Claude touches, like a pull request, without leaving the terminal",
+      "author": {
+        "name": "comertial",
+        "url": "https://github.com/comertial"
+      },
+      "homepage": "https://github.com/comertial/claude-pending-changes",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "comertial/claude-pending-changes"
+      },
+      "license": "GPL-3.0"
     }
   ]
 }
