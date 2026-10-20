@@ -1385,6 +1385,117 @@
         "repo": "comertial/claude-pending-changes"
       },
       "license": "GPL-3.0"
+    },
+    {
+      "name": "prompt-polish",
+      "description": "This Claude Code mod (prompt-polish) rewrites your prompt with prompt engineering before you send it, following the official prompting guide for your session’s model. A mod is a Claude Code plugin with a hooks module.",
+      "author": {
+        "name": "jheroorehj",
+        "url": "https://github.com/jheroorehj"
+      },
+      "homepage": "https://github.com/jheroorehj/prompt-polish",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "jheroorehj/prompt-polish"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "arcdr",
+      "description": "herdr mobile & web client that shows what your Claude Code mods report — answer your agents from your phone, over your own Tailscale",
+      "author": {
+        "name": "arcnessai",
+        "url": "https://github.com/arcnessai"
+      },
+      "homepage": "https://github.com/arcnessai/arcdr",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "arcnessai/arcdr"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "brickfall",
+      "description": "A brick breaker in a Claude Code pane, after Arkanoid: steer with the mouse, catch capsules, chain volt bricks, over a shimmering iridescent field. A real picture in kitty and Ghostty, block characters elsewhere.",
+      "author": {
+        "name": "reporails",
+        "url": "https://github.com/reporails"
+      },
+      "homepage": "https://github.com/reporails/arcade/tree/main/brickfall",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "reporails/arcade",
+        "path": "brickfall"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "doom",
+      "description": "Doom in a Claude Code pane: Freedoom on the doomgeneric engine, a real picture in kitty and Ghostty and block characters elsewhere, played with the keys and the mouse while Claude works. Prebuilt engines for Linux, macOS and Windows.",
+      "author": {
+        "name": "reporails",
+        "url": "https://github.com/reporails"
+      },
+      "homepage": "https://github.com/reporails/arcade/tree/main/doom",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "reporails/arcade",
+        "path": "doom"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "minefield",
+      "description": "The classic mine-clearing puzzle in a Claude Code pane: click or use the keys to clear the board while Claude works. A timer, a best time, and a face that watches the board and glances over at Claude's work.",
+      "author": {
+        "name": "reporails",
+        "url": "https://github.com/reporails"
+      },
+      "homepage": "https://github.com/reporails/arcade/tree/main/minefield",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "git-subdir",
+        "url": "reporails/arcade",
+        "path": "minefield"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "ccdrawu",
+      "description": "A sidebar and a status line for Claude Code: usage limits, context, model, cost, git and session stats beside the transcript or under the prompt",
+      "author": {
+        "name": "vulcanshen",
+        "url": "https://github.com/vulcanshen"
+      },
+      "homepage": "https://github.com/vulcanshen/ccdrawu",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "vulcanshen/ccdrawu"
+      },
+      "license": "GPL-3.0"
     }
   ]
 }

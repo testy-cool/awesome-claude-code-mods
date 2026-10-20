@@ -682,5 +682,33 @@
   "yeonwooook/claude-study-latex": {
     "verdict": "skip",
     "at": "2026-10-19"
+  },
+  "jheroorehj/prompt-polish": {
+    "verdict": "keep",
+    "at": "2026-10-20"
+  },
+  "LippInc/catnap": {
+    "verdict": "skip",
+    "at": "2026-10-20"
+  },
+  "arcnessai/arcdr": {
+    "verdict": "keep",
+    "at": "2026-10-20"
+  },
+  "helenlin0621/tea-egg": {
+    "verdict": "skip",
+    "at": "2026-10-20"
+  },
+  "reporails/arcade": {
+    "verdict": "keep",
+    "at": "2026-10-20"
+  },
+  "jonathanlocks/usage-band-mod": {
+    "verdict": "skip",
+    "at": "2026-10-20"
+  },
+  "vulcanshen/ccdrawu": {
+    "verdict": "keep",
+    "at": "2026-10-20"
   }
 }
