@@ -1496,6 +1496,28 @@
         "repo": "vulcanshen/ccdrawu"
       },
       "license": "GPL-3.0"
+    },
+    {
+      "author": {
+        "name": "Sma1lboy",
+        "url": "https://github.com/Sma1lboy"
+      },
+      "category": "workflow",
+      "description": "One panel for every session: tasks agents hand you, answered from any session, and a feed of finished work by project.",
+      "homepage": "https://github.com/Sma1lboy/claude-standup",
+      "license": "MIT",
+      "name": "standup",
+      "source": {
+        "repo": "Sma1lboy/claude-standup",
+        "source": "github"
+      },
+      "tags": [
+        "mod",
+        "pane",
+        "band",
+        "tasks",
+        "sessions"
+      ]
     }
   ]
 }
