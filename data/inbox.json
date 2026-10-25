@@ -1,4 +1,200 @@
 {
+ "YouHyuksoo/secret-input": {
+  "repo": "YouHyuksoo/secret-input",
+  "name": "secret-input",
+  "description": "Claude Code mod: paste passwords and API keys into a private pane instead of the chat. The model never sees the value; it goes only into the commands that run, masked in output.",
+  "url": "https://github.com/YouHyuksoo/secret-input",
+  "stars": 0,
+  "pushedAt": "2026-10-24T20:15:58Z",
+  "createdAt": "2026-10-24T20:09:59Z",
+  "license": "MIT",
+  "commits": 3,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "MrMirhan/claude-buddy-chat": {
+  "repo": "MrMirhan/claude-buddy-chat",
+  "name": "claude-buddy-chat",
+  "description": "End-to-end encrypted, quantum-resistant chat between Claude Code users. A Claude Code mod with no server of its own.",
+  "url": "https://github.com/MrMirhan/claude-buddy-chat",
+  "stars": 1,
+  "pushedAt": "2026-10-24T23:07:40Z",
+  "createdAt": "2026-10-24T18:30:37Z",
+  "license": "MIT",
+  "commits": 60,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "calmtiger86/oh-my-toolbelt": {
+  "repo": "calmtiger86/oh-my-toolbelt",
+  "name": "oh-my-toolbelt",
+  "description": "Oh My Toolbelt: a toolbelt above the Claude Code prompt. Clock, weather, pomodoro, your prompt buttons, a list of your prompts, notes, clipboard and export. Unofficial, not affiliated with Anthropic.",
+  "url": "https://github.com/calmtiger86/oh-my-toolbelt",
+  "stars": 0,
+  "pushedAt": "2026-10-25T08:40:12Z",
+  "createdAt": "2026-10-24T17:41:35Z",
+  "license": "Apache-2.0",
+  "commits": 4,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "yafyx/you-should-know": {
+  "repo": "yafyx/you-should-know",
+  "name": "you-should-know",
+  "description": "a clone of Claude Code’s built-in “You should know” observer mod. Works on any gateway. Same official prompt, same behavior, no first-party gate.",
+  "url": "https://github.com/yafyx/you-should-know",
+  "stars": 0,
+  "pushedAt": "2026-10-24T17:06:40Z",
+  "createdAt": "2026-10-24T16:57:22Z",
+  "license": null,
+  "commits": 1,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "13zebras/claude-context-band-mod": {
+  "repo": "13zebras/claude-context-band-mod",
+  "name": "claude-context-band-mod",
+  "description": "Detailed context window breakdown above the Claude Code prompt (a Claude Code mod)",
+  "url": "https://github.com/13zebras/claude-context-band-mod",
+  "stars": 0,
+  "pushedAt": "2026-10-24T15:55:46Z",
+  "createdAt": "2026-10-24T15:55:39Z",
+  "license": null,
+  "commits": 1,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "s7788/pixel-hunter": {
+  "repo": "s7788/pixel-hunter",
+  "name": "pixel-hunter",
+  "description": "An 8-bit hunter that fights one of nine monsters in a Claude Code side pane while Claude works. Three weapons, no tokens, no network.",
+  "url": "https://github.com/s7788/pixel-hunter",
+  "stars": 0,
+  "pushedAt": "2026-10-24T17:28:30Z",
+  "createdAt": "2026-10-24T13:41:31Z",
+  "license": "MIT",
+  "commits": 26,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "Gnosis333/mod_gallery": {
+  "repo": "Gnosis333/mod_gallery",
+  "name": "mod_gallery",
+  "description": "Animated Claude Code mods: side panels that change when Claude is idle vs. working (campfire, night train, beach, deep sea...) plus prompt bands. Free, MIT.",
+  "url": "https://github.com/Gnosis333/mod_gallery",
+  "stars": 0,
+  "pushedAt": "2026-10-24T20:55:55Z",
+  "createdAt": "2026-10-24T13:00:26Z",
+  "license": "MIT",
+  "commits": 9,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "xchacha20-poly1305/bline": {
+  "repo": "xchacha20-poly1305/bline",
+  "name": "bline",
+  "description": "Claude Code mod: model, reasoning effort and context window usage on the line under the prompt",
+  "url": "https://github.com/xchacha20-poly1305/bline",
+  "stars": 0,
+  "pushedAt": "2026-10-24T13:06:18Z",
+  "createdAt": "2026-10-24T12:53:56Z",
+  "license": "MIT",
+  "commits": 5,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "nocodehack/swiss-knife": {
+  "repo": "nocodehack/swiss-knife",
+  "name": "swiss-knife",
+  "description": "The 3 most annoying things about Claude Code, fixed. Free mod, one-line install, no coding.",
+  "url": "https://github.com/nocodehack/swiss-knife",
+  "stars": 2,
+  "pushedAt": "2026-10-24T14:19:50Z",
+  "createdAt": "2026-10-24T12:37:01Z",
+  "license": "MIT",
+  "commits": 5,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "rapha-rodrigues/cc-esol": {
+  "repo": "rapha-rodrigues/cc-esol",
+  "name": "cc-esol",
+  "description": "Learn English from your daily Claude Code use: a Claude Code sidebar with an ESOL coach, Focus mode, terminal themes, model and effort controls and a status line editor.",
+  "url": "https://github.com/rapha-rodrigues/cc-esol",
+  "stars": 0,
+  "pushedAt": "2026-10-25T03:58:06Z",
+  "createdAt": "2026-10-23T22:37:39Z",
+  "license": "MIT",
+  "commits": 17,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "Atoll92/agent-standup": {
+  "repo": "Atoll92/agent-standup",
+  "name": "agent-standup",
+  "description": "Your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, who waits on whom, who needs you. VS Code extension, terminal command, desktop app. Runs locally, zero tokens.",
+  "url": "https://github.com/Atoll92/agent-standup",
+  "stars": 319,
+  "pushedAt": "2026-10-21T23:03:11Z",
+  "createdAt": "2026-10-10T07:48:17Z",
+  "license": "MIT",
+  "commits": 304,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "abdelrahmanzied/claude-muslim": {
+  "repo": "abdelrahmanzied/claude-muslim",
+  "name": "claude-muslim",
+  "description": "A Claude Code mod for Muslim developers",
+  "url": "https://github.com/abdelrahmanzied/claude-muslim",
+  "stars": 0,
+  "pushedAt": "2026-10-24T13:15:19Z",
+  "createdAt": "2026-10-09T20:39:37Z",
+  "license": "MIT",
+  "commits": 28,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "qorvyx/burn-baby-burn": {
+  "repo": "qorvyx/burn-baby-burn",
+  "name": "burn-baby-burn",
+  "description": "🔥 A Claude Code mod that nags you, with fire, to use your weekly limit before it resets. It adds a status line, toasts that get more frequent as the reset nears, and a /burn command.",
+  "url": "https://github.com/qorvyx/burn-baby-burn",
+  "stars": 1,
+  "pushedAt": "2026-10-21T21:28:06Z",
+  "createdAt": "2026-10-02T22:05:47Z",
+  "license": "MIT",
+  "commits": 14,
+  "firstSeen": "2026-10-25",
+  "inCatalogue": false,
+  "mods": []
+ },
+ "trustmeimlumi/uptick": {
+  "repo": "trustmeimlumi/uptick",
+  "name": "uptick",
+  "description": "A Claude Code mod that lists updates for Claude Code, plugins, skills and Homebrew, and runs one only after you confirm the exact command.",
+  "url": "https://github.com/trustmeimlumi/uptick",
+  "stars": 0,
+  "pushedAt": "2026-10-24T15:22:48Z",
+  "createdAt": "2026-10-24T15:14:22Z",
+  "license": "MIT",
+  "commits": 1,
+  "firstSeen": "2026-10-24",
+  "inCatalogue": false,
+  "mods": []
+ },
  "Analyst-Harsh/claude-code-mods": {
   "repo": "Analyst-Harsh/claude-code-mods",
   "name": "claude-code-mods",
@@ -153,20 +349,6 @@
   "inCatalogue": false,
   "mods": []
  },
- "trustmeimlumi/uptick": {
-  "repo": "trustmeimlumi/uptick",
-  "name": "uptick",
-  "description": "Uptick: a Claude Code mod that lists updates for Claude Code, plugins, skills and Homebrew, and runs one only after you confirm.",
-  "url": "https://github.com/trustmeimlumi/uptick",
-  "stars": 1,
-  "pushedAt": "2026-10-24T09:48:56Z",
-  "createdAt": "2026-10-23T13:20:55Z",
-  "license": "MIT",
-  "commits": 2,
-  "firstSeen": "2026-10-24",
-  "inCatalogue": false,
-  "mods": []
- },
  "illsv/extended-polls-claude-plugin": {
   "repo": "illsv/extended-polls-claude-plugin",
   "name": "extended-polls-claude-plugin",
@@ -183,17 +365,97 @@
  },
  "dophamine/claude-suggest": {
   "repo": "dophamine/claude-suggest",
-  "name": "claude-suggest",
-  "description": "Claude Code mod: clickable suggested replies as buttons under Claude's last message",
+  "name": "suggest",
+  "description": "Clickable suggested replies under Claude's last message",
   "url": "https://github.com/dophamine/claude-suggest",
   "stars": 1,
-  "pushedAt": "2026-10-24T10:30:18Z",
+  "pushedAt": "2026-10-24T11:10:53Z",
   "createdAt": "2026-10-23T12:16:21Z",
   "license": "MIT",
-  "commits": 21,
+  "commits": 22,
   "firstSeen": "2026-10-24",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "dophamine/claude-suggest:.",
+    "name": "suggest",
+    "path": ".",
+    "description": "Clickable suggested replies under Claude's last message",
+    "url": "https://github.com/dophamine/claude-suggest",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "changes config",
+      "drives Claude",
+      "writes the prompt box",
+      "reads the prompt box",
+      "reads mod state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "every prompt"
+    ],
+    "draws": [
+     "PromptHint",
+     "AssistantMessage"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "suggest"
+      }
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "prompt.suggest",
+      "matcher": {
+       "origin has {kind": "suggestion}"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "PromptHint"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AssistantMessage"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.command.register",
+     "$.command.run",
+     "$.config.set",
+     "$.model.complete",
+     "$.prompt.fill",
+     "$.prompt.read",
+     "$.prompt.submit",
+     "$.prompt.suggest",
+     "$.state.get",
+     "$.state.set",
+     "$.ui.resolve",
+     "$.ui.status"
+    ]
+   }
+  ]
  },
  "PointerLex/claude-usage-meter": {
   "repo": "PointerLex/claude-usage-meter",
@@ -270,11 +532,11 @@
   "name": "cc-intelligent-ui",
   "description": "Claude's answers, rendered: Markdown, math, charts and diagrams drawn in the Claude Code terminal. Independent project, not affiliated with Anthropic.",
   "url": "https://github.com/razorback16/cc-intelligent-ui",
-  "stars": 88,
-  "pushedAt": "2026-10-23T21:20:54Z",
+  "stars": 89,
+  "pushedAt": "2026-10-24T22:23:24Z",
   "createdAt": "2026-10-16T18:32:13Z",
   "license": "MIT",
-  "commits": 142,
+  "commits": 143,
   "firstSeen": "2026-10-24",
   "inCatalogue": false,
   "mods": []
@@ -496,10 +758,10 @@
   "description": "A Claude Code mod that turns Claude's requests into checklist cards, with steps to tick, decision buttons, and Open and Copy buttons",
   "url": "https://github.com/ghosthat-studio/handoffs",
   "stars": 0,
-  "pushedAt": "2026-10-23T20:43:39Z",
+  "pushedAt": "2026-10-24T20:30:12Z",
   "createdAt": "2026-10-23T00:20:51Z",
   "license": "MIT",
-  "commits": 4,
+  "commits": 5,
   "firstSeen": "2026-10-23",
   "inCatalogue": false,
   "mods": []
@@ -510,10 +772,10 @@
   "description": "Claude Code mod for rich user interfaces",
   "url": "https://github.com/emergentai/claude-code-rich-ui",
   "stars": 2,
-  "pushedAt": "2026-10-23T05:52:19Z",
+  "pushedAt": "2026-10-25T05:57:13Z",
   "createdAt": "2026-10-22T23:19:04Z",
   "license": "MIT",
-  "commits": 39,
+  "commits": 128,
   "firstSeen": "2026-10-23",
   "inCatalogue": false,
   "mods": []
@@ -594,10 +856,10 @@
   "description": "A Claude Code mod for walking a Git repository worktree by worktree and commit by commit",
   "url": "https://github.com/mahdava/commit-walk",
   "stars": 0,
-  "pushedAt": "2026-10-24T10:15:35Z",
+  "pushedAt": "2026-10-24T10:50:47Z",
   "createdAt": "2026-10-17T18:05:05Z",
   "license": "MIT",
-  "commits": 58,
+  "commits": 59,
   "firstSeen": "2026-10-23",
   "inCatalogue": false,
   "mods": []
@@ -635,11 +897,11 @@
   "name": "synaptik",
   "description": "Accept, reject or comment on any part of the agent's reply — Synaptik turns your marks into one prompt. A Claude Code mod.",
   "url": "https://github.com/synaptik-app/synaptik",
-  "stars": 1,
-  "pushedAt": "2026-10-24T09:06:38Z",
+  "stars": 2,
+  "pushedAt": "2026-10-25T10:51:13Z",
   "createdAt": "2026-10-13T20:07:58Z",
   "license": "Apache-2.0",
-  "commits": 124,
+  "commits": 133,
   "firstSeen": "2026-10-23",
   "inCatalogue": false,
   "mods": []
@@ -1298,10 +1560,10 @@
   "description": "A journal written by your agent. Autonomously.",
   "url": "https://github.com/zirkelc/agent-journal",
   "stars": 7,
-  "pushedAt": "2026-10-23T11:56:04Z",
+  "pushedAt": "2026-10-24T13:18:54Z",
   "createdAt": "2026-08-11T14:53:22Z",
   "license": "MIT",
-  "commits": 73,
+  "commits": 75,
   "firstSeen": "2026-10-23",
   "inCatalogue": false,
   "mods": []
@@ -1758,11 +2020,11 @@
   "name": "clauderipple",
   "description": "Use GPT, DeepSeek, GLM, Gemini, Kimi and 400+ models in Claude Desktop's own model picker and in Claude Code, while staying signed in to your Claude subscription (1P, no gateway mode). Auto reasoning effort per prompt, subagents routed by difficulty, cache and limit warnings. Claude inside Codex too.",
   "url": "https://github.com/PBJ-2/clauderipple",
-  "stars": 70,
-  "pushedAt": "2026-10-24T08:21:39Z",
+  "stars": 71,
+  "pushedAt": "2026-10-25T08:40:38Z",
   "createdAt": "2026-09-13T11:06:55Z",
   "license": "GPL-3.0",
-  "commits": 807,
+  "commits": 848,
   "firstSeen": "2026-10-22",
   "inCatalogue": false,
   "mods": []
@@ -1857,10 +2119,10 @@
   "description": "Small Claude Code mods: clickable follow-up prompts, a trash guard, live progress, session links, a paid-API meter and done notifications",
   "url": "https://github.com/benjaminb10/encore-mods",
   "stars": 1,
-  "pushedAt": "2026-10-23T16:37:59Z",
+  "pushedAt": "2026-10-24T21:41:16Z",
   "createdAt": "2026-10-21T02:18:16Z",
   "license": "MIT",
-  "commits": 12,
+  "commits": 14,
   "firstSeen": "2026-10-21",
   "inCatalogue": false,
   "mods": []
@@ -1955,10 +2217,10 @@
   "description": "Claude Code panel showing the session’s task tree",
   "url": "https://github.com/AlbertKellner/claude-code-mod-task-tree",
   "stars": 0,
-  "pushedAt": "2026-10-24T04:49:46Z",
+  "pushedAt": "2026-10-24T16:19:53Z",
   "createdAt": "2026-10-20T17:03:33Z",
   "license": null,
-  "commits": 182,
+  "commits": 195,
   "firstSeen": "2026-10-21",
   "inCatalogue": false,
   "mods": []
@@ -2011,10 +2273,10 @@
   "description": "See Claude Code mods inside the client before you install them. Community catalog + marketplace: one-line install for terminal, desktop and VS Code.",
   "url": "https://github.com/KROU4/claude-code-mod-showroom",
   "stars": 0,
-  "pushedAt": "2026-10-24T08:08:45Z",
+  "pushedAt": "2026-10-25T08:26:23Z",
   "createdAt": "2026-10-20T13:08:04Z",
   "license": "MIT",
-  "commits": 16,
+  "commits": 17,
   "firstSeen": "2026-10-21",
   "inCatalogue": false,
   "mods": []
@@ -2039,7 +2301,7 @@
   "description": "A Git Graph pane for Claude Code, in Claude Desktop and the terminal: branches, tags and remotes in lanes, commit details, diffs and git actions next to the conversation.",
   "url": "https://github.com/alvaromunozmx/git-graph-claude",
   "stars": 1,
-  "pushedAt": "2026-10-21T02:08:56Z",
+  "pushedAt": "2026-10-24T19:02:20Z",
   "createdAt": "2026-10-20T02:42:49Z",
   "license": "MIT",
   "commits": 160,
@@ -2049,8 +2311,8 @@
  },
  "Th3-W6rst/claude-realce": {
   "repo": "Th3-W6rst/claude-realce",
-  "name": "claude-realce",
-  "description": "Claude Code mod: colors replies by meaning; code, tools and turns readable at a glance. English and Portuguese.",
+  "name": "realce",
+  "description": "Colors Claude's replies by meaning and makes the session easier to follow, every aid behind its own flag",
   "url": "https://github.com/Th3-W6rst/claude-realce",
   "stars": 1,
   "pushedAt": "2026-10-22T14:08:09Z",
@@ -2058,19 +2320,253 @@
   "license": "MIT",
   "commits": 50,
   "firstSeen": "2026-10-21",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "Th3-W6rst/claude-realce:.",
+    "name": "realce",
+    "path": ".",
+    "description": "Colors Claude's replies by meaning and makes the session easier to follow, every aid behind its own flag",
+    "url": "https://github.com/Th3-W6rst/claude-realce",
+    "reach": {
+     "level": 3,
+     "name": "network",
+     "labels": [
+      "network",
+      "runs processes",
+      "writes files",
+      "drives Claude",
+      "writes the prompt box",
+      "writes the clipboard",
+      "reads files",
+      "reads env vars",
+      "reads settings",
+      "reads the transcript",
+      "reads the selection",
+      "reads the system prompt",
+      "reads mod state",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "every prompt",
+     "every tool call",
+     "AskUserQuestion calls"
+    ],
+    "draws": [
+     "AssistantMessage",
+     "ToolUse",
+     "ToolGroup",
+     "ToolResult",
+     "TurnDuration",
+     "UserMessage",
+     "Spinner",
+     "AbovePrompt",
+     "Pane",
+     "AskUserQuestion"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "config.set",
+      "matcher": {
+       "key": "theme"
+      }
+     },
+     {
+      "event": "config.set",
+      "matcher": {
+       "key": "language"
+      }
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     },
+     {
+      "event": "tool.call",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "session.append",
+      "matcher": {}
+     },
+     {
+      "event": "turn.step",
+      "matcher": {}
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "realce"
+      }
+     },
+     {
+      "event": "prompt.compose",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AssistantMessage"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolUse"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolGroup"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolResult"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "ToolResult",
+       "props has {tool": "Edit|Write|NotebookEdit}"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "TurnDuration"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "UserMessage",
+       "props.origin has {kind": "task-notification}"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Spinner"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "realce-sessao"
+      }
+     },
+     {
+      "event": "tool.call",
+      "matcher": {
+       "tool": "AskUserQuestion"
+      }
+     },
+     {
+      "event": "prompt.edit",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AskUserQuestion"
+      }
+     },
+     {
+      "event": "session.measure",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "realce-flags"
+      }
+     },
+     {
+      "event": "ui.close",
+      "matcher": {
+       "id": "realce-sessao"
+      }
+     },
+     {
+      "event": "agent.offer",
+      "matcher": {
+       "agent": "realce:reader"
+      }
+     }
+    ],
+    "calls": [
+     "$.agent.list",
+     "$.agent.spawn",
+     "$.clock.after",
+     "$.clock.every",
+     "$.clock.now",
+     "$.command.register",
+     "$.config.list",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.read",
+     "$.fs.write",
+     "$.http.fetch",
+     "$.model.complete",
+     "$.model.fork",
+     "$.process.run",
+     "$.prompt.compose",
+     "$.prompt.fill",
+     "$.prompt.submit",
+     "$.session.id",
+     "$.session.messages",
+     "$.session.version",
+     "$.state.get",
+     "$.state.set",
+     "$.store.get",
+     "$.store.set",
+     "$.ui.close",
+     "$.ui.copy",
+     "$.ui.invalidate",
+     "$.ui.log",
+     "$.ui.notify",
+     "$.ui.open",
+     "$.ui.panes",
+     "$.ui.resolve",
+     "$.ui.scroll",
+     "$.ui.selection",
+     "$.ui.toast"
+    ]
+   }
+  ]
  },
  "BordyV/brainrot-break": {
   "repo": "BordyV/brainrot-break",
   "name": "brainrot-break",
-  "description": "A TikTok-style feed of 350+ pixel art mini-videos to scroll while Claude answers. A Claude Code mod for the terminal and the desktop app, drawn locally: no tokens, no model calls.",
+  "description": "A TikTok-style feed of 450+ pixel art mini-videos to scroll while Claude answers. A Claude Code mod for the terminal and the desktop app, drawn locally: no tokens, no model calls.",
   "url": "https://github.com/BordyV/brainrot-break",
   "stars": 0,
-  "pushedAt": "2026-10-23T22:17:01Z",
+  "pushedAt": "2026-10-25T09:08:29Z",
   "createdAt": "2026-10-19T20:15:27Z",
   "license": "MIT",
-  "commits": 27,
+  "commits": 55,
   "firstSeen": "2026-10-21",
   "inCatalogue": false,
   "mods": []
@@ -2374,17 +2870,107 @@
  },
  "sairam0424/claude-prompt-lift": {
   "repo": "sairam0424/claude-prompt-lift",
-  "name": "claude-prompt-lift",
-  "description": "Claude Code mod (in-process hooks module): an Enhance / Send / Undo band above the prompt that rewrites a vague draft from the session's loaded CLAUDE.md files and skills. Formerly prompt-master; not the prompt-master skill.",
+  "name": "prompt-lift",
+  "description": "Enhance your prompts using project instructions and skills",
   "url": "https://github.com/sairam0424/claude-prompt-lift",
   "stars": 0,
-  "pushedAt": "2026-10-22T17:48:39Z",
+  "pushedAt": "2026-10-25T04:49:02Z",
   "createdAt": "2026-10-17T06:34:07Z",
   "license": "MIT",
-  "commits": 195,
+  "commits": 196,
   "firstSeen": "2026-10-20",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "sairam0424/claude-prompt-lift:.",
+    "name": "prompt-lift",
+    "path": ".",
+    "description": "Enhance your prompts using project instructions and skills",
+    "url": "https://github.com/sairam0424/claude-prompt-lift",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "drives Claude",
+      "writes the prompt box",
+      "reads files",
+      "reads env vars",
+      "reads the transcript",
+      "reads the prompt box",
+      "reads mod state",
+      "persists state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "classic hooks",
+     "every prompt"
+    ],
+    "draws": [
+     "AbovePrompt"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "session.end",
+      "matcher": {}
+     },
+     {
+      "event": "classic.SessionStart",
+      "matcher": {
+       "source": "clear|resume|fork"
+      }
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "prompt-lift"
+      }
+     }
+    ],
+    "calls": [
+     "$.clock.now",
+     "$.command.list",
+     "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.list",
+     "$.fs.read",
+     "$.fs.stat",
+     "$.model.complete",
+     "$.prompt.fill",
+     "$.prompt.read",
+     "$.prompt.submit",
+     "$.session.messages",
+     "$.session.model",
+     "$.session.root",
+     "$.session.usage",
+     "$.state.get",
+     "$.state.set",
+     "$.store.delete",
+     "$.store.get",
+     "$.store.keys",
+     "$.store.set",
+     "$.ui.invalidate",
+     "$.ui.log",
+     "$.ui.resolve",
+     "$.ui.toast"
+    ]
+   }
+  ]
  },
  "Sma1lboy/claude-standup": {
   "repo": "Sma1lboy/claude-standup",
@@ -3281,10 +3867,10 @@
   "description": "Grammar fixes and model-aware prompt improvements for AI coding tools, with a Claude Code mod as the first adapter.",
   "url": "https://github.com/marcelomiyake/prompt-dialect",
   "stars": 0,
-  "pushedAt": "2026-10-23T01:33:19Z",
+  "pushedAt": "2026-10-24T11:13:53Z",
   "createdAt": "2026-10-15T23:12:14Z",
   "license": "MIT",
-  "commits": 39,
+  "commits": 44,
   "firstSeen": "2026-10-18",
   "inCatalogue": false,
   "mods": []
@@ -3308,11 +3894,11 @@
   "name": "ccswap",
   "description": "ccswap inside Claude Code: /ccswap to list and switch accounts, an accounts pane, a switch toast, and a quota band above the prompt",
   "url": "https://github.com/errhythm/ccswap/tree/main/mod",
-  "stars": 38,
-  "pushedAt": "2026-10-18T13:21:45Z",
+  "stars": 40,
+  "pushedAt": "2026-10-24T17:25:41Z",
   "createdAt": "2026-07-10T09:18:19Z",
   "license": "MIT",
-  "commits": 638,
+  "commits": 667,
   "firstSeen": "2026-10-18",
   "inCatalogue": true,
   "mods": [
@@ -3381,16 +3967,111 @@
  "arturogarrido/claudinho": {
   "repo": "arturogarrido/claudinho",
   "name": "claudinho",
-  "description": "⚽ Live football(soccer) scores, fixtures and standings for the competition you follow (World Cup, Premier League, LALIGA, Champions League and 12 more) in your terminal, your Claude Code and Cursor CLI statusline, and MCP clients. No API key. Independent fan project. Not affiliated with FIFA, any confederation, league or club, or Anthropic.",
-  "url": "https://github.com/arturogarrido/claudinho",
+  "description": "Live football in Claude Code for the competition you follow: the score or the countdown above the prompt (the same line on demand with /claudinho), a toast that says what happened (a goal and its scorer, full time and the result), a goal celebration with the Claude mascot, the live score beside your prompt for the model, all from the installed claudinho CLI's local cache, and a match pane with the match you follow, its goals and cards (/claudinho match, read by the CLI). Live data: ESPN. Not affiliated with FIFA, any confederation, league or club, or Anthropic.",
+  "url": "https://github.com/arturogarrido/claudinho/tree/main/packages/plugin",
   "stars": 33,
   "pushedAt": "2026-10-24T05:14:40Z",
   "createdAt": "2026-06-06T20:38:12Z",
   "license": "MIT",
   "commits": 318,
   "firstSeen": "2026-10-18",
-  "inCatalogue": false,
-  "mods": []
+  "inCatalogue": true,
+  "mods": [
+   {
+    "id": "arturogarrido/claudinho:packages/plugin",
+    "name": "claudinho",
+    "path": "packages/plugin",
+    "description": "Live football in Claude Code for the competition you follow: the score or the countdown above the prompt (the same line on demand with /claudinho), a toast that says what happened (a goal and its scorer, full time and the result), a goal celebration with the Claude mascot, the live score beside your prompt for the model, all from the installed claudinho CLI's local cache, and a match pane with the match you follow, its goals and cards (/claudinho match, read by the CLI). Live data: ESPN. Not affiliated with FIFA, any confederation, league or club, or Anthropic.",
+    "url": "https://github.com/arturogarrido/claudinho/tree/main/packages/plugin",
+    "reach": {
+     "level": 2,
+     "name": "writes or runs",
+     "labels": [
+      "runs processes",
+      "reads files",
+      "reads env vars",
+      "reads mod state",
+      "draws"
+     ]
+    },
+    "sees": [
+     "every prompt"
+    ],
+    "draws": [
+     "AbovePrompt",
+     "Pane"
+    ],
+    "hooks": [
+     {
+      "event": "session.start",
+      "matcher": {}
+     },
+     {
+      "event": "session.attach",
+      "matcher": {}
+     },
+     {
+      "event": "session.detach",
+      "matcher": {}
+     },
+     {
+      "event": "turn.start",
+      "matcher": {}
+     },
+     {
+      "event": "turn.complete",
+      "matcher": {}
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "AbovePrompt"
+      }
+     },
+     {
+      "event": "command.run",
+      "matcher": {
+       "command": "claudinho"
+      }
+     },
+     {
+      "event": "ui.close",
+      "matcher": {
+       "id": "match"
+      }
+     },
+     {
+      "event": "ui.render",
+      "matcher": {
+       "component": "Pane",
+       "requestId": "match"
+      }
+     },
+     {
+      "event": "prompt.submit",
+      "matcher": {}
+     }
+    ],
+    "calls": [
+     "$.clock.after",
+     "$.clock.every",
+     "$.clock.now",
+     "$.clock.sleep",
+     "$.command.register",
+     "$.env.get",
+     "$.fs.exists",
+     "$.fs.list",
+     "$.process.run",
+     "$.session.surfaces",
+     "$.state.get",
+     "$.state.set",
+     "$.ui.invalidate",
+     "$.ui.open",
+     "$.ui.resolve",
+     "$.ui.toast"
+    ]
+   }
+  ]
  },
  "naoanao/overclaim-guard": {
   "repo": "naoanao/overclaim-guard",
@@ -4036,10 +4717,10 @@
   "description": "A process monitoring and ticket system for Claude Code: your todo as a live ticket board you can hand to Claude, with each of Claude's steps and each agent linked to tickets and fully tracked.",
   "url": "https://github.com/Marceux-Croix/Claudeopticon",
   "stars": 1,
-  "pushedAt": "2026-10-23T23:29:26Z",
+  "pushedAt": "2026-10-24T23:45:48Z",
   "createdAt": "2026-10-16T00:03:51Z",
   "license": "MIT",
-  "commits": 52,
+  "commits": 54,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -4050,7 +4731,7 @@
   "description": "A clearer Claude Code terminal: boxed and organized you/claude conversations, colour-coded clickable tool rows, a live status band with a timer and task info, a session panel, copy buttons, cards, alerts, readable palettes, and overall transforms Claude Code.",
   "url": "https://github.com/CircularBlox/Clarity",
   "stars": 3,
-  "pushedAt": "2026-10-23T11:46:19Z",
+  "pushedAt": "2026-10-24T11:10:09Z",
   "createdAt": "2026-10-16T00:03:19Z",
   "license": "MIT",
   "commits": 7,
@@ -4061,13 +4742,13 @@
  "jrlprost/claude-code-mods": {
   "repo": "jrlprost/claude-code-mods",
   "name": "claude-code-mods",
-  "description": "Claude Code mods I build because I need them: context bar, plugin toggler, and more. Gradient terminal UI, one mod per plugin.",
+  "description": "jr Claude Code mods: 43 free, open-source mods for Claude Code. Context bar, plan limits, prompt cache countdown, system monitor, billable time, safety guards, dictation fixes. One-line install each, no tokens.",
   "url": "https://github.com/jrlprost/claude-code-mods",
-  "stars": 3,
-  "pushedAt": "2026-10-19T14:15:58Z",
+  "stars": 4,
+  "pushedAt": "2026-10-25T10:34:11Z",
   "createdAt": "2026-10-15T21:55:40Z",
   "license": "MIT",
-  "commits": 153,
+  "commits": 196,
   "firstSeen": "2026-10-16",
   "inCatalogue": false,
   "mods": []
@@ -5000,10 +5681,10 @@
   "description": "Beads task manager UI: a Claude Code mod for the TUI, an MCP UI app [TODO] for Claude Desktop and claude.ai, and a local or hostable web app [TODO]. All share one core.",
   "url": "https://github.com/sergeiwallace/beads-ui",
   "stars": 0,
-  "pushedAt": "2026-10-24T10:42:28Z",
+  "pushedAt": "2026-10-25T11:03:34Z",
   "createdAt": "2026-10-14T23:09:52Z",
   "license": "MIT",
-  "commits": 110,
+  "commits": 125,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -5070,10 +5751,10 @@
   "description": "Your AI agent can't push to a repo, deploy a project or drop a table that isn't yours. Read yes, write no.",
   "url": "https://github.com/Br4inergy/claude-hands-off",
   "stars": 1,
-  "pushedAt": "2026-10-14T19:38:22Z",
+  "pushedAt": "2026-10-24T14:53:07Z",
   "createdAt": "2026-10-14T19:13:30Z",
   "license": "MIT",
-  "commits": 2,
+  "commits": 3,
   "firstSeen": "2026-10-15",
   "inCatalogue": false,
   "mods": []
@@ -5442,7 +6123,7 @@
   "name": "terminal-gym",
   "description": "A daily bodyweight rep goal inside Claude Code: log with /fit, quick-log band, long-turn nudges, streaks and a score grid, optional strict mode.",
   "url": "https://github.com/DrumAndCode/terminal-gym",
-  "stars": 1,
+  "stars": 2,
   "pushedAt": "2026-10-23T21:40:57Z",
   "createdAt": "2026-10-03T03:26:09Z",
   "license": "MIT",
@@ -5874,10 +6555,10 @@
   "description": "See what Claude changed, turn by turn. Keep it or send it back. Claude Code mods: Changes and Receipts.",
   "url": "https://github.com/candygoogy/notary",
   "stars": 1,
-  "pushedAt": "2026-10-16T16:28:00Z",
+  "pushedAt": "2026-10-24T14:04:39Z",
   "createdAt": "2026-10-13T18:21:07Z",
   "license": "MIT",
-  "commits": 6,
+  "commits": 8,
   "firstSeen": "2026-10-14",
   "inCatalogue": true,
   "mods": [
@@ -6612,10 +7293,10 @@
   "description": "A collection of mods for Claude Code.",
   "url": "https://github.com/T-AI-Labs/claude-code-mods",
   "stars": 1,
-  "pushedAt": "2026-10-24T10:22:48Z",
+  "pushedAt": "2026-10-25T05:38:58Z",
   "createdAt": "2026-10-12T19:11:31Z",
   "license": "MIT",
-  "commits": 69,
+  "commits": 81,
   "firstSeen": "2026-10-13",
   "inCatalogue": true,
   "mods": [
@@ -7511,7 +8192,7 @@
   "name": "my-claude-code-mods",
   "description": "Custom Claude Code Mods that I need",
   "url": "https://github.com/YeonwooSung/my-claude-code-mods",
-  "stars": 1091,
+  "stars": 1090,
   "pushedAt": "2026-10-23T16:30:45Z",
   "createdAt": "2026-10-09T13:09:11Z",
   "license": "Apache-2.0",
@@ -8618,7 +9299,7 @@
   "name": "MODZ",
   "description": "17 Claude Code plugins in one panel. See every move Claude makes: agents, files, plans, tests and risky commands, live.",
   "url": "https://github.com/partalemre/MODZ",
-  "stars": 3,
+  "stars": 4,
   "pushedAt": "2026-10-18T14:58:44Z",
   "createdAt": "2026-10-09T10:31:54Z",
   "license": "MIT",
@@ -11237,7 +11918,7 @@
   "name": "better-claude",
   "description": "Small plugins and mods that make your life (and Claude Code) better",
   "url": "https://github.com/midudev/better-claude",
-  "stars": 200,
+  "stars": 205,
   "pushedAt": "2026-10-24T09:02:12Z",
   "createdAt": "2026-10-05T10:09:42Z",
   "license": "MIT",
@@ -11251,7 +11932,7 @@
   "name": "bitfrost",
   "description": "Use Codex, ZCode and ACP apps (opencode, Oh My Pi, Gemini CLI) as Claude Code subagents",
   "url": "https://github.com/SavaSoftworks/BitFrost/tree/main/plugins/bitfrost",
-  "stars": 24,
+  "stars": 25,
   "pushedAt": "2026-10-15T17:31:50Z",
   "createdAt": "2026-09-29T16:47:24Z",
   "license": "GPL-3.0",
@@ -11357,7 +12038,7 @@
   "name": "cc-zh",
   "description": "Claude Code 简体中文 UI mod —— 以静态词典把斜杠命令说明、/config 项、Spinner 词、提示与通知显示为中文。零 token、零网络、不碰官方产物。",
   "url": "https://github.com/jiangnanquan/claude-code-zh/tree/main/mods/cc-zh",
-  "stars": 0,
+  "stars": 1,
   "pushedAt": "2026-10-18T09:28:47Z",
   "createdAt": "2026-08-11T07:42:39Z",
   "license": "MIT",
@@ -11489,7 +12170,7 @@
   "description": "Claude Code, with receipts. Plans with you, hands each task to a specialist agent, and keeps a session from calling work done until a verification is logged. Its hooks run in every session, a guard holds destructive shell commands for review, and setup can point your status line at OMCA.",
   "url": "https://github.com/UtsavBalar1231/oh-my-claudeagent",
   "stars": 3,
-  "pushedAt": "2026-10-22T19:23:53Z",
+  "pushedAt": "2026-10-25T09:12:45Z",
   "createdAt": "2026-02-23T18:59:41Z",
   "license": "MIT",
   "commits": 1169,
@@ -13070,10 +13751,10 @@
   "description": "Spank Claude when it messes up: a cartoon butt above the prompt, eight slappers, nine butts, marks, combos and sounds; your next message tells Claude how it was spanked. English and Russian.",
   "url": "https://github.com/timoncool/slapbox",
   "stars": 2,
-  "pushedAt": "2026-10-24T08:10:21Z",
+  "pushedAt": "2026-10-25T08:28:27Z",
   "createdAt": "2026-10-11T02:29:08Z",
   "license": "MIT",
-  "commits": 20,
+  "commits": 21,
   "firstSeen": "2026-10-11",
   "inCatalogue": true,
   "mods": [
@@ -14078,11 +14759,11 @@
   "name": "claude-code-mods",
   "description": "Mods and skins for Claude Code: a live progress bar for Claude's tasks, a readable dark theme with a matching Windows Terminal look, and more to come.",
   "url": "https://github.com/GarvitNangru/claude-code-mods",
-  "stars": 29,
-  "pushedAt": "2026-10-12T17:30:51Z",
+  "stars": 30,
+  "pushedAt": "2026-10-25T03:29:38Z",
   "createdAt": "2026-10-10T15:57:26Z",
   "license": "MIT",
-  "commits": 12,
+  "commits": 13,
   "firstSeen": "2026-10-11",
   "inCatalogue": true,
   "mods": [
@@ -16290,13 +16971,13 @@
  "tiger42/claude-mods": {
   "repo": "tiger42/claude-mods",
   "name": "claude-mods",
-  "description": "My personal Claude mods",
+  "description": "Claude Code mods, packaged as a plugin marketplace: usage-band shows your 5-hour and weekly rate limits above the prompt, color-chooser adds a picker for the session color.",
   "url": "https://github.com/tiger42/claude-mods",
   "stars": 2,
-  "pushedAt": "2026-10-15T15:55:45Z",
+  "pushedAt": "2026-10-24T18:33:40Z",
   "createdAt": "2026-10-05T15:27:41Z",
   "license": "MIT",
-  "commits": 6,
+  "commits": 8,
   "firstSeen": "2026-10-11",
   "inCatalogue": true,
   "mods": [
@@ -19962,7 +20643,7 @@
   "name": "redgreen",
   "description": "Test results pane for Claude Code: every test run Claude makes becomes a pass/fail list with the failure detail and run history. vitest, jest, pytest, cargo, go, bun, deno",
   "url": "https://github.com/hellosverre/redgreen",
-  "stars": 3,
+  "stars": 5,
   "pushedAt": "2026-10-10T14:39:58Z",
   "createdAt": "2026-10-09T21:28:50Z",
   "license": "MIT",
@@ -21176,7 +21857,7 @@
   "name": "context-diet",
   "description": "Trims huge tool outputs (logs, JSON, diffs, grep, file lists) before they reach Claude's context, and saves the full text to a file Claude can read",
   "url": "https://github.com/drkokorev/context-diet/tree/main/plugins/context-diet",
-  "stars": 9,
+  "stars": 10,
   "pushedAt": "2026-10-11T19:21:06Z",
   "createdAt": "2026-10-09T16:20:45Z",
   "license": "MIT",
@@ -23924,10 +24605,10 @@
   "description": "Plan usage (5-hour, weekly and any model window) and the context window as thin bars above the prompt. Right-click to collapse to one line; /context-bar to hide, or to read it as text where nothing draws.",
   "url": "https://github.com/nevermemo/token-watch",
   "stars": 1,
-  "pushedAt": "2026-10-09T17:18:51Z",
+  "pushedAt": "2026-10-25T06:31:01Z",
   "createdAt": "2026-10-09T10:28:44Z",
   "license": "Apache-2.0",
-  "commits": 6,
+  "commits": 14,
   "firstSeen": "2026-10-09",
   "inCatalogue": true,
   "mods": [
@@ -29236,10 +29917,10 @@
   "description": "Community mods for Claude Code: guards, panes, and commands that run inside Claude Code. Marketplace: modhub",
   "url": "https://github.com/MDmubarak786/claude-mods",
   "stars": 1,
-  "pushedAt": "2026-10-23T06:57:14Z",
+  "pushedAt": "2026-10-25T04:51:01Z",
   "createdAt": "2026-10-09T05:13:30Z",
   "license": "MIT",
-  "commits": 60,
+  "commits": 62,
   "firstSeen": "2026-10-09",
   "inCatalogue": true,
   "mods": [
@@ -31814,7 +32495,7 @@
   "description": "Watch Claude Code's background work: subagents, Codex jobs, shells, monitors, cron jobs and workflows.",
   "url": "https://github.com/lorenzh/rabe",
   "stars": 3,
-  "pushedAt": "2026-10-19T17:18:11Z",
+  "pushedAt": "2026-10-25T02:43:29Z",
   "createdAt": "2026-10-08T20:26:43Z",
   "license": "MIT",
   "commits": 315,
@@ -32367,10 +33048,10 @@
   "description": "Lets clear prompts through untouched and rewrites rough ones into the prompt box for you to check before sending.",
   "url": "https://github.com/ondrhn/sharpprompt",
   "stars": 1,
-  "pushedAt": "2026-10-23T19:13:13Z",
+  "pushedAt": "2026-10-24T13:12:00Z",
   "createdAt": "2026-10-08T18:08:19Z",
   "license": "MIT",
-  "commits": 68,
+  "commits": 70,
   "firstSeen": "2026-10-09",
   "inCatalogue": true,
   "mods": [
@@ -35227,7 +35908,7 @@
   "name": "tolk",
   "description": "Claude Code's interface in your language: command list, /config, spinner, hints and turn lines. German, Spanish, French, Italian, Portuguese (BR), Japanese, Chinese and Vietnamese.",
   "url": "https://github.com/leandrogregorini/tolk",
-  "stars": 2,
+  "stars": 3,
   "pushedAt": "2026-10-08T14:47:43Z",
   "createdAt": "2026-10-08T10:18:53Z",
   "license": "MIT",
@@ -36020,11 +36701,11 @@
   "name": "wirepane",
   "description": "The debugging proxy Claude can read, inside Claude Code on macOS: HTTPS, HTTP/2, gRPC, WebSockets and server-sent events from the browser, iOS and Android; one-press device setup; rules and mock servers; a doctor that fixes what is in the way; 16 tools and 3 skills for Claude.",
   "url": "https://github.com/legostin/wirepane",
-  "stars": 2,
-  "pushedAt": "2026-10-09T08:02:52Z",
+  "stars": 3,
+  "pushedAt": "2026-10-25T09:39:51Z",
   "createdAt": "2026-10-07T06:09:51Z",
   "license": "MIT",
-  "commits": 22,
+  "commits": 23,
   "firstSeen": "2026-10-09",
   "inCatalogue": true,
   "mods": [
@@ -36964,7 +37645,7 @@
   "name": "agent-usage-guard",
   "description": "A Claude Code mod that holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window. It reads your plan's usage, counts agents across every session, and asks in Claude Code's own dialog.",
   "url": "https://github.com/rbartoli/agent-usage-guard",
-  "stars": 64,
+  "stars": 71,
   "pushedAt": "2026-10-24T02:45:17Z",
   "createdAt": "2026-07-28T18:06:57Z",
   "license": "MIT",
@@ -41231,10 +41912,10 @@
   "description": "Live pane tracking the GitHub PRs touched in a session: CI, review, conflicts, merge. One shared poller for every session on the machine.",
   "url": "https://github.com/ElirazKed/claude-code-pr-watch",
   "stars": 9,
-  "pushedAt": "2026-10-23T14:28:41Z",
+  "pushedAt": "2026-10-25T10:36:36Z",
   "createdAt": "2026-10-07T13:58:08Z",
   "license": "MIT",
-  "commits": 44,
+  "commits": 47,
   "firstSeen": "2026-10-08",
   "inCatalogue": true,
   "mods": [
@@ -41775,75 +42456,6 @@
      "$.ui.log",
      "$.ui.open",
      "$.ui.resolve",
-     "$.ui.toast"
-    ]
-   }
-  ]
- },
- "eel-brah/burn-baby-burn": {
-  "repo": "eel-brah/burn-baby-burn",
-  "name": "burn-baby-burn",
-  "description": "Live session and weekly usage gauges under your prompt, fiery nags when your weekly limit is about to go unspent, and a friendly \"slow down\" when you burn through it too fast",
-  "url": "https://github.com/eel-brah/burn-baby-burn",
-  "stars": 1,
-  "pushedAt": "2026-10-21T21:28:06Z",
-  "createdAt": "2026-10-02T22:05:47Z",
-  "license": "MIT",
-  "commits": 14,
-  "firstSeen": "2026-10-08",
-  "inCatalogue": true,
-  "mods": [
-   {
-    "id": "eel-brah/burn-baby-burn:.",
-    "name": "burn-baby-burn",
-    "path": ".",
-    "description": "Live session and weekly usage gauges under your prompt, fiery nags when your weekly limit is about to go unspent, and a friendly \"slow down\" when you burn through it too fast",
-    "url": "https://github.com/eel-brah/burn-baby-burn",
-    "reach": {
-     "level": 0,
-     "name": "draws and remembers",
-     "labels": [
-      "persists state",
-      "draws"
-     ]
-    },
-    "sees": [],
-    "draws": [
-     "PromptHint"
-    ],
-    "hooks": [
-     {
-      "event": "session.start",
-      "matcher": {}
-     },
-     {
-      "event": "session.measure",
-      "matcher": {}
-     },
-     {
-      "event": "ui.render",
-      "matcher": {
-       "component": "PromptHint"
-      }
-     },
-     {
-      "event": "command.run",
-      "matcher": {
-       "command": "burn"
-      }
-     }
-    ],
-    "calls": [
-     "$.clock.every",
-     "$.clock.now",
-     "$.command.register",
-     "$.session.surfaces",
-     "$.session.usage",
-     "$.store.get",
-     "$.store.set",
-     "$.ui.invalidate",
-     "$.ui.resolve",
-     "$.ui.status",
      "$.ui.toast"
     ]
    }
@@ -42401,7 +43013,7 @@
   "name": "cockpit",
   "description": "Agent cockpit for Claude Code: live context, limits, cost, tools, files, tests and a guard for risky commands",
   "url": "https://github.com/drkokorev/cockpit-for-claude/tree/main/plugins/cockpit",
-  "stars": 9,
+  "stars": 10,
   "pushedAt": "2026-10-09T17:39:48Z",
   "createdAt": "2026-10-07T11:12:30Z",
   "license": "MIT",
@@ -52565,10 +53177,10 @@
   "description": "A curated list of Claude Code mods, installable as a plugin marketplace: themes, panes, status lines, portraits.",
   "url": "https://github.com/testy-cool/awesome-claude-code-mods",
   "stars": 3,
-  "pushedAt": "2026-10-23T11:35:52Z",
+  "pushedAt": "2026-10-24T10:56:13Z",
   "createdAt": "2026-10-05T21:05:19Z",
   "license": null,
-  "commits": 86,
+  "commits": 88,
   "firstSeen": "2026-10-06",
   "inCatalogue": false,
   "mods": []
@@ -59359,10 +59971,10 @@
   "description": "Bookmarks and vim-style marks inside Claude Code conversations: mark a line, jump back, keep a reading position, browse your prompts, and let Claude cite earlier places as clickable links.",
   "url": "https://github.com/DazzleML/claude-bookmarks/tree/main/plugin",
   "stars": 1,
-  "pushedAt": "2026-10-23T08:15:41Z",
+  "pushedAt": "2026-10-25T11:00:30Z",
   "createdAt": "2026-10-04T14:41:06Z",
   "license": "GPL-3.0",
-  "commits": 160,
+  "commits": 191,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -59629,10 +60241,10 @@
   "description": "A live wave board of your session's plan above the prompt: waves, tasks and their state, kept current by Claude through three tools and switched with /taskrail.",
   "url": "https://github.com/drolosoft/taskrail",
   "stars": 0,
-  "pushedAt": "2026-10-19T13:08:18Z",
+  "pushedAt": "2026-10-24T16:39:52Z",
   "createdAt": "2026-10-04T14:26:26Z",
   "license": "MIT",
-  "commits": 14,
+  "commits": 21,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -60335,10 +60947,10 @@
   "description": "🧩 Tested, one-command-install Claude Code mods: guardrails for YOLO mode, live cost & context, panes, pets and more. Plus a curated list of the best community mods.",
   "url": "https://github.com/Singh-AP/awesome-claude-mods",
   "stars": 3,
-  "pushedAt": "2026-10-24T09:51:16Z",
+  "pushedAt": "2026-10-25T10:07:50Z",
   "createdAt": "2026-10-04T12:27:43Z",
   "license": "MIT",
-  "commits": 37,
+  "commits": 38,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -65867,7 +66479,7 @@
   "name": "claude-pro-kit",
   "description": "Make the Claude Pro plan last longer: Claude Code mods for an exact usage HUD, shorter shell output and no repeat file reads. The mods spend zero tokens.",
   "url": "https://github.com/VedantAndhale/claude-pro-kit",
-  "stars": 11,
+  "stars": 12,
   "pushedAt": "2026-10-09T19:42:54Z",
   "createdAt": "2026-10-03T11:56:35Z",
   "license": "MIT",
@@ -67336,7 +67948,7 @@
   "name": "human-in-the-loop",
   "description": "Claude assigns you the tasks only you can do. They wait in a My tasks pane, counted under the prompt, until you answer or reject them, so nothing Claude needs from you gets lost in the chat.",
   "url": "https://github.com/tzafrir/human-in-the-loop",
-  "stars": 37,
+  "stars": 38,
   "pushedAt": "2026-10-20T10:19:24Z",
   "createdAt": "2026-10-03T11:11:22Z",
   "license": "MIT",
@@ -69697,10 +70309,10 @@
   "description": "An inbox for review requests and your own PRs: AI summary and risk, an AI review that can approve, a reader for the description and diff, asking reviewers (teams that assign too), merging (gh stack too) and CI fixes with Claude",
   "url": "https://github.com/2bo/pr-inbox",
   "stars": 2,
-  "pushedAt": "2026-10-24T10:34:38Z",
+  "pushedAt": "2026-10-25T10:25:27Z",
   "createdAt": "2026-10-03T07:50:51Z",
   "license": "MIT",
-  "commits": 104,
+  "commits": 141,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -70209,7 +70821,7 @@
   "name": "awesome-claude-code-mods",
   "description": "Collection of 100+ mods you can use with Claude Code.",
   "url": "https://github.com/whyashthakker/awesome-claude-code-mods",
-  "stars": 94,
+  "stars": 96,
   "pushedAt": "2026-10-03T10:09:06Z",
   "createdAt": "2026-10-03T05:06:35Z",
   "license": "MIT",
@@ -75047,10 +75659,10 @@
   "description": "Barra lateral estilo Evangelion: cuota, contexto, qué hace el agente, PRs, subagentes y alertas",
   "url": "https://github.com/gonzalonicolasr/claude-code-nerv",
   "stars": 1,
-  "pushedAt": "2026-10-23T13:23:55Z",
+  "pushedAt": "2026-10-25T01:14:25Z",
   "createdAt": "2026-10-02T22:02:44Z",
   "license": null,
-  "commits": 76,
+  "commits": 79,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -76061,10 +76673,10 @@
   "description": "Shows the file and lines you have selected in Cursor or VS Code above the Claude Code prompt in the desktop app, and quietly tells Claude what you're looking at with each message",
   "url": "https://github.com/talbarina/claude-editor-context/tree/main/plugins/editor-context",
   "stars": 0,
-  "pushedAt": "2026-10-19T07:35:42Z",
+  "pushedAt": "2026-10-25T08:47:18Z",
   "createdAt": "2026-10-02T19:40:45Z",
   "license": "MIT",
-  "commits": 26,
+  "commits": 27,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -76230,7 +76842,7 @@
   "name": "skins",
   "description": "Skins for Claude Code: tool rows that open onto their input and answer, highlighted code, diff, table, math, Mermaid and shell cards, links, folding, a usage band, a calm mode and fifteen themes. /skin swaps them live.",
   "url": "https://github.com/hellosverre/claude-skins",
-  "stars": 199,
+  "stars": 205,
   "pushedAt": "2026-10-23T20:02:09Z",
   "createdAt": "2026-10-02T18:37:22Z",
   "license": "MIT",
@@ -76770,11 +77382,11 @@
   "name": "flightdeck",
   "description": "Flightdeck: a live agent dashboard for Claude Code. Main model vitals, an on-call architect, every permission check, subagent cards and swimlanes, a turn receipt and a session log, all from real session events",
   "url": "https://github.com/scasella/claude-flightdeck",
-  "stars": 140,
-  "pushedAt": "2026-10-12T14:20:14Z",
+  "stars": 152,
+  "pushedAt": "2026-10-24T12:49:02Z",
   "createdAt": "2026-10-02T17:23:13Z",
   "license": "MIT",
-  "commits": 14,
+  "commits": 42,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -77371,7 +77983,7 @@
   "name": "claude-code-mods",
   "description": "Claude Code mods: plugins built on hooks that add live lines above the prompt, guards, panes and games. Context bar, usage meter, Codex review watch, Markdown preview, Spotify now playing and more.",
   "url": "https://github.com/hamzafer/claude-code-mods",
-  "stars": 374,
+  "stars": 382,
   "pushedAt": "2026-10-23T23:02:30Z",
   "createdAt": "2026-10-02T13:15:06Z",
   "license": "MIT",
@@ -79937,7 +80549,7 @@
   "name": "lemo-mod",
   "description": "Claude Code mods: 21 styles and a full set of features you turn on when you need them, for the terminal and the desktop app. · 一键为 Claude 换上新风格，并提供一整套按需开启的功能。",
   "url": "https://github.com/lemomo-ai/lemo-mod",
-  "stars": 42,
+  "stars": 43,
   "pushedAt": "2026-10-17T06:22:59Z",
   "createdAt": "2026-10-02T09:03:55Z",
   "license": "MIT",
@@ -82599,10 +83211,10 @@
   "description": "Mods for Claude Code: function-hook plugins that add live panes and behaviour to the terminal UI",
   "url": "https://github.com/arasovic/claude-code-mods",
   "stars": 7,
-  "pushedAt": "2026-10-23T23:47:43Z",
+  "pushedAt": "2026-10-25T00:52:36Z",
   "createdAt": "2026-10-02T06:24:10Z",
   "license": "MIT",
-  "commits": 122,
+  "commits": 163,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -83451,11 +84063,11 @@
   "name": "glass",
   "description": "A desktop-app look for Claude Code's terminal: colored shell commands in prose, a Bottom line card, content-fit code cards, borderless tables, gutter marks beside paragraphs that need you, painted tool rows and turn headers.",
   "url": "https://github.com/rashedInt32/glass",
-  "stars": 15,
-  "pushedAt": "2026-10-20T01:47:30Z",
+  "stars": 16,
+  "pushedAt": "2026-10-25T01:20:36Z",
   "createdAt": "2026-10-02T05:08:44Z",
   "license": "MIT",
-  "commits": 82,
+  "commits": 83,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
@@ -86197,10 +86809,10 @@
   "description": "Write a handover when a Claude Code session gets long, type /clear, and the next session picks up where you left off with nothing to paste.",
   "url": "https://github.com/m4cd4r4/clear-resume/tree/main/plugin",
   "stars": 1,
-  "pushedAt": "2026-10-24T07:40:45Z",
+  "pushedAt": "2026-10-24T23:04:18Z",
   "createdAt": "2026-09-19T10:54:38Z",
   "license": "MIT",
-  "commits": 143,
+  "commits": 145,
   "firstSeen": "2026-10-06",
   "inCatalogue": true,
   "mods": [
