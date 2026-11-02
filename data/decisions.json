@@ -710,5 +710,41 @@
   "vulcanshen/ccdrawu": {
     "verdict": "keep",
     "at": "2026-10-20"
+  },
+  "boardshogunfluctuate/Capri-AI": {
+    "verdict": "skip",
+    "at": "2026-11-02"
+  },
+  "Atoll92/agent-standup": {
+    "verdict": "skip",
+    "at": "2026-11-02"
+  },
+  "razorback16/cc-intelligent-ui": {
+    "verdict": "keep",
+    "at": "2026-11-02"
+  },
+  "rbartoli/agent-usage-guard": {
+    "verdict": "keep",
+    "at": "2026-11-02"
+  },
+  "PBJ-2/clauderipple": {
+    "verdict": "skip",
+    "at": "2026-11-02"
+  },
+  "MikeGT4/agent-tree": {
+    "verdict": "keep",
+    "at": "2026-11-02"
+  },
+  "bekir1184/agent-crew": {
+    "verdict": "skip",
+    "at": "2026-11-02"
+  },
+  "pedrowillen/claude-agent-tree": {
+    "verdict": "keep",
+    "at": "2026-11-02"
+  },
+  "joshotws/desk-panel": {
+    "verdict": "skip",
+    "at": "2026-11-02"
   }
 }

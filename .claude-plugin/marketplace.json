@@ -1496,6 +1496,78 @@
         "repo": "vulcanshen/ccdrawu"
       },
       "license": "GPL-3.0"
+    },
+    {
+      "name": "cc-intelligent-ui",
+      "description": "Draws Claude's answers as rendered Markdown pictures in the terminal, with live Typst for diagrams, charts and math",
+      "author": {
+        "name": "razorback16",
+        "url": "https://github.com/razorback16"
+      },
+      "homepage": "https://github.com/razorback16/cc-intelligent-ui",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "razorback16/cc-intelligent-ui"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "agent-usage-guard",
+      "description": "A Claude Code mod that holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window. It reads your plan's usage, counts agents across every session, and asks in Claude Code's own dialog.",
+      "author": {
+        "name": "rbartoli",
+        "url": "https://github.com/rbartoli"
+      },
+      "homepage": "https://github.com/rbartoli/agent-usage-guard",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "rbartoli/agent-usage-guard"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "agent-tree",
+      "description": "Terminal side pane that shows a session's agents as a live tree: stop a sub-agent, send it new instructions mid-task, switch its model and effort, change the look.",
+      "author": {
+        "name": "MikeGT4",
+        "url": "https://github.com/MikeGT4"
+      },
+      "homepage": "https://github.com/MikeGT4/agent-tree",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "MikeGT4/agent-tree"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "claude-agent-tree",
+      "description": "Claude Code mod that shows a live Agents pane with the orchestrator and subagent tree: model, effort, tokens, tools, duration and reply preview.",
+      "author": {
+        "name": "pedrowillen",
+        "url": "https://github.com/pedrowillen"
+      },
+      "homepage": "https://github.com/pedrowillen/claude-agent-tree",
+      "category": "appearance",
+      "tags": [
+        "mod"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "pedrowillen/claude-agent-tree"
+      },
+      "license": "MIT"
     }
   ]
 }
